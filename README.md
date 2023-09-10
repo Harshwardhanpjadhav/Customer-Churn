@@ -54,7 +54,12 @@ To use this project, follow these steps:
 ## Dependencies
 - Python 3.7+
 - scikit-learn
-
+- pandas
+- Flask
+- numpy
+- matplotlib
+- seaborn
+- plotly
 
 ## Data Preprocessing
 - Exploratory Data Analysis (EDA): We performed data visualization and analysis to gain insights into the dataset.
