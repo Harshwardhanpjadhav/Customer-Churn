@@ -1,4 +1,4 @@
-# Telecom Customer Churn Prediction
+# [Telecom Customer Churn Prediction](https://www.cleartouch.in/wp-content/uploads/2022/11/Customer-Churn.png)
 
 This project aims to predict customer churn in a telecom company using machine learning techniques. Customer churn, also known as customer attrition, refers to the phenomenon where customers cease doing business with a company. Predicting churn is crucial for businesses as it allows them to take proactive steps to retain customers.
 
