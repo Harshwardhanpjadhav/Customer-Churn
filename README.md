@@ -58,16 +58,12 @@ This project relies on the following Python libraries:
 Clone or download a copy of this repo onto your computer by running one of the commands below from within your terminal window:
     
     ```
-git clone https://github.com/yourusername/telecom-churn-prediction.git
-cd telecom-churn-prediction
+    git clone https://github.com/yourusername/telecom-churn-prediction.git
+    cd telecom-churn-prediction
 
-# Install dependencies
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-# Run the Jupyter notebooks
-jupyter notebook
-
- ```
+    ```
 
 # License
 This project is licensed under the MIT License.
