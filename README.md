@@ -4,14 +4,16 @@ This project aims to predict customer churn in a telecom company using machine l
 
 ## Table of Contents
 - [Overview](#overview)
+- [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Features](#features)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Model Training](#model-training)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Building](#model-building)
 - [Evaluation](#evaluation)
-- [Results](#results)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -19,20 +21,14 @@ This project aims to predict customer churn in a telecom company using machine l
 
 In this project, we utilize machine learning techniques to build a predictive model for customer churn. The model is trained on historical data that includes information about telecom customers and whether they churned or not.
 
+## Project Overview
+- **Problem Statement:** Predict telecom customer churn using machine learning.
+- **Technologies Used:** Python, scikit-learn, pandas, Flask (for deployment).
+- **Model:** We trained and evaluated multiple machine learning models (e.g., logistic regression, random forest, XGBoost) and selected the best-performing one.
+- **Evaluation Metrics:** We used accuracy, precision, recall, F1-score, and ROC-AUC to assess model performance.
+
 ## Dataset
-
-The dataset used for this project can be found in the `data` directory. It contains the following files:
-
-- `telecom_data.csv`: This CSV file contains the customer data, including features and the churn label.
-
-## Features
-
-The dataset includes the following features:
-
-- `Feature 1`: Description of feature 1.
-- `Feature 2`: Description of feature 2.
-- ...
-- `Feature n`: Description of feature n.
+- We used the [Telecom Customer Churn dataset](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics?select=telecom_customer_churn.csv) for this project. This dataset contains information about customer demographics, usage patterns, and whether they churned or not.
 
 ## Usage
 
@@ -44,26 +40,50 @@ To use this project, follow these steps:
 4. Train the model using [Model Training](#model-training) instructions.
 5. Evaluate the model using [Evaluation](#evaluation) instructions.
 
-## Dependencies
-
-This project relies on the following Python libraries:
-
-- `numpy`
-- `pandas`
-- `scikit-learn`
-- `matplotlib`
-- `seaborn`
 
 ## Installation
-Clone or download a copy of this repo onto your computer by running one of the commands below from within your terminal window:
-    
-    ```
-    git clone https://github.com/yourusername/telecom-churn-prediction.git
-    cd telecom-churn-prediction
+1. Clone the repository:
+`git clone https://github.com/your-username/telecom-churn-prediction.git`
 
-    pip install -r requirements.txt
+2. Navigate to the project directory:
+`cd Customer-Churn`
 
-    ```
+3. Install the required dependencies:
+`pip install -r requirements.txt`
 
-# License
-This project is licensed under the MIT License.
+## Dependencies
+- Python 3.7+
+- scikit-learn
+
+
+## Data Preprocessing
+- Exploratory Data Analysis (EDA): We performed data visualization and analysis to gain insights into the dataset.
+- Data Cleaning: Handled missing values, outliers, and duplicate records.
+- Feature Engineering: Created new features and transformed existing ones.
+- Data Encoding: Encoded categorical variables and scaled numerical features.
+
+## Model Building
+- We trained several machine learning models, including logistic regression, random forest, and XGBoost.
+- Used cross-validation for hyperparameter tuning and model selection.
+- Saved the best-performing model for deployment.
+
+## Evaluation
+- Evaluated model performance using various metrics, including accuracy, precision, recall, F1-score, and ROC-AUC.
+- Created visualizations to showcase results.
+- Compared the model's performance against a baseline.
+
+## Deployment
+- Deployed the best model using a Flask web application.
+- Created an API endpoint for making predictions.
+- Hosted the application on a cloud server (e.g., Heroku).
+
+## Contributing
+Contributions to this project are welcome. To contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Create a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
