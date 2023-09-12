@@ -20,7 +20,7 @@ LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE)
 logging.basicConfig(
     filename=LOG_FILE_PATH, # Set the log file path
     level=logging.DEBUG, # Set the logging level to DEBUG, which includes all levels of log messages
-    format='[ % (asctime)s ] %(lineno)d % (name)s - %(levelname)s: % (message)s'
+    format='[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s: %(message)s'
     # Define the log message format. Here:
     # - %(asctime)s: The timestamp of the log message
     # - %(lineno)d: The line number where the log message was issued
@@ -28,3 +28,5 @@ logging.basicConfig(
     # - %(levelname)s: The log level (e.g., DEBUG, INFO, WARNING, ERROR, CRITICAL)
     # - %(message)s: The actual log message content
 )
+
+logging.info("checking logging")
