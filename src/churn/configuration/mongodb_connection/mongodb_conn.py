@@ -8,27 +8,22 @@ from src.churn.constants.database import DATABASE_NAME,COLLECTION_NAME
 
 
 class MongoDBConnection:
+    '''
+    MongoDB Connection Class
+    '''
     client = None  # Initilizing client to None
-    db = None  # Initilizing db to None
-    collection = None  # Initilizing collection to None
 
     logging.info("Started MongoDB Connection >>>")
-    def __init__(self,database_name = DATABASE_NAME,collection_name = COLLECTION_NAME)->None:
-
-        # Creating a class variable 
-        self.database_name = database_name
-        self.collection_name = collection_name
-        self.mongo_url = ev.mongo_url
-
+    def __init__(self,database_name = DATABASE_NAME)->None:
         try:
-            pass
-            if MongoDBConnection.client != None:
+            # Fetching Mongo Url from env variable
+            self.mongo_url = ev.mongo_url
+            if MongoDBConnection.client is None: # when mongo client is None it will create a connection with given credentials
                 MongoDBConnection.client = pymongo.MongoClient(self.mongo_url,tlsCAFile=certifi.where())
                 self.client = MongoDBConnection.client
-                self.db = self.client[self.database_name]
-                self.collection = self.db[self.collection_name]
+                self.db = self.client[database_name]
             logging.info("MongoDB Connection Successfull >>>")
         except Exception as e:
-            raise CustomException(sys,e)
+            raise CustomException(e,sys)
 
 

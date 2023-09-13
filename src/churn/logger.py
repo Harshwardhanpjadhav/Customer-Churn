@@ -28,5 +28,3 @@ logging.basicConfig(
     # - %(levelname)s: The log level (e.g., DEBUG, INFO, WARNING, ERROR, CRITICAL)
     # - %(message)s: The actual log message content
 )
-
-logging.info("checking logging")
