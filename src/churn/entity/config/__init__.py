@@ -12,4 +12,7 @@ class TrainingPipelineConfig:
         self.pipeline_name: str = tp.PIPELINE_NAME
         self.artifact_dir: str = os.path.join(tp. ARTIFACT_DIR, timestamp)
         self.timestamp: str = timestamp
+
+
+
      
