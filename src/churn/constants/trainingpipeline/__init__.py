@@ -2,10 +2,10 @@ import os
 SAVED_MODEL_DIR =os.path.join("saved_models")
 
 # Target column name form dataset
-TAREGT_COLUMN_NAME: str = 'Churn Category'
+TAREGT_COLUMN_NAME: str = 'Customer Status'
 
 # Name of the pipeline
-PIPELINE_NAME: str = 'Customer-Churn'
+PIPELINE_NAME: str = 'churn'
 
 # Name of the artifact DIR
 ARTIFACT_DIR: str = 'artifact'
