@@ -1,10 +1,10 @@
-from src.churn.pipeline.training_pipeline import TrainingPipeline as tp
-
 import os
 import sys
 from src.churn.logger import logging
 from src.churn.exception import CustomException
 from src.churn.entity.config import TrainingPipelineConfig
+from src.churn.entity.artifact import DataIngestionArtifact, DataValidationArtifact, DataTransformationArtifact, ModelTrainerArtifact, ModelEvaluationArtifact, ModelPusherArtifact
+from src.churn.pipeline.training_pipeline import TrainingPipeline as tp
 
 
 class TrainingPipeline:

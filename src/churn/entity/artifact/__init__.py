@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 
-# 1These data classes provide a structured way to store and pass around information and 
+# These data classes provide a structured way to store and pass around information and 
 # results within machine learning pipeline
-# 2Each class is designed to encapsulate specific types of information or artifacts
+# Each class is designed to encapsulate specific types of information or artifacts
 
 # Data Ingestion Artifact includes information related to data ingestion
 @dataclass
