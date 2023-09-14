@@ -57,4 +57,4 @@ class ModelPusherArtifact:
     saved_model_path: str     # Path to the saved model fiel
     model_file_path: str      # Path to the model file
 
-# These artifacts are used to initialize training pipeline and components  
+# These artifacts are used to initialize training pipeline and components   
