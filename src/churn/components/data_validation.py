@@ -116,73 +116,7 @@ class DataValidation:
             raise CustomException(e, sys)
 
 
-    def detect_numeric_drift(self, base_df, current_df, threshold=0.05) -> bool:
-        logging.info("Started Detect Dataset Drift >>>>>")# log of starting of dataset drift detecting
-        try:
-            status = True       #status is flagged as true to check afterward
-            report = {}
-            for column in base_df.columns:
-                d1 = base_df[column]
-                d2 = current_df[column]
-                is_same_dist = ks_2samp(d1, d2)
-                P_value = is_same_dist.pvalue
-                logging.info(f"{P_value} and {threshold}")
-                if threshold <= P_value:
-                    is_found = False
-                else:
-                    is_found = True
-                    status = False
-
-                report.update({column: {
-                    "p_value": float(is_same_dist.pvalue),
-                    "drift_status": is_found
-
-                }})
-
-            drift_report_file_path = self.data_validation_config.drift_report_file_num
-
-            # Create directory
-            dir_path = os.path.dirname(drift_report_file_path)
-
-            os.makedirs(dir_path, exist_ok=True)
-
-            write_yaml_file(file_path=drift_report_file_path, content=report)
-
-            return status
-
-        except Exception as e:
-            # Raise a custom exception with the original exception and system information
-            raise CustomException(e, sys)
-
-    def detect_categorical_drift(self, base_df, current_df, threshold=0.05) -> bool:
-        status = True
-        report = {}
-        for co in base_df.columns:
-            freq_table_train = base_df[co].value_counts()
-            freq_table_operational = current_df[co].value_counts()
-            expected_freqs = freq_table_train / freq_table_train.sum()
-            chi2_stat, p_val, dof, _ = chi2_contingency(
-                [freq_table_operational, expected_freqs * len(current_df)])
-
-            if p_val <= threshold:
-                is_found = True
-            else:
-                is_found = False
-                status = True
-
-                report.update({co: {
-                    "p_value": float(p_val),
-                    "drift_status": is_found
-
-                }})
-
-        drift_report_file_path = self.data_validation_config.drift_report_file_cat
-
-        dir_path = os.path.dirname(drift_report_file_path)
-
-        write_yaml_file(file_path=drift_report_file_path, content=report)
-
-        return status
+    
 
     def initiate_data_validation(self) -> DataValidationArtifact:
         try:
