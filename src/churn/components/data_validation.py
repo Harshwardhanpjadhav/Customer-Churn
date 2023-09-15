@@ -114,9 +114,7 @@ class DataValidation:
         except Exception as e:
              # Raise a custom exception with the original exception and system information
             raise CustomException(e, sys)
-
-
-    
+            
 
     def initiate_data_validation(self) -> DataValidationArtifact:
         try:
