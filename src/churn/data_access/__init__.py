@@ -19,6 +19,7 @@ class GetChurnData:
             #MongoDBConnection object
             self.mongodb_client = MongoDBConnection(
                 database_name=DATABASE_NAME)
+            self._schema_config = read_yaml_file(SCHEMA_FILE_PATH)
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -49,7 +50,8 @@ class GetChurnData:
 
             # Dropping Unwanted columns
             drop_col_names = self._schema_config['drop_columns']
-            df = df.drop(columns=[drop_col_names], axis=1)
+            logging.info(f"Drop columns names {drop_col_names}")
+            df = df.drop(columns=drop_col_names, axis=1)
 
             logging.info("Converting data to dataframe Successfull >>>")
             logging.info(f'shape of data {df.shape}')
