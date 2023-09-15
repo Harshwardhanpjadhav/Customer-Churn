@@ -68,9 +68,12 @@ class DataValidation:
             numerical_column_present = True #flagging the column present as true to check it afterwards
             missing_numerical_col = [] # Created a empty list for missing numerical columns
             
-            # This for loop says that -->
-            # if numerical columns are not present in dataframe's column then flag numerical_column_present as false
-            # and add that column to 'missing_num_col' list. 
+            '''
+            This for loop says that -->
+            if numerical columns are not present in dataframe's column then flag numerical_column_present as false
+            and add that column to 'missing_num_col' list.
+            '''
+
             for num_col in numeric_col:
                 if num_col not in dataframe_columns:
                     numerical_column_present = False
@@ -118,96 +121,7 @@ class DataValidation:
 
     def initiate_data_validation(self) -> DataValidationArtifact:
         try:
-
-            error_message = ""
-
-            train_file_path = self.data_ingestion_artifact.trained_file_path
-            test_file_path = self.data_ingestion_artifact.test_file_path
-
-            logging.info("-------- Calling Read Data --------")
-            train_dataframe = DataValidation.read_data(train_file_path)
-            logging.info("Train Data Read sccessfull")
-            test_dataframe = DataValidation.read_data(test_file_path)
-            logging.info("Test Data Read sccessfull")
-
-            logging.info("------ validate_no_of_columns --------")
-            status = self.validate_no_of_columns(dataframe=train_dataframe)
-            if not status:
-                error_message = f"Train Datase Does not contain all columns"
-            else:
-                logging.info("Train dataset contains all columns")
-
-            status = self.validate_no_of_columns(dataframe=test_dataframe)
-            if not status:
-                error_message = f"test Datase Does not contain all columns"
-
-            else:
-                logging.info("Test dataset contains all columns")
-
-            # is_numeric_columns_exist
-            logging.info("------ is_numeric_columns_exist --------")
-            status = self.is_numeric_columns_exist(dataframe=train_dataframe)
-            if not status:
-                error_message = f"Train Datase Does not contain all numeric columns"
-            else:
-                logging.info("Train dataset contains all numeric columns")
-
-            status = self.is_numeric_columns_exist(dataframe=test_dataframe)
-            if not status:
-                error_message = f"Train Datase Does not contain all numeric columns"
-            else:
-                logging.info("Test dataset contains all numeric columns")
-
-            # is_categorical_columns_exist
-            logging.info("------ is_categorical_columns_exist --------")
-            status = self.is_categorical_columns_exist(
-                dataframe=train_dataframe)
-            if not status:
-                error_message = f"Train Datase Does not contain all categorical columns"
-            else:
-                logging.info("Train dataset contains all categorical columns")
-
-            status = self.is_categorical_columns_exist(
-                dataframe=test_dataframe)
-            if not status:
-                error_message = f"Train Datase Does not contain all categorical columns"
-            else:
-                logging.info("Test dataset contains all categorical columns")
-
-            if len(error_message) > 0:
-                raise Exception(error_message)
-
-            train_df_nu = utils.numerical_col(df=train_dataframe)
-            test_df_nu = utils.numerical_col(df=test_dataframe)
-
-            train_df_cat = utils.categorical_col(df=train_dataframe)
-            test_df_cat = utils.categorical_col(df=test_dataframe)
-
-            status = self.detect_categorical_drift(
-                base_df=train_df_cat,
-                current_df=test_df_cat
-
-            )
-
-            status = self.detect_numeric_drift(
-                base_df=train_df_nu,
-                current_df=test_df_nu
-
-            )
-
-            data_validation_artifact = DataValidationArtifact(
-                validation_status=status,
-                valid_train_file_path=self.data_ingestion_artifact.trained_file_path,
-                valid_test_file_path=self.data_ingestion_artifact.test_file_path,
-                invalid_train_file_path=None,
-                invalid_test_file_path=None,
-                drift_report_file_path=self.data_validation_config.drift_report_file
-            )
-
-            logging.info(
-                f"Data validation artifact: {data_validation_artifact}")
-
-            return data_validation_artifact
+            pass
 
         except Exception as e:
             raise CustomException(e, sys)
