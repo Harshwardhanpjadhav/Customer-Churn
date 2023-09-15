@@ -6,7 +6,7 @@ from src.churn.exception import CustomException
 from sklearn.model_selection import train_test_split
 from src.churn.entity.config import DataIngestionConfig
 from src.churn.entity.artifact import DataIngestionArtifact
-from src.churn.data_ascess.churn_data_access import GetChurnData
+from src.churn.data_access import GetChurnData
 
 
 class DataIngestion:
@@ -18,8 +18,8 @@ class DataIngestion:
 
 def export_data_to_feature_store(slef) -> DataFrame:
     try:
-        diamond = GetChurnData()
-        dataframe =churn.export_collection_as_dataframe(
+        churn = GetChurnData()
+        dataframe = churn.export_collection_as_dataframe(
             collection_name=slef.data_ingestion_config.collection_name)
         feature_store_file_path = slef.data_ingestion_config.feature_store_file_path
         dir_path = os.path.dirname(feature_store_file_path)

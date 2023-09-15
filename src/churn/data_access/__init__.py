@@ -2,9 +2,13 @@ from src.churn.logger import logging
 from src.churn.exception import CustomException
 import os
 import sys
+from src.churn.utils.main_utilis import read_yaml_file
 from src.churn.constants.database import DATABASE_NAME, COLLECTION_NAME
 from src.churn.configuration.mongodb_connection.mongodb_conn import MongoDBConnection
+from src.churn.constants.trainingpipeline import SCHEMA_FILE_PATH
+
 import pandas as pd
+
 import numpy as np
 from typing import Optional
 
@@ -44,11 +48,13 @@ class GetChurnData:
             df.replace({"na": np.nan}, inplace=True)
 
             # Dropping Unwanted columns
-            
+            drop_col_names = self._schema_config['drop_columns']
+            df = df.drop(columns=[drop_col_names], axis=1)
 
             logging.info("Converting data to dataframe Successfull >>>")
-            logging.info(df.shape)
-            return df
+            logging.info(f'shape of data {df.shape}')
+            logging.info("Converted to Dataframe Successfull >>>")
 
+            return df
         except Exception as e:
             raise CustomException(e, sys)
