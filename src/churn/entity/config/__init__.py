@@ -14,5 +14,14 @@ class TrainingPipelineConfig:
         self.timestamp: str = timestamp
 
 
-
-     
+class DataIngestionConfig:
+    '''
+        file location for data ingestion  
+    '''
+    def __init__(self,trainingpipelineconfig:TrainingPipelineConfig):
+        self.data_ingestion_dir = os.path.join(trainingpipelineconfig.artifact_dir,tp.DATA_INGESTION_INGESTED_DIR)
+        self.feature_store_file_path  = os.path.join(self.data_ingestion_dir,tp.DATA_INGESTION_FEATURE_STORE_DIR,tp.FILE_NAME)
+        self.train_file_path = os.path.join(self.data_ingestion_dir,tp.DATA_INGESTION_INGESTED_DIR,tp.TRAIN_FILE_NAME)
+        self.test_file_path = os.path.join(self.data_ingestion_dir,tp.DATA_INGESTION_INGESTED_DIR,tp.TEST_FILE_NAME)
+        self.train_test_split_ratio:float = tp.DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO
+        self.collection_name: str = tp.DATA_INGESTION_COLLECTION_NAME
