@@ -28,3 +28,38 @@ MODEL_FILE_NAME = "model.pkl"
 # Schema file path constant
 SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
 SCHEMA_DROP_COLUMNS= 'drop_columns'
+
+# Data ingestion constant
+DATA_INGESTION_COLLECTION_NAME: str = "churn"
+DATA_INGESTION_DIR_NAME: str = "data_ingestion"
+DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store" 
+DATA_INGESTION_INGESTED_DIR: str = "ingested"
+DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.2
+
+# Data Validation Constant 
+DATA_VALIDATION_DIR_NAME: str = "data_validation"
+DATA_VALIDATION_VALID_DIR_NAME: str = "validated"
+DATA_VALIDATION_INVALID_DIR_NAME: str = "invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR_NAME: str = "drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME_CAT: str = "cat_report.yaml" 
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME_NUM: str = "num_report.yaml"
+
+# Data Transforamtion Constant
+DATA_TRANSFORMATION_DIR_NAME: str = 'data_transformation'
+DATA_TRASNFORMATION_TRANSFORMED_DATA_DIR: str = 'transformed' 
+DATA_TRASNFORMATION_TRANSFORMED_DATA_OBJECT_DIR: str = 'transformed_object'
+
+# Model Trainer Constant
+MODEL_TRAINER_DIR_NAME: str = 'model_trainer' 
+MODEL_TRAINER_TRAINED_MODEL_DIR: str = 'trained_model'
+MODEL_TRAINER_TRAINED_MODEL_NAME: str = 'model.pkl' 
+MODEL_TRAINER_EXPECTED_ACCURACY: float= 0.7
+
+# Model Evaluation Constant
+MODEL_EVALUATION_DIR_NAME: str = "model_evaluation"
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_EVALUATION_REPORT_NAME= "report.yaml"
+
+# Model pusher
+MODEL_PUSHER_DIR_NAME = "model_pusher"
+MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR
