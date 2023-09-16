@@ -3,8 +3,9 @@ import sys
 from src.churn.logger import logging
 from src.churn.exception import CustomException
 from src.churn.entity.config import TrainingPipelineConfig, DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig, ModelPusherConfig
-from src.churn.components.data_ingestion import DataIngestion
 from src.churn.entity.artifact import DataIngestionArtifact, DataValidationArtifact, DataTransformationArtifact, ModelTrainerArtifact, ModelEvaluationArtifact, ModelPusherArtifact
+from src.churn.components.data_ingestion import DataIngestion
+from src.churn.components.data_validation import DataValidation
 
 
 class TrainingPipeline:
@@ -52,8 +53,10 @@ class TrainingPipeline:
         '''
         try:
             logging.info("Calling Data Validation Component")
-
+            data_validation = DataValidation(data_ingestion_artifact=data_ingestion_artifact,data_validation_config=self.data_validation_config)
+            data_validation_artifact =  data_validation.initiate_data_validation()
             logging.info("Data Validation Completed >>")
+            return data_validation_artifact
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -104,6 +107,7 @@ class TrainingPipeline:
         try:
             logging.info("Pipeline Started")
             data_ingestion_artifact = self.start_data_ingestion()
+            data_validation_artifact = self.start_data_validation(data_ingestion_artifact)
 
         except Exception as e:
             raise CustomException(e, sys)

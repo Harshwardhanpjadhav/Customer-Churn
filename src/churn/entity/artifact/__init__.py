@@ -16,8 +16,8 @@ class DataValidationArtifact:
     validation_status: bool           # Indicates whether data validation was successful or not
     valid_train_file_path: str        # Path to the valid training data file
     valid_test_file_path: str         # Path to the valid test data file
-    invalid_train_file_path: str      # Path to the invalid training data file (if any issues found)
-    invalid_test_file_path: str       # Path to the invalid test data file (if any issues found)
+    invalid_train_file_path: None      # Path to the invalid training data file (if any issues found)
+    invalid_test_file_path: None       # Path to the invalid test data file (if any issues found)
     drift_report_file_path: str       # Path to a report on data drift
 
 # Data Transformation Artifact includes information related to data transformation

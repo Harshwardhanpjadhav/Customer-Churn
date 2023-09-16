@@ -1,20 +1,10 @@
 columns:
-  - Customer ID: object
-  - Gender: object
   - Age: int64
   - Married: object
-  - Number of Dependents: int64
-  - City: object
-  - Zip Code: int64
-  - Latitude: float64
-  - Longitude: float64
-  - Number of Referrals: int64
-  - Tenure in Months: int64
   - Offer: object
   - Phone Service: object
   - Avg Monthly Long Distance Charges: float64
   - Multiple Lines: object
-  - Internet Service: object
   - Internet Type: object
   - Avg Monthly GB Download: float64
   - Online Security: object
@@ -24,46 +14,28 @@ columns:
   - Streaming TV: object
   - Streaming Movies: object
   - Streaming Music:  object
-  - Unlimited Data: object
   - Contract: object
   - Paperless Billing: object
   - Payment Method: object
   - Monthly Charge: float64
   - Total Charges: float64
-  - Total Refunds: float64
-  - Total Extra Data Charges: int64
   - Total Long Distance Charges: float64
-  - Total Revenue: float64
   - Customer Status: object
-  - Churn Category: object
-  - Churn Reason: object
 
 numeric_columns:
   - Age
-  - Number of Dependents
-  - Zip Code
-  - Latitude
-  - Longitude
-  - Number of Referrals
-  - Tenure in Months
+
   - Avg Monthly Long Distance Charges
   - Avg Monthly GB Download
   - Monthly Charge
   - Total Charges
-  - Total Refunds
-  - Total Extra Data Charges
   - Total Long Distance Charges
-  - Total Revenue
 
 categorical_columns:
-  - Customer ID
-  - Gender
   - Married
-  - City
   - Offer
   - Phone Service
   - Multiple Lines
-  - Internet Service
   - Internet Type
   - Online Security
   - Online Backup
@@ -72,13 +44,10 @@ categorical_columns:
   - Streaming TV
   - Streaming Movies
   - Streaming Music
-  - Unlimited Data
   - Contract
   - Paperless Billing
   - Payment Method
   - Customer Status
-  - Churn Category
-  - Churn Reason
 
 drop_columns:
   - Tenure in Months
