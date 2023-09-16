@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 research/
 .idea
-logs
+./logs
 ./artifact
