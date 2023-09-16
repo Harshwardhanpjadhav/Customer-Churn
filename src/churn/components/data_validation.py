@@ -60,8 +60,9 @@ class DataValidation:
         try:
             logging.info("Started validating Numeric Col Exists >>>>>>>>>>>>")#log for starting validation
 
-            numeric_col = self._schema_config['numeric_columns'] #extracts numerical columns from schema file 
-                                                                 # and adds it to 'numeric_col' variable 
+            numeric_col = self._schema_config['numeric_columns'] 
+            #extracts numerical columns from schema file 
+            # and adds it to 'numeric_col' variable 
 
             dataframe_columns = dataframe.columns  # Extracts columns from dataframe
 

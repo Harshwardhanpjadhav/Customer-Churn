@@ -47,11 +47,14 @@ class GetChurnData:
 
             # Replacing nan with np.nan
             df.replace({"na": np.nan}, inplace=True)
+            
+            logging.info(f'shape of data {df.shape}')
 
             # Dropping Unwanted columns
             drop_col_names = self._schema_config['drop_columns']
             logging.info(f"Drop columns names {drop_col_names}")
             df = df.drop(columns=drop_col_names, axis=1)
+            df = df[df['Customer Status'] != 'Joined']
 
             logging.info("Converting data to dataframe Successfull >>>")
             logging.info(f'shape of data {df.shape}')

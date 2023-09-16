@@ -81,10 +81,19 @@ categorical_columns:
   - Churn Reason
 
 drop_columns:
-  - Customer ID
+  - Tenure in Months
+  - Number of Dependents
+  - Internet Service
+  - Number of Referrals
   - City
+  - Unlimited Data
+  - Churn Reason
   - Zip Code
+  - Total Refunds
   - Latitude
   - Longitude
   - Churn Category
-  - Churn Reason
+  - Customer ID
+  - Gender
+  - Total Extra Data Charges
+  - Total Revenue
