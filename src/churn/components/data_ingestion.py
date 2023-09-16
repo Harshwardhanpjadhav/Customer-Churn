@@ -10,13 +10,25 @@ from src.churn.data_access import GetChurnData
 
 
 class DataIngestion:
+    """
+    DataIngestion class for exporting data to a feature store, performing a train-test split,
+    and initiating data ingestion."""
+
     def __init__(self, data_ingestion_config: DataIngestionConfig):
         try:
             self.data_ingestion_config = data_ingestion_config
         except Exception as e:
+            # Log the exception
+            logging.error(f"Error in DataIngestion.__init__: {str(e)}")
             raise CustomException(e, sys)
 
 def export_data_to_feature_store(slef) -> DataFrame:
+    """
+        Export data to a feature store as a DataFrame and save it as a CSV file.
+
+        Returns:
+            DataFrame: The exported data as a DataFrame.
+        """
     try:
         churn = GetChurnData()
         dataframe = churn.export_collection_as_dataframe(
@@ -28,9 +40,20 @@ def export_data_to_feature_store(slef) -> DataFrame:
         return dataframe
 
     except Exception as e:
+        # Log the exception
+        logging.error(f"Error in DataIngestion.export_data_to_feature_store: {str(e)}")
         raise CustomException(e, sys)
 
 def train_test_split(self, dataframe: DataFrame):
+    """
+        Perform train-test split on the given DataFrame and save the resulting sets as CSV files.
+
+        Args:
+            dataframe (DataFrame): The input DataFrame to be split.
+
+        Returns:
+            None
+        """
     try:
         train_set, test_set = train_test_split(
             dataframe, test_size=self.data_ingestion_config.train_test_split_ratio)
@@ -47,9 +70,18 @@ def train_test_split(self, dataframe: DataFrame):
             self.data_ingestion_config.testing_file_path, index=False, header=True)
 
     except Exception as e:
+        # Log the exception
+        logging.error(f"Error in DataIngestion.train_test_split: {str(e)}")
         raise CustomException(e, sys)
 
 def initiate_data_ingestion(self) -> DataIngestionArtifact:
+    """
+        Perform data ingestion by exporting data to a feature store, performing a train-test split,
+        and returning a DataIngestionArtifact.
+
+        Returns:
+            DataIngestionArtifact: An artifact containing file paths to the training and testing datasets.
+        """
     try:
         dataframee = self.export_data_to_feature_store()
         self.train_test_split(dataframe=dataframee)
@@ -59,4 +91,6 @@ def initiate_data_ingestion(self) -> DataIngestionArtifact:
             test_file_path=self.data_ingestion_config.testing_file_path)
         return data_ingestion_artifact
     except Exception as e:
+        # Log the exception
+        logging.error(f"Error in DataIngestion.initiate_data_ingestion: {str(e)}")
         raise CustomException(e, sys)
