@@ -16,7 +16,7 @@ from typing import Optional
 class GetChurnData:
     def __init__(self):
         try:
-            #MongoDBConnection object
+            # MongoDBConnection object
             self.mongodb_client = MongoDBConnection(
                 database_name=DATABASE_NAME)
             self._schema_config = read_yaml_file(SCHEMA_FILE_PATH)
@@ -35,8 +35,7 @@ class GetChurnData:
                 collection = self.mongodb_client.db[COLLECTION_NAME]
             else:
                 collection = self.mongodb_client[database_name][COLLECTION_NAME]
-                
-                
+
             # Fetching data from mongo db and stroring in as df
             df = pd.DataFrame(list(collection.find()))
 
@@ -44,10 +43,9 @@ class GetChurnData:
             if "_id" in df.columns.to_list():
                 df = df.drop(columns=["_id"], axis=1)
 
-
             # Replacing nan with np.nan
             df.replace({"na": np.nan}, inplace=True)
-            
+
             logging.info(f'shape of data {df.shape}')
 
             # Dropping Unwanted columns

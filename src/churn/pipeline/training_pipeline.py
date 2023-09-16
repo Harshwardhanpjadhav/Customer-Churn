@@ -2,96 +2,108 @@ import os
 import sys
 from src.churn.logger import logging
 from src.churn.exception import CustomException
-from src.churn.entity.config import TrainingPipelineConfig
+from src.churn.entity.config import TrainingPipelineConfig, DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig, ModelPusherConfig
+from src.churn.components.data_ingestion import DataIngestion
 from src.churn.entity.artifact import DataIngestionArtifact, DataValidationArtifact, DataTransformationArtifact, ModelTrainerArtifact, ModelEvaluationArtifact, ModelPusherArtifact
-from src.churn.pipeline.training_pipeline import TrainingPipeline as tp
 
 
 class TrainingPipeline:
-    '''
-    This class is used to create the training pipeline object.
-    '''
-
-    # Inintializing class variable to track whether the pipeline is running
-    is_pipeline_running = False
 
     def __init__(self):
-        # Initialize the training pipeline configuration (This does not store the configuration)
+        '''
+        This constructor is used to assign values to local variables of class TrainingPipeline
+        '''
         training_pipeline_config = TrainingPipelineConfig()
+        self.data_ingestion_config = DataIngestionConfig(
+            training_pipeline_config=training_pipeline_config)
+        self.data_validation_config = DataValidationConfig(
+            training_pipeline_config=training_pipeline_config)
+        self.data_transformation_config = DataTransformationConfig(
+            training_pipeline_config=training_pipeline_config)
+        self.model_trainer_config = ModelTrainerConfig(
+            training_pipeline_config=training_pipeline_config)
+        self.model_evaluation_config = ModelEvaluationConfig(
+            training_pipeline_config=training_pipeline_config)
+        self.model_pusher_config = ModelPusherConfig(
+            training_pipeline_config=training_pipeline_config)
 
-    # Initiate data ingestion
-    # This will return a DataIngestionArtifact
     def start_data_ingestion(self) -> DataIngestionArtifact:
+        '''
+        This function is used to initiate data ingestion.
+        Returns : Data Ingestion Artifact
+        '''
         try:
-            # Performing data ingestion
-            pass
+            logging.info("Calling Data Ingestion Component")
 
+            data_ingestion = DataIngestion(
+                data_ingestion_config=self.data_ingestion_config)
+            data_ingestion_artifact = data_ingestion.initiate_data_ingestion()
+
+            logging.info("Data Ingestion Completed >>")
+
+            return data_ingestion_artifact
         except Exception as e:
-            # If an exception occurs during data ingestion, raise a custom exception with error 'e'
             raise CustomException(e, sys)
 
-    # Initiate data validation
-    # This will return a DataValidationArtifact
     def start_data_validation(self, data_ingestion_artifact: DataIngestionArtifact) -> DataValidationArtifact:
+        '''
+        This function is used to initiate data validation.
+        Returns : Data validation Artifact
+        '''
         try:
-            # Performing data validation using the provided data ingestion artifact
-            pass
+            logging.info("Calling Data Validation Component")
 
+            logging.info("Data Validation Completed >>")
         except Exception as e:
-            # If an exception occurs during data validation, raise a custom exception with error 'e'
             raise CustomException(e, sys)
 
-    # Initiate data transformation
-    # This will return a DataTransformationArtifact
     def start_data_transformation(self, data_validation_artifact: DataValidationArtifact) -> DataTransformationArtifact:
+        '''
+        This function is used to initiate data transformation.
+        Returns : Data transformation Artifact
+        '''
         try:
-            # Performing data transformation using the provided data validation artifact
             pass
 
         except Exception as e:
-            # If an exception occurs during data transformation, raise a custom exception with error 'e'
             raise CustomException(e, sys)
 
-    # Initiating model trainer module
-    # This will return a ModelTrainerArtifact
     def start_model_trainer(self, data_transformation_artifact: DataTransformationArtifact) -> ModelTrainerArtifact:
+        '''
+        This function is used to initiate model training.
+        Returns : Model training Artifact
+        '''
         try:
-            # Training a machine learning model using the provided data transformation artifact
             pass
-
         except Exception as e:
-            # If an exception occurs during model training, raise a custom exception with error 'e'
             raise CustomException(e, sys)
 
-    # Initiating model evaluation module
-    # This will return a ModelEvaluationArtifact
     def start_model_evaluation(self, model_trainer_artifact: ModelTrainerArtifact, data_validation_artifact: DataValidationArtifact) -> ModelEvaluationArtifact:
+        '''
+        This function is used to initiate model evaluation.
+        Returns : Model evaluation Artifact
+        '''
         try:
-            # Evaluating the trained model using the provided artifacts
             pass
 
         except Exception as e:
-            # If an exception occurs during model evaluation, raise a custom exception with error 'e'
             raise CustomException(e, sys)
-
-    # Initiating model pusher module
-    # This will return a ModelPusherArtifact
 
     def start_model_pusher(self, model_eval_artifact: ModelEvaluationArtifact) -> ModelPusherArtifact:
+        '''
+        This function is used to initiate model pushing.
+        Returns : Model pushing Artifact
+        '''
         try:
-            # Pushing the trained model to a destination using the model evaluation artifact
             pass
 
         except Exception as e:
-            # If an exception occurs during model pushing, raise a custom exception with error 'e'
             raise CustomException(e, sys)
-
-    # This will execute the entire pipeline by arranging the different stages
 
     def run_pipeline(self):
         try:
-            pass
+            logging.info("Pipeline Started")
+            data_ingestion_artifact = self.start_data_ingestion()
 
         except Exception as e:
-            # If an exception occurs during pipeline execution, raise a custom exception with error 'e'
             raise CustomException(e, sys)
