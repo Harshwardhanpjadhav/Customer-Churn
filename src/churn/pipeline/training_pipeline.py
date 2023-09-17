@@ -6,6 +6,10 @@ from src.churn.entity.config import TrainingPipelineConfig, DataIngestionConfig,
 from src.churn.entity.artifact import DataIngestionArtifact, DataValidationArtifact, DataTransformationArtifact, ModelTrainerArtifact, ModelEvaluationArtifact, ModelPusherArtifact
 from src.churn.components.data_ingestion import DataIngestion
 from src.churn.components.data_validation import DataValidation
+from src.churn.components.data_transformation import DataTransformation
+
+
+
 
 
 class TrainingPipeline:
@@ -66,8 +70,10 @@ class TrainingPipeline:
         Returns : Data transformation Artifact
         '''
         try:
-            pass
-
+            logging.info("Calling Data Transformation Component")
+            data_transformation = DataTransformation(data_validation_artifact=data_validation_artifact,data_transformation_config=self.data_transformation_config)
+            data_transformation_artifact = data_transformation.initiate_data_transformation()
+            logging.info("Data Transformation Completed >>")
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -108,6 +114,7 @@ class TrainingPipeline:
             logging.info("Pipeline Started")
             data_ingestion_artifact = self.start_data_ingestion()
             data_validation_artifact = self.start_data_validation(data_ingestion_artifact)
+            data_transformation_artifact = self.start_data_transformation(data_validation_artifact)
 
         except Exception as e:
             raise CustomException(e, sys)

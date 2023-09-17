@@ -1,3 +1,5 @@
+target_column:
+  - Customer Status
 columns:
   - Age: int64
   - Married: object
@@ -24,7 +26,6 @@ columns:
 
 numeric_columns:
   - Age
-
   - Avg Monthly Long Distance Charges
   - Avg Monthly GB Download
   - Monthly Charge
