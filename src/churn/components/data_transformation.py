@@ -7,7 +7,7 @@ import numpy as np
 from src.churn.entity.artifact import DataValidationArtifact, DataTransformationArtifact
 from src.churn.entity.config import DataTransformationConfig
 from src.churn.constants.trainingpipeline import TAREGT_COLUMN_NAME, SCHEMA_FILE_PATH
-from src.churn.utils.main_utilis import read_yaml_file
+from src.churn.utils.main_utilis import read_yaml_file,save_numpy_array_data,save_object
 
 import numpy as np
 import pandas as pd
@@ -76,33 +76,51 @@ class DataTransformation:
     def initiate_data_transformation(self) -> DataTransformationArtifact:
         try:
 
-            train = DataTransformation.read_data(
-                self.data_validation_artifact.valid_train_file_path)
-            test = DataTransformation.read_data(
-                self.data_validation_artifact.valid_test_file_path)
+            train_df = pd.read_csv(self.data_validation_artifact.valid_train_file_path)
+            test_df = pd.read_csv(self.data_validation_artifact.valid_test_file_path)
 
-            preprocessor = self.get_data_transformation_object()
+            logging.info('Read train and test data completed')
+            logging.info(f'Train Dataframe Head : \n{train_df.head().to_string()}')
+            logging.info(f'Test Dataframe Head  : \n{test_df.head().to_string()}')
 
-            logging.info(type(train))
-            logging.info(type(test))
+            logging.info('Obtaining preprocessing object')
 
-            input_train = train.drop(columns=[TAREGT_COLUMN_NAME], axis=1)
-            output_train = train[TAREGT_COLUMN_NAME]
+            preprocessing_obj = self.get_data_transformation_object()
 
+            target_column_name = 'Customer Status'
+            drop_columns = [target_column_name]
 
-            logging.info(type(input_train))
-            logging.info(type(output_train))
+            input_feature_train_df = train_df.drop(columns=drop_columns,axis=1)
+            target_feature_train_df=train_df[target_column_name]
 
-            input_test = test.drop(columns=[TAREGT_COLUMN_NAME], axis=1)
-            output_test = test[TAREGT_COLUMN_NAME]
+            input_feature_test_df=test_df.drop(columns=drop_columns,axis=1)
+            target_feature_test_df=test_df[target_column_name]
+            
+            ## Transformating using preprocessor obj
+            input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
+            input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
 
-            train_tf = preprocessor.fit_transform(input_train)
-            test_tf = preprocessor.transform(input_test)
+            logging.info("Applying preprocessing object on training and testing datasets.")
+            
 
-            # train_tf = pd.DataFrame(train_tf)
-            # test_tf = pd.DataFrame(test_tf)
+            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
+            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
 
-            logging.info(train_tf)
+            logging.info("Started saving numpy data")
+            save_numpy_array_data( self.data_transformation_config.data_transformation_train_file_path, array=train_arr, )
+            save_numpy_array_data( self.data_transformation_config.data_transformation_test_file_path,array=test_arr,)
+            save_object( self.data_transformation_config.data_transformation_object_file_path, preprocessing_obj,)
+            logging.info("Completed saving numpy data")
+
+            logging.info("started DataTransformationArtifact ")
+            data_transformation_artifact = DataTransformationArtifact(
+                transformed_data_object_file_path=self.data_transformation_config.data_transformation_object_file_path,
+                transformed_train_file_path=self.data_transformation_config.data_transformation_train_file_path,
+                transformed_test_file_path=self.data_transformation_config.data_transformation_test_file_path,
+            )
+            
+            return data_transformation_artifact
 
         except Exception as e:
-            raise CustomException(e, sys)
+            logging.info("Exception occured in the initiate_datatransformation")
+            raise CustomException(e,sys)
