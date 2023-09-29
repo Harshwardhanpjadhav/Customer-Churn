@@ -37,14 +37,6 @@ class DataTransformation:
 
     def get_data_transformation_object(self) -> Pipeline:
         try:
-
-            # numerical_col = self._schema_config['numeric_columns']
-            # logging.info(type(numerical_col))
-            # categorical_col = self._schema_config['categorical_columns']
-            # categorical_col = categorical_col.remove('Customer Status')
-
-            # labelencoder = LabelEncoder()
-
             logging.info("creating numerical Pipeline ")
             numerical = Pipeline(
                 steps=[
@@ -80,29 +72,21 @@ class DataTransformation:
 
             train_df = pd.read_csv(self.data_validation_artifact.valid_train_file_path)
             test_df = pd.read_csv(self.data_validation_artifact.valid_test_file_path)
-
-            # logging.info('Read train and test data completed')
-            # logging.info(f'Train Dataframe Head : \n{train_df.head().to_string()}')
-            # logging.info(f'Test Dataframe Head  : \n{test_df.head().to_string()}')
-
+            
             logging.info('Obtaining preprocessing object >>>')
             preprocessing_obj = self.get_data_transformation_object()
             logging.info('Preprocessing object Created Cuccessfully')
-
-            target_column_name = 'Customer Status'
-            drop_columns = [target_column_name]
             
-            input_feature_train_df = train_df.drop(columns=drop_columns,axis=1)
-            target_feature_train_df=train_df[target_column_name]
+            input_feature_train_df = train_df.drop(columns=TAREGT_COLUMN_NAME,axis=1)
+            target_feature_train_df=train_df[TAREGT_COLUMN_NAME]
 
             logging.info(f"Input Datatype {type(input_feature_train_df)}")
             logging.info(f"Output train Datatype {type(target_feature_train_df)}")
             logging.info(f"Input shape {input_feature_train_df.shape}")
             logging.info(f'Output train shape {target_feature_train_df.shape}')
 
-
-            input_feature_test_df=test_df.drop(columns=drop_columns,axis=1)
-            target_feature_test_df=test_df[target_column_name]
+            input_feature_test_df=test_df.drop(columns=TAREGT_COLUMN_NAME,axis=1)
+            target_feature_test_df=test_df[TAREGT_COLUMN_NAME]
 
             logging.info(f"Input test Datatype {type(input_feature_test_df)}")
             logging.info(f"Output test Datatype {type(target_feature_test_df)}")
