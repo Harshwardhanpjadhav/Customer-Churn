@@ -4,7 +4,7 @@ import os
 import sys
 import pandas as pd
 import numpy as np
-from src.churn.entity.artifact import DataValidationArtifact, DataTransformationArtifact
+from src.churn.entity.artifact import DataValidationArtifact, DataTransformationArtifact,DataIngestionArtifact
 from src.churn.entity.config import DataTransformationConfig
 from src.churn.constants.trainingpipeline import TAREGT_COLUMN_NAME, SCHEMA_FILE_PATH
 from src.churn.utils.main_utilis import read_yaml_file,save_numpy_array_data,save_object
@@ -14,7 +14,7 @@ import pandas as pd
 from sklearn.pipeline import Pipeline
 from imblearn.combine import SMOTETomek
 from sklearn.impute import SimpleImputer
-from sklearn.compose import ColumnTransformer
+from sklearn.compose import ColumnTransformer,make_column_selector
 from sklearn.preprocessing import RobustScaler, OneHotEncoder, MinMaxScaler, LabelEncoder, StandardScaler
 
 
@@ -38,10 +38,12 @@ class DataTransformation:
     def get_data_transformation_object(self) -> Pipeline:
         try:
 
-            numerical_col = self._schema_config['numeric_columns']
-            logging.info(numerical_col)
-            categorical_col = self._schema_config['categorical_columns']
-            categorical_col = categorical_col.remove('Customer Status')
+            # numerical_col = self._schema_config['numeric_columns']
+            # logging.info(type(numerical_col))
+            # categorical_col = self._schema_config['categorical_columns']
+            # categorical_col = categorical_col.remove('Customer Status')
+
+            # labelencoder = LabelEncoder()
 
             logging.info("creating numerical Pipeline ")
             numerical = Pipeline(
@@ -63,8 +65,8 @@ class DataTransformation:
             logging.info("creating object")
             preprocessor = ColumnTransformer(
                 [
-                    ('numerical', numerical, numerical_col),
-                    ('categorical', categorical, categorical_col)
+                    ('numerical_pipe', numerical, make_column_selector(dtype_include='number')),
+                    ('categorical_pipe', categorical, make_column_selector(dtype_include=object))
                 ]
             )
 
@@ -79,48 +81,75 @@ class DataTransformation:
             train_df = pd.read_csv(self.data_validation_artifact.valid_train_file_path)
             test_df = pd.read_csv(self.data_validation_artifact.valid_test_file_path)
 
-            logging.info('Read train and test data completed')
-            logging.info(f'Train Dataframe Head : \n{train_df.head().to_string()}')
-            logging.info(f'Test Dataframe Head  : \n{test_df.head().to_string()}')
+            # logging.info('Read train and test data completed')
+            # logging.info(f'Train Dataframe Head : \n{train_df.head().to_string()}')
+            # logging.info(f'Test Dataframe Head  : \n{test_df.head().to_string()}')
 
-            logging.info('Obtaining preprocessing object')
-
+            logging.info('Obtaining preprocessing object >>>')
             preprocessing_obj = self.get_data_transformation_object()
+            logging.info('Preprocessing object Created Cuccessfully')
 
             target_column_name = 'Customer Status'
             drop_columns = [target_column_name]
-
+            
             input_feature_train_df = train_df.drop(columns=drop_columns,axis=1)
             target_feature_train_df=train_df[target_column_name]
 
+            logging.info(f"Input Datatype {type(input_feature_train_df)}")
+            logging.info(f"Output train Datatype {type(target_feature_train_df)}")
+            logging.info(f"Input shape {input_feature_train_df.shape}")
+            logging.info(f'Output train shape {target_feature_train_df.shape}')
+
+
             input_feature_test_df=test_df.drop(columns=drop_columns,axis=1)
             target_feature_test_df=test_df[target_column_name]
+
+            logging.info(f"Input test Datatype {type(input_feature_test_df)}")
+            logging.info(f"Output test Datatype {type(target_feature_test_df)}")
+            logging.info(f"Input test shape {input_feature_test_df.shape}")
+            logging.info(f'Output test shape {target_feature_test_df.shape}')
+            
             
             ## Transformating using preprocessor obj
+            logging.info("Applying preprocessing object on Input and Testing datasets >>>")
             input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
+            logging.info("Input preprocessing completed >>>")
 
-            logging.info("Applying preprocessing object on training and testing datasets.")
-            
+            logging.info(f"Input train Datatype {type(input_feature_train_arr)}")
+            logging.info(f"Input test Datatype {type(input_feature_test_arr)}")
 
-            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
-            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
+            logging.info(f"Input train shape {input_feature_train_arr.shape}")
+            logging.info(f"Input test shape {input_feature_test_arr.shape}")
+
+
+            labelencoder = LabelEncoder()
+            target_feature_train_array = labelencoder.fit_transform(target_feature_train_df)
+            target_feature_test_array = labelencoder.transform(target_feature_test_df)
+            logging.info(type(target_feature_train_array))
+            logging.info(type(target_feature_test_array))
+            logging.info(target_feature_train_array.shape)
+            logging.info(target_feature_test_array.shape)
+
+
+            logging.info("Started Concanocatoin Input and Output column")
+            train_arr = np.c_[input_feature_train_arr, target_feature_train_array]
+            test_arr = np.c_[input_feature_test_arr,target_feature_test_array]
 
             logging.info("Started saving numpy data")
-            save_numpy_array_data( self.data_transformation_config.data_transformation_train_file_path, array=train_arr, )
-            save_numpy_array_data( self.data_transformation_config.data_transformation_test_file_path,array=test_arr,)
+            save_numpy_array_data( self.data_transformation_config.transformed_train_file_path, array=train_arr, )
+            save_numpy_array_data( self.data_transformation_config.transformed_test_file_path,array=test_arr,)
             save_object( self.data_transformation_config.data_transformation_object_file_path, preprocessing_obj,)
             logging.info("Completed saving numpy data")
 
             logging.info("started DataTransformationArtifact ")
             data_transformation_artifact = DataTransformationArtifact(
-                transformed_data_object_file_path=self.data_transformation_config.data_transformation_object_file_path,
-                transformed_train_file_path=self.data_transformation_config.data_transformation_train_file_path,
-                transformed_test_file_path=self.data_transformation_config.data_transformation_test_file_path,
+                transformed_object_file_path=self.data_transformation_config.data_transformation_object_file_path,
+                transformed_train_file_path=self.data_transformation_config.transformed_train_file_path,
+                transformed_test_file_path=self.data_transformation_config.transformed_test_file_path,
             )
             
             return data_transformation_artifact
 
         except Exception as e:
-            logging.info("Exception occured in the initiate_datatransformation")
             raise CustomException(e,sys)

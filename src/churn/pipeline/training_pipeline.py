@@ -74,6 +74,7 @@ class TrainingPipeline:
             data_transformation = DataTransformation(data_validation_artifact=data_validation_artifact,data_transformation_config=self.data_transformation_config)
             data_transformation_artifact = data_transformation.initiate_data_transformation()
             logging.info("Data Transformation Completed >>")
+            return data_transformation_artifact
         except Exception as e:
             raise CustomException(e, sys)
 
