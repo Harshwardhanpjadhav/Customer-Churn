@@ -6,30 +6,29 @@ from src.churn.entity.config import ModelTrainerConfig
 from src.churn.logger import logging
 
 import os,sys
-
-def get_classification_score(message,y_true,y_pred,model_trainer_config)->ClassificationMetricArtifact:
+def get_classification_score(message,y_true,y_pred)->ClassificationMetricArtifact:
     try:
-        metrics = {}
-        Data_name = message
-        model_f1_score = f1_score(y_true, y_pred)
-        model_recall_score = recall_score(y_true, y_pred)
-        model_precision_score=precision_score(y_true,y_pred)
+        metrics:dict = {}
+        model_f1_score:float = f1_score(y_true, y_pred)
+        model_recall_score:float = recall_score(y_true, y_pred)
+        model_precision_score:float =precision_score(y_true,y_pred)
 
-        classsification_metric =  ClassificationMetricArtifact(
+        model_f1_score = float(model_f1_score)
+        model_recall_score = float(model_recall_score)
+        model_precision_score = float(model_precision_score)
+
+        metrics.update({message:
+                        {
+                            "F1 Score":model_f1_score,
+                            "Recall Score":model_recall_score,
+                            "Precisionscore":model_precision_score
+                        }})
+
+        classsification_metric_artifact =  ClassificationMetricArtifact(
                     f1_score=model_f1_score,
                     precision_score=model_precision_score, 
                     recall_score=model_recall_score)
         
-        metrics.update({
-            "Name":Data_name,
-            "f1_score":model_f1_score,
-            "precision_score":model_precision_score,
-            "recall_score":model_recall_score
-        })
-        metric_path = model_trainer_config.model_metric_dir
-        logging.info(f"modle file path type{type(metric_path)}")
-        write_yaml_file(file_path=metric_path, content=metrics)
-
-        return classsification_metric
+        return classsification_metric_artifact,metrics
     except Exception as e:
         raise CustomException(e,sys)
