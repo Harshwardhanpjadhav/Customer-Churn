@@ -24,6 +24,7 @@ class ModelTrainer:
     def train_test_split(self, train, test):
         logging.info("Started Train Test split>>>")
         try:
+
             train_arr = load_numpy_array_data(train)
             test_arr = load_numpy_array_data(test)
 
@@ -87,6 +88,7 @@ class ModelTrainer:
     #=================================================================================================
             # Calling train test split
             logging.info("Calling train test split")
+
             x_train, y_train, x_test, y_test = self.train_test_split(
                 train_file_path, test_file_path)
     #=================================================================================================
