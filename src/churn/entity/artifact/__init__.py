@@ -39,7 +39,8 @@ class ClassificationMetricArtifact:
 class ModelTrainerArtifact:
     trained_model_file_path: str       # Path to the trained machine learning model file
     train_metric_artifact: ClassificationMetricArtifact  # Metrics on the training data
-    test_metric_artifact: ClassificationMetricArtifact   # Metrics on the test data
+    test_metric_artifact: ClassificationMetricArtifact 
+    metric_file_path:str  # Metrics on the test data
 
 # Model Evaluation Artifact includes information related to model evaluation
 @dataclass

@@ -116,19 +116,6 @@ class DataValidation:
                     "drift_status": is_found
 
                 }})
-            
-            # logging.info(report)
-            # drift_report_file_path = self.data_validation_config.drift_report_file_num
-
-            # # Create directory
-            # dir_path = os.path.dirname(drift_report_file_path)
-            # logging.info(dir_path)
-
-            # os.makedirs(dir_path, exist_ok=True)
-            # logging.info(dir_path)
-            
-
-            # write_yaml_file(file_path=drift_report_file_path, content=report)
 
             return status,num_report
 
@@ -157,16 +144,6 @@ class DataValidation:
                     "drift_status": is_found
 
                 }})
-
-        
-
-        # drift_report_file_path = self.data_validation_config.drift_report_file_cat
-
-        # dir_path = os.path.dirname(drift_report_file_path)
-
-        # os.makedirs(dir_path, exist_ok=True)
-
-        # write_yaml_file(file_path=drift_report_file_path, content=report)
 
         return status,cat_report
     

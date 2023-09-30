@@ -77,6 +77,7 @@ class ModelTrainerConfig:
         self.trained_model_file_path: str = os.path.join(
             self.model_trainer_dir, tp.MODEL_TRAINER_TRAINED_MODEL_DIR, tp.MODEL_FILE_NAME)
         self.expected_accuracy: float = tp.MODEL_TRAINER_EXPECTED_ACCURACY
+        self.metric_report_file_path = os.path.join(self.model_trainer_dir,tp.MODEL_TRAINER_TRAINED_MODEL_DIR,tp.METRIC_FILE_NAME)
 
 
 class ModelEvaluationConfig:

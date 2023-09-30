@@ -49,6 +49,7 @@ MODEL_TRAINER_TRAINED_MODEL_DIR: str = 'Trained_Model'
 MODEL_TRAINER_TRAINED_MODEL_NAME: str = 'model.pkl' 
 MODEL_TRAINER_EXPECTED_ACCURACY: float= 0.7
 MODEL_FILE_NAME = "model.pkl"
+METRIC_FILE_NAME = "metrics.yaml"
 
 # Model Evaluation Constant
 MODEL_EVALUATION_DIR_NAME: str = "Model_Evaluation"
