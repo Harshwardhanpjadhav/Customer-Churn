@@ -6,6 +6,10 @@ from src.churn.entity.config import TrainingPipelineConfig, DataIngestionConfig,
 from src.churn.entity.artifact import DataIngestionArtifact, DataValidationArtifact, DataTransformationArtifact, ModelTrainerArtifact, ModelEvaluationArtifact, ModelPusherArtifact
 from src.churn.components.data_ingestion import DataIngestion
 from src.churn.components.data_validation import DataValidation
+from src.churn.components.model_trainer import ModelTrainer
+# from src.churn.components.model_evaluator import ModelEvaluator
+# from src.churn.components.model_pusher import ModelPusher
+
 from src.churn.components.data_transformation import DataTransformation
 
 
@@ -84,7 +88,11 @@ class TrainingPipeline:
         Returns : Model training Artifact
         '''
         try:
-            pass
+            logging.info("Calling Model Trainer Component")
+            model_trainer = ModelTrainer(data_transformation_artifact=data_transformation_artifact,model_trainer_config=self.model_trainer_config)
+            model_trainer_artifact = model_trainer.initiate_model_trainer()
+            logging.info("Model Trainer Completed >>")
+            return model_trainer_artifact
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -116,7 +124,7 @@ class TrainingPipeline:
             data_ingestion_artifact = self.start_data_ingestion()
             data_validation_artifact = self.start_data_validation(data_ingestion_artifact)
             data_transformation_artifact = self.start_data_transformation(data_validation_artifact)
-            # model_trainer_artifact = self.start_model_trainer(data_transformation_artifact)
+            model_trainer_artifact = self.start_model_trainer(data_transformation_artifact)
             # model_eval_artifact = self.start_model_evaluation(model_trainer_artifact, data_validation_artifact)
             # model_pusher_artifact = self.start_model_pusher(model_eval_artifact)
             # logging.info("Pipeline Completed")

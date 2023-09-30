@@ -95,7 +95,7 @@ class ModelTrainer:
             y_train_pred = model.predict(x_train)
     #=================================================================================================
             # Calling get metrics
-            self.get_metircs(model, x_train, y_train,x_test, y_test, y_train_pred)
+            self.get_metircs(model, y_train,x_test, y_test, y_train_pred)
     #=================================================================================================
             # Saving model
             preprocessor = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
@@ -114,4 +114,4 @@ class ModelTrainer:
             logging.info(f"Model trainer artifact: {model_trainer_artifact}")
             return model_trainer_artifact
         except Exception as e:
-            raise (e, sys)
+            raise CustomException(e, sys)
