@@ -22,6 +22,7 @@ class ModelTrainer:
             raise CustomException(e, sys)
 
     def train_test_split(self, train, test):
+        logging.info("Started Train Test split>>>")
         try:
 
             train_arr = load_numpy_array_data(train)
@@ -40,6 +41,7 @@ class ModelTrainer:
     def perform_hyper_paramter_tunnig(self): ...
 
     def train_model(self, x_train, y_train):
+        logging.info("Started Train model>>>")
         try:
             xgb_clf = XGBClassifier()
             xgb_clf.fit(x_train, y_train)
@@ -49,7 +51,7 @@ class ModelTrainer:
 
     def get_metircs(self, model, y_train, x_test, y_test, y_train_pred):
         try:
-            
+            logging.info("Started metrics")
     #=================================================================================================
             # For train Prediction
             train_metric_msg = "Train metric accuracy"
@@ -80,27 +82,31 @@ class ModelTrainer:
 
     def initiate_model_trainer(self) -> ModelTrainerArtifact:
         try:
-
+            logging.info("Started model trainer>>>")
             train_file_path = self.data_transformation_artifact.transformed_train_file_path
             test_file_path = self.data_transformation_artifact.transformed_test_file_path
     #=================================================================================================
             # Calling train test split
+            logging.info("Calling train test split")
 
             x_train, y_train, x_test, y_test = self.train_test_split(
                 train_file_path, test_file_path)
     #=================================================================================================
             # Calling train model
-
+            logging.info("Calling train model")
             model = self.train_model(x_train, y_train)
             y_train_pred = model.predict(x_train)
     #=================================================================================================
             # Calling get metrics
-            self.get_metircs(model, y_train,x_test, y_test, y_train_pred)
+            self.get_metircs(model, x_train, y_train,x_test, y_test, y_train_pred)
     #=================================================================================================
             # Saving model
+            logging.info("Loading transformed_object_File_path")
             preprocessor = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
             model_dir_path = os.path.dirname(self.model_trainer_config.trained_model_file_path)
             os.makedirs(model_dir_path, exist_ok=True)
+
+            logging.info("Succesfully created model directory")
             churn = Churn(preprocessor=preprocessor, model=model)
 
     #=================================================================================================
