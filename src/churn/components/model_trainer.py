@@ -48,24 +48,27 @@ class ModelTrainer:
     def get_accuracy(self,model,y_train,x_test,y_test,y_train_pred):
         try:
             # For train Prediction
-            classification_train_metric =  get_classification_score(y_true=y_train, y_pred=y_train_pred)
+            train_metric_msg = "Train metric accuracy"
+            self.classification_train_metric =  get_classification_score(message=train_metric_msg,y_true=y_train, y_pred=y_train_pred)
 
-            if classification_train_metric.f1_score<=self.model_trainer_config.expected_accuracy:
+            if self.classification_train_metric.f1_score<=self.model_trainer_config.expected_accuracy:
                 raise Exception("Trained model is not good to provide expected accuracy")
             
-            # For train Prediction
+            # For Test Prediction
+            test_metric_msg = "Test metric accuracy"
             y_test_pred = model.predict(x_test)
-            classification_test_metric = get_classification_score(y_true=y_test, y_pred=y_test_pred)
+            self.classification_test_metric = get_classification_score(message=test_metric_msg,y_true=y_test, y_pred=y_test_pred)
 
 
             #Overfitting and Underfitting
-            diff = abs(classification_train_metric.f1_score-classification_test_metric.f1_score)
+            diff = abs(self.classification_train_metric.f1_score-self.classification_test_metric.f1_score)
             
             if diff>self.model_trainer_config.overfitting_underfitting_threshold:
                 raise Exception("Model is not good try to do more experimentation.")
             
         except Exception as e:
             raise e
+            
 
     
     def initiate_model_trainer(self)->ModelTrainerArtifact:
@@ -92,8 +95,8 @@ class ModelTrainer:
             #model trainer artifact
 
             model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path=self.model_trainer_config.trained_model_file_path, 
-            train_metric_artifact=classification_train_metric,
-            test_metric_artifact=classification_test_metric)
+            train_metric_artifact=self.classification_train_metric,
+            test_metric_artifact=self.classification_test_metric)
             logging.info(f"Model trainer artifact: {model_trainer_artifact}")
             return model_trainer_artifact
         except Exception as e:
