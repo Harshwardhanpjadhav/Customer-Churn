@@ -8,7 +8,6 @@ import sys
 from xgboost import XGBClassifier
 from src.churn.ml.metrics import get_classification_score
 from src.churn.ml.estimator import Churn
-# from src.churn.ml.estimator import ChurnModel -->after estimatior module
 from src.churn.utils.main_utilis import save_object, load_object
 
 
@@ -49,6 +48,8 @@ class ModelTrainer:
 
     def get_metircs(self, model, y_train, x_test, y_test, y_train_pred):
         try:
+            
+    #=================================================================================================
             # For train Prediction
             train_metric_msg = "Train metric accuracy"
             self.classification_train_metric = get_classification_score(
@@ -57,16 +58,17 @@ class ModelTrainer:
             if self.classification_train_metric.f1_score <= self.model_trainer_config.expected_accuracy:
                 raise Exception(
                     "Trained model is not good to provide expected accuracy")
-
+            
+    #=================================================================================================
             # For Test Prediction
             test_metric_msg = "Test metric accuracy"
             y_test_pred = model.predict(x_test)
             self.classification_test_metric = get_classification_score(
                 message=test_metric_msg, y_true=y_test, y_pred=y_test_pred)
-
+            
+    #=================================================================================================
             # Overfitting and Underfitting
-            diff = abs(self.classification_train_metric.f1_score -
-                       self.classification_test_metric.f1_score)
+            diff = abs(self.classification_train_metric.f1_score -self.classification_test_metric.f1_score)
 
             if diff > self.model_trainer_config.overfitting_underfitting_threshold:
                 raise Exception(
@@ -80,28 +82,27 @@ class ModelTrainer:
 
             train_file_path = self.data_transformation_artifact.transformed_train_file_path
             test_file_path = self.data_transformation_artifact.transformed_test_file_path
-        #=================================================================================================
+    #=================================================================================================
             # Calling train test split
             x_train, y_train, x_test, y_test = self.train_test_split(
                 train_file_path, test_file_path)
-        #=================================================================================================
+    #=================================================================================================
             # Calling train model
             model = self.train_model(x_train, y_train)
             y_train_pred = model.predict(x_train)
-        #=================================================================================================
+    #=================================================================================================
             # Calling get metrics
             self.get_metircs(model, x_train, y_train,x_test, y_test, y_train_pred)
-        #=================================================================================================
+    #=================================================================================================
             # Saving model
             preprocessor = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
-
             model_dir_path = os.path.dirname(self.model_trainer_config.trained_model_file_path)
             os.makedirs(model_dir_path, exist_ok=True)
             churn = Churn(preprocessor=preprocessor, model=model)
 
-        #=================================================================================================
+    #=================================================================================================
             save_object( self.model_trainer_config.trained_model_file_path, obj=churn)
-        #=================================================================================================
+    #=================================================================================================
             # model trainer artifact
             model_trainer_artifact = ModelTrainerArtifact(
                 trained_model_file_path=self.model_trainer_config.trained_model_file_path,
