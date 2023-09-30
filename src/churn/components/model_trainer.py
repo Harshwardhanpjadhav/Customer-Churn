@@ -56,7 +56,7 @@ class ModelTrainer:
             # For train Prediction
             train_metric_msg = "Train metric accuracy"
             self.classification_train_metric = get_classification_score(
-                message=train_metric_msg, y_true=y_train, y_pred=y_train_pred)
+                message=train_metric_msg, y_true=y_train, y_pred=y_train_pred,model_trainer_config=ModelTrainerConfig)
 
             if self.classification_train_metric.f1_score <= self.model_trainer_config.expected_accuracy:
                 raise Exception(
@@ -67,7 +67,7 @@ class ModelTrainer:
             test_metric_msg = "Test metric accuracy"
             y_test_pred = model.predict(x_test)
             self.classification_test_metric = get_classification_score(
-                message=test_metric_msg, y_true=y_test, y_pred=y_test_pred)
+                message=test_metric_msg, y_true=y_test, y_pred=y_test_pred,model_trainer_config=ModelTrainerConfig)
             
     #=================================================================================================
             # Overfitting and Underfitting
@@ -98,7 +98,7 @@ class ModelTrainer:
             y_train_pred = model.predict(x_train)
     #=================================================================================================
             # Calling get metrics
-            self.get_metircs(model, x_train, y_train,x_test, y_test, y_train_pred)
+            self.get_metircs(model, y_train,x_test, y_test, y_train_pred)
     #=================================================================================================
             # Saving model
             logging.info("Loading transformed_object_File_path")

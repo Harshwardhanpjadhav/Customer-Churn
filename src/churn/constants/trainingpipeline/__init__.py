@@ -46,10 +46,10 @@ PREPROCESSING_PIPELINE_OBJECT = "preprocessing.pkl"
 # Model Trainer Constant
 MODEL_TRAINER_DIR_NAME: str = 'Model_Trainer' 
 MODEL_TRAINER_TRAINED_MODEL_DIR: str = 'Trained_Model'
-MODEL_TRAINER_TRAINED_MODEL_NAME: str = 'model.pkl' 
-MODEL_TRAINER_EXPECTED_ACCURACY: float= 0.7
 MODEL_FILE_NAME = "model.pkl"
+MODEL_METRIC_DIR: str = "Metrics"
 METRIC_FILE_NAME = "metrics.yaml"
+MODEL_TRAINER_EXPECTED_ACCURACY: float= 0.7
 
 # Model Evaluation Constant
 MODEL_EVALUATION_DIR_NAME: str = "Model_Evaluation"
