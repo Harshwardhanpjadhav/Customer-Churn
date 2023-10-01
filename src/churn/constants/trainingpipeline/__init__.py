@@ -1,6 +1,6 @@
 import os
 SAVED_MODEL_DIR =os.path.join("saved_models")
-
+ARTIFACT_DIR_PATH =os.path.join("artifact")
 # Target column name form dataset
 TAREGT_COLUMN_NAME: str = 'Customer Status'
 

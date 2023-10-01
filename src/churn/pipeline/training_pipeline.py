@@ -7,7 +7,7 @@ from src.churn.entity.artifact import DataIngestionArtifact, DataValidationArtif
 from src.churn.components.data_ingestion import DataIngestion
 from src.churn.components.data_validation import DataValidation
 from src.churn.components.model_trainer import ModelTrainer
-# from src.churn.components.model_evaluator import ModelEvaluator
+from src.churn.components.model_evaluation import ModelEvaluation
 # from src.churn.components.model_pusher import ModelPusher
 
 from src.churn.components.data_transformation import DataTransformation
@@ -96,14 +96,15 @@ class TrainingPipeline:
         except Exception as e:
             raise CustomException(e, sys)
 
-    def start_model_evaluation(self, model_trainer_artifact: ModelTrainerArtifact, data_validation_artifact: DataValidationArtifact) -> ModelEvaluationArtifact:
+    def start_model_evaluation(self, model_trainer_artifact: ModelTrainerArtifact) -> ModelEvaluationArtifact:
         '''
         This function is used to initiate model evaluation.
         Returns : Model evaluation Artifact
         '''
         try:
-            pass
-
+            logging.info("Calling model evalutaion component")
+            model_evalutaion = ModelEvaluation(model_evalutaion_config=self.model_evaluation_config,model_trainer_artifact=model_trainer_artifact,model_trainer_config=self.model_trainer_config)
+            model_evaluation_artifact = model_evalutaion.initiate_model_evaluation()
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -125,7 +126,7 @@ class TrainingPipeline:
             data_validation_artifact = self.start_data_validation(data_ingestion_artifact)
             data_transformation_artifact = self.start_data_transformation(data_validation_artifact)
             model_trainer_artifact = self.start_model_trainer(data_transformation_artifact)
-            # model_eval_artifact = self.start_model_evaluation(model_trainer_artifact, data_validation_artifact)
+            model_eval_artifact = self.start_model_evaluation(model_trainer_artifact)
             # model_pusher_artifact = self.start_model_pusher(model_eval_artifact)
             # logging.info("Pipeline Completed")
 
