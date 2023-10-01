@@ -98,7 +98,9 @@ class ModelTrainer:
             if diff > 0.05:
                 raise Exception(
                     "Model is not good try to do more experimentation.")
+            logging.info("Completed metrics >>>")
 
+            return metric_path
         except Exception as e:
             raise e
         
@@ -122,7 +124,7 @@ class ModelTrainer:
             y_train_pred = model.predict(x_train)
         #=================================================================================================
             # Calling get metrics
-            self.get_metircs(model, y_train,x_test, y_test, y_train_pred)
+            mertic_path = self.get_metircs(model, y_train,x_test, y_test, y_train_pred)
         #=================================================================================================
             # Saving model
             logging.info("Loading transformed_object_File_path")
@@ -140,8 +142,8 @@ class ModelTrainer:
             # model trainer artifact
             model_trainer_artifact = ModelTrainerArtifact(
                 trained_model_file_path=self.model_trainer_config.trained_model_file_path,
-                train_metric_artifact=self.classification_train_metric_artifact,
-                test_metric_artifact=self.classification_test_metric)
+                metric_artifact=mertic_path
+                )
             logging.info(f"Model trainer artifact: {model_trainer_artifact}")
             return model_trainer_artifact
         except Exception as e:
