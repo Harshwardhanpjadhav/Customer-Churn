@@ -21,9 +21,7 @@ class ModelEvaluation:
     def get_previous_timestamp(self):
         '''
         This function is responsible for getting the previous timestamp
-
         '''
-
         metric_file_path = os.path.join("Model_Trainer","Metrics","metrics.yaml")
         try:
             logging.info("Started getting previous timestamp >>>")
@@ -47,9 +45,16 @@ class ModelEvaluation:
         try:
             prev_accur =  self.previous_model_metric["Train metric accuracy"]
             logging.info(f"previous accuracy{prev_accur}")
-            logging.info("Model Evaluation Completed >>>")
-            val = prev_accur['F1 Score : ']
-            logging.info(f"f1score{val}")
+            val = prev_accur['F1 Score']
+            logging.info({val})
+            
+            metric_file_path = self.model_trainer_artifact.metric_artifact
+            current_model_metric = read_yaml_file(metric_file_path)
+            curr_accur = current_model_metric["Train metric accuracy"]
+            logging.info(f"current accuracy{curr_accur}")
+            val1 = curr_accur['F1 Score']
+            logging.info({val1})
+
 
         except Exception as e:
             raise CustomException(e,sys)
