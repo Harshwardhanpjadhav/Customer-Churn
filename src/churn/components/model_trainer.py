@@ -132,6 +132,7 @@ class ModelTrainer:
 
             logging.info("Succesfully created model directory")
             churn = Churn(preprocessor=preprocessor, model=model)
+            logging.info(churn)
 
     #=================================================================================================
             save_object( self.model_trainer_config.trained_model_file_path, obj=churn)
