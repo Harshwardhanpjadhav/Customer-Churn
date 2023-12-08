@@ -39,22 +39,24 @@ class ClassificationMetricArtifact:
 class ModelTrainerArtifact:
     trained_model_file_path: str       # Path to the trained machine learning model file
     metric_artifact: str
+    train_metric_artifact: ClassificationMetricArtifact
+    test_metric_artifact: ClassificationMetricArtifact
   
 
 # Model Evaluation Artifact includes information related to model evaluation
 @dataclass
 class ModelEvaluationArtifact:
-    is_model_accepted: bool        # Indicates whether the model is accepted
-    improved_accuracy: float       # Improvement in model accuracy
-    best_model_path: str           # Path to the best model
-    trained_model_path: str        # Path to the trained model
-    train_model_metric_artifact: ClassificationMetricArtifact  
-    best_model_metric_artifact: ClassificationMetricArtifact   
+    is_model_accepted: bool
+    improved_accuracy: float
+    best_model_path: str
+    trained_model_path: str
+    train_model_metric_artifact: ClassificationMetricArtifact
+    best_model_metric_artifact: ClassificationMetricArtifact
 
 # Model Pusher Artifact includes information related to pushing/deploying the model
 @dataclass
 class ModelPusherArtifact:
-    saved_model_path: str     # Path to the saved model fiel
+    saved_model_path: str     # Path to the saved model file
     model_file_path: str      # Path to the model file
 
 # These artifacts are used to initialize training pipeline and components   

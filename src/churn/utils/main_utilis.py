@@ -20,7 +20,7 @@ def read_yaml_file(file_path: str) -> dict:
 
 def write_yaml_file(file_path: str, content: object, replace: bool = False) -> None:
     try:
-        # if replace:
+        if replace:
             if os.path.exists(file_path):
                 os.remove(file_path)
             os.makedirs(os.path.dirname(file_path), exist_ok=True)

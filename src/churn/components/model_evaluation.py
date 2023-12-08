@@ -1,69 +1,106 @@
-import os,sys
-from datetime import datetime
+import os
+import sys
+import pandas as pd
 from src.churn.logger import logging
 from src.churn.exception import CustomException
-from src.churn.entity.config import ModelEvaluationConfig,ModelTrainerConfig
-from src.churn.entity.artifact import ModelEvaluationArtifact,ModelTrainerArtifact
-from src.churn.constants.trainingpipeline import ARTIFACT_DIR_PATH
-from src.churn.utils.main_utilis import read_yaml_file
+from src.churn.entity.config import ModelEvaluationConfig, ModelTrainerConfig
+from src.churn.entity.artifact import ModelEvaluationArtifact, ModelTrainerArtifact,DataValidationArtifact
+from src.churn.constants.trainingpipeline import TAREGT_COLUMN_NAME
+from src.churn.utils.main_utilis import load_object
+from src.churn.ml.metrics import get_classification_score
+from src.churn.ml.estimator import ModelResolver
+from sklearn import preprocessing 
+
 
 class ModelEvaluation:
-    def __init__(self,model_evalutaion_config:ModelEvaluationConfig,
-                 model_trainer_artifact:ModelTrainerArtifact,
-                 model_trainer_config:ModelTrainerConfig):
+    def __init__(self,
+                 model_trainer_artifact: ModelTrainerArtifact,
+                 data_validation_artifact:DataValidationArtifact,
+                 model_evaluation_config:ModelEvaluationConfig,
+                ):
         try:
-            self.model_evalutaion_config = model_evalutaion_config
-            self.model_trainer_artifact = model_trainer_artifact
-            self.model_trainer_config = model_trainer_config
+            self.model_evaluation_config=model_evaluation_config
+            self.data_validation_artifact=data_validation_artifact
+            self.model_trainer_artifact=model_trainer_artifact
         except Exception as e:
-            raise CustomException(e,sys)
-        
-    def get_previous_timestamp(self):
-        '''
-        This function is responsible for getting the previous timestamp
-        '''
-        metric_file_path = os.path.join("Model_Trainer","Metrics","metrics.yaml")
-        try:
-            logging.info("Started getting previous timestamp >>>")
-            timestamps = list(os.listdir(ARTIFACT_DIR_PATH))
-            timestamps = sorted(timestamps, key=lambda x: datetime.strptime(x, '%d_%m_%Y_%H_%M_%S'))
-            previous_timestamp = timestamps[-2]
-            previous_timestamp= os.path.join(ARTIFACT_DIR_PATH,f"{previous_timestamp}",metric_file_path)
-            logging.info(f"previous_timestamp : {previous_timestamp}")
-            return previous_timestamp
-        except Exception as e:
-            raise CustomException(e,sys)
-        
-    def evaluate_model(self,previous_timestamp):
-        '''
-        This function is responsible for evaluating the model
-        '''
-        self.previous_timestamp = previous_timestamp
-        self.previous_model_metric = read_yaml_file(previous_timestamp)
-
-        logging.info("Started Model Evaluation >>>")
-        try:
-            prev_accur =  self.previous_model_metric["Train metric accuracy"]
-            logging.info(f"previous accuracy{prev_accur}")
-            val = prev_accur['F1 Score']
-            logging.info({val})
-            
-            metric_file_path = self.model_trainer_artifact.metric_artifact
-            current_model_metric = read_yaml_file(metric_file_path)
-            curr_accur = current_model_metric["Train metric accuracy"]
-            logging.info(f"current accuracy{curr_accur}")
-            val1 = curr_accur['F1 Score']
-            logging.info({val1})
-
-
-        except Exception as e:
-            raise CustomException(e,sys)
-
-
+            raise CustomException(e, sys)
 
     def initiate_model_evaluation(self)->ModelEvaluationArtifact:
-         previousfilepath = self.get_previous_timestamp()
-         self.evaluate_model(previousfilepath)
+        try:
+            valid_train_file_path = self.data_validation_artifact.valid_train_file_path
+            valid_test_file_path = self.data_validation_artifact.valid_test_file_path
+
+            #valid train and test file dataframeclear
+            train_df = pd.read_csv(valid_train_file_path)
+            test_df = pd.read_csv(valid_test_file_path)
+
+            df = pd.concat([train_df,test_df])
+            y_true = df[TAREGT_COLUMN_NAME]
+
+            label_encoder = preprocessing.LabelEncoder() 
+            y_true = label_encoder.fit_transform(y_true) 
+
+            df.drop(TAREGT_COLUMN_NAME,axis=1,inplace=True)
+
+            train_model_file_path = self.model_trainer_artifact.trained_model_file_path
+            model_resolver = ModelResolver()
+            is_model_accepted=True
 
 
-         
+            if not model_resolver.is_model_exists():
+                model_evaluation_artifact = ModelEvaluationArtifact(
+                    is_model_accepted=is_model_accepted,
+                    improved_accuracy=None,
+                    best_model_path=None,
+                    trained_model_path=train_model_file_path,
+                    train_model_metric_artifact=self.model_trainer_artifact.train_metric_artifact,
+                    best_model_metric_artifact=None)
+                logging.info(f"Model evaluation artifact: {model_evaluation_artifact}")
+                return model_evaluation_artifact
+
+            latest_model_path = model_resolver.get_best_model_path()
+            latest_model = load_object(file_path=latest_model_path)
+            train_model = load_object(file_path=train_model_file_path)
+            
+            y_trained_pred = train_model.predict(df)
+            y_latest_pred  =latest_model.predict(df)
+
+            trained_metric,_ = get_classification_score("Train",y_true, y_trained_pred)
+            latest_metric,_ = get_classification_score("Test",y_true, y_latest_pred)
+            logging.info(trained_metric)
+
+            improved_accuracy = trained_metric.f1_score-latest_metric.f1_score
+            if self.model_evaluation_config.changed_threshold_score < improved_accuracy:
+                #0.02 < 0.03
+                is_model_accepted=True
+                logging.info("New Model is Best")
+                logging.info("Saving the new model.pkl")
+                logging.info(f"Old model accuracy {trained_metric.f1_score}")
+                logging.info(f"New model accuracy {latest_metric.f1_score}")
+            else:
+                is_model_accepted=False
+                logging.info("Old Model is Best")
+                logging.info("Saving the old model.pkl")
+                logging.info(f"Old model accuracy {trained_metric.f1_score}")
+                logging.info(f"New model accuracy {latest_metric.f1_score}")
+                
+
+            
+            model_evaluation_artifact = ModelEvaluationArtifact(
+                    is_model_accepted=is_model_accepted, 
+                    improved_accuracy=improved_accuracy, 
+                    best_model_path=latest_model_path, 
+                    trained_model_path=train_model_file_path, 
+                    train_model_metric_artifact=trained_metric, 
+                    best_model_metric_artifact=latest_metric)
+
+            model_eval_report = model_evaluation_artifact.__dict__
+#=======================================================================================================
+            # When artifact folder is empty or trainnig model for first time
+            logging.info(model_evaluation_artifact)
+            logging.info("Model Evaluation Completed >>>")
+            return model_evaluation_artifact
+        
+        except Exception as e:
+            raise CustomException(e,sys)
+

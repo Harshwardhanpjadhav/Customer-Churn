@@ -13,4 +13,4 @@ class EvironmentVariable:
     """
 
     # MongoDB Url fetched from .env file (.env file is not pushed in github)
-    mongo_url = os.getenv('MONGODB_URL') 
+    mongo_url = os.getenv('MONGODB_URL')
