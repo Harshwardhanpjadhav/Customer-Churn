@@ -1,5 +1,6 @@
 import os
 import sys
+import mlflow
 import pandas as pd
 from src.churn.logger import logging
 from src.churn.exception import CustomException
@@ -10,6 +11,8 @@ from src.churn.utils.main_utilis import load_object
 from src.churn.ml.metrics import get_classification_score
 from src.churn.ml.estimator import ModelResolver
 from sklearn import preprocessing 
+from urllib.parse import urlparse
+
 
 
 class ModelEvaluation:
@@ -95,6 +98,29 @@ class ModelEvaluation:
                     best_model_metric_artifact=latest_metric)
 
             model_eval_report = model_evaluation_artifact.__dict__
+#=======================================================================================================
+            model = load_object(file_path=latest_model_path)
+
+            tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+
+            with mlflow.start_run() as run:
+
+                f1_score = trained_metric.f1_score
+                precision_score = trained_metric.precision_score
+                recall_score = trained_metric.recall_score
+
+
+                mlflow.log_metric("F1 Score",f1_score)
+                mlflow.log_metric("Recall Score",recall_score)
+                mlflow.log_metric("Precision score",precision_score)
+
+                if tracking_url_type_store != "file":
+                    mlflow.sklearn.log_model(
+                        model, "model", registered_model_name="AdaBoostClassifier"
+                    )
+                else:
+                    mlflow.sklearn.log_model(model, "model")
+
 #=======================================================================================================
             # When artifact folder is empty or trainnig model for first time
             logging.info(model_evaluation_artifact)

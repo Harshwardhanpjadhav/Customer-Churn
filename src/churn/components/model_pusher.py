@@ -13,7 +13,6 @@ class ModelPusher:
                 model_pusher_config:ModelPusherConfig,
                 model_eval_artifact:ModelEvaluationArtifact
                 ):
-
         try:
             self.model_pusher_config = model_pusher_config
             self.model_eval_artifact = model_eval_artifact
@@ -38,7 +37,8 @@ class ModelPusher:
             shutil.copy(src=trained_model_path, dst=saved_model_path)
 
             #prepare artifact
-            model_pusher_artifact = ModelPusherArtifact(saved_model_path=saved_model_path, model_file_path=model_file_path)
+            model_pusher_artifact = ModelPusherArtifact(saved_model_path=saved_model_path,
+                                                        model_file_path=model_file_path)
             return model_pusher_artifact
         except  Exception as e:
             raise CustomException(e, sys)
