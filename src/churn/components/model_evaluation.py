@@ -11,6 +11,8 @@ from src.churn.utils.main_utilis import load_object
 from src.churn.ml.metrics import get_classification_score
 from src.churn.ml.estimator import ModelResolver
 from sklearn import preprocessing 
+from src.churn.utils.main_utilis import write_yaml_file, read_yaml_file
+
 from urllib.parse import urlparse
 
 
@@ -36,19 +38,16 @@ class ModelEvaluation:
             #valid train and test file dataframeclear
             train_df = pd.read_csv(valid_train_file_path)
             test_df = pd.read_csv(valid_test_file_path)
-
             df = pd.concat([train_df,test_df])
-            y_true = df[TAREGT_COLUMN_NAME]
 
+            y_true = df[TAREGT_COLUMN_NAME]
             label_encoder = preprocessing.LabelEncoder() 
             y_true = label_encoder.fit_transform(y_true) 
-
             df.drop(TAREGT_COLUMN_NAME,axis=1,inplace=True)
 
             train_model_file_path = self.model_trainer_artifact.trained_model_file_path
             model_resolver = ModelResolver()
             is_model_accepted=True
-
 
             if not model_resolver.is_model_exists():
                 model_evaluation_artifact = ModelEvaluationArtifact(
@@ -60,6 +59,7 @@ class ModelEvaluation:
                     best_model_metric_artifact=None)
                 logging.info(f"Model evaluation artifact: {model_evaluation_artifact}")
                 return model_evaluation_artifact
+            
 
             latest_model_path = model_resolver.get_best_model_path()
             latest_model = load_object(file_path=latest_model_path)
@@ -86,9 +86,7 @@ class ModelEvaluation:
                 logging.info("Saving the old model.pkl")
                 logging.info(f"Old model accuracy {trained_metric.f1_score}")
                 logging.info(f"New model accuracy {latest_metric.f1_score}")
-                
 
-            
             model_evaluation_artifact = ModelEvaluationArtifact(
                     is_model_accepted=is_model_accepted, 
                     improved_accuracy=improved_accuracy, 
@@ -98,7 +96,9 @@ class ModelEvaluation:
                     best_model_metric_artifact=latest_metric)
 
             model_eval_report = model_evaluation_artifact.__dict__
+
 #=======================================================================================================
+            # MFLOW
             model = load_object(file_path=latest_model_path)
 
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
@@ -122,7 +122,7 @@ class ModelEvaluation:
                     mlflow.sklearn.log_model(model, "model")
 
 #=======================================================================================================
-            # When artifact folder is empty or trainnig model for first time
+            write_yaml_file(self.model_evaluation_config.report_file_path, model_eval_report)
             logging.info(model_evaluation_artifact)
             logging.info("Model Evaluation Completed >>>")
             return model_evaluation_artifact
