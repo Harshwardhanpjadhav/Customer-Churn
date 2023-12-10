@@ -4,8 +4,8 @@ import mlflow
 import pandas as pd
 from src.churn.logger import logging
 from src.churn.exception import CustomException
-from src.churn.entity.config import ModelEvaluationConfig, ModelTrainerConfig
-from src.churn.entity.artifact import ModelEvaluationArtifact, ModelTrainerArtifact,DataValidationArtifact
+from src.churn.entity.config import ModelEvaluationConfig, ModelTrainerConfig,DataTransformationConfig
+from src.churn.entity.artifact import ModelEvaluationArtifact, ModelTrainerArtifact,DataValidationArtifact,DataTransformationArtifact
 from src.churn.constants.trainingpipeline import TAREGT_COLUMN_NAME
 from src.churn.utils.main_utilis import load_object
 from src.churn.ml.metrics import get_classification_score
@@ -22,11 +22,13 @@ class ModelEvaluation:
                  model_trainer_artifact: ModelTrainerArtifact,
                  data_validation_artifact:DataValidationArtifact,
                  model_evaluation_config:ModelEvaluationConfig,
+                 model_transformation_config:DataTransformationConfig
                 ):
         try:
             self.model_evaluation_config=model_evaluation_config
             self.data_validation_artifact=data_validation_artifact
             self.model_trainer_artifact=model_trainer_artifact
+            self.model_transformation_config = model_transformation_config
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -35,15 +37,17 @@ class ModelEvaluation:
             valid_train_file_path = self.data_validation_artifact.valid_train_file_path
             valid_test_file_path = self.data_validation_artifact.valid_test_file_path
 
+            labelencoder_file_path = self.model_transformation_config.data_labelencoder_object_file_path
+
             #valid train and test file dataframeclear
             train_df = pd.read_csv(valid_train_file_path)
             test_df = pd.read_csv(valid_test_file_path)
             df = pd.concat([train_df,test_df])
 
             y_true = df[TAREGT_COLUMN_NAME]
-            label_encoder = preprocessing.LabelEncoder() 
-            y_true = label_encoder.fit_transform(y_true) 
             df.drop(TAREGT_COLUMN_NAME,axis=1,inplace=True)
+            label_encoder= load_object(file_path=labelencoder_file_path)
+            y_true=label_encoder.fit_transform(y_true)
 
             train_model_file_path = self.model_trainer_artifact.trained_model_file_path
             model_resolver = ModelResolver()

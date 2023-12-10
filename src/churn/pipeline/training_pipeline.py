@@ -106,7 +106,8 @@ class TrainingPipeline:
             model_evalutaion = ModelEvaluation(
                 model_trainer_artifact,
                 data_validation_artifact,
-                model_evaluation_config=self.model_evaluation_config
+                model_evaluation_config=self.model_evaluation_config,
+                model_transformation_config=self.data_transformation_config
                 )
             model_evaluation_artifact = model_evalutaion.initiate_model_evaluation()
             return model_evaluation_artifact
@@ -115,7 +116,7 @@ class TrainingPipeline:
 
     def start_model_pusher(self, model_eval_artifact: ModelEvaluationArtifact) -> ModelPusherArtifact:
         try:
-            model_pusher = ModelPusher(self.model_pusher_config, model_eval_artifact)
+            model_pusher = ModelPusher(self.model_pusher_config,model_eval_artifact)
             model_pusher_artifact = model_pusher.initiate_model_pusher()
             return model_pusher_artifact
         except Exception as e:

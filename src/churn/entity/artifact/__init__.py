@@ -23,7 +23,8 @@ class DataValidationArtifact:
 # Data Transformation Artifact includes information related to data transformation
 @dataclass
 class DataTransformationArtifact:
-    transformed_object_file_path: str  # Path to the transformed data object
+    transformed_preprocessing_object_file_path: str  # Path to the transformed data object
+    transformed_labelencoder_object_file_path: str  # Path to the transformed data object
     transformed_train_file_path: str   # Path to the transformed training data file
     transformed_test_file_path: str    # Path to the transformed test data file
 
@@ -57,6 +58,6 @@ class ModelEvaluationArtifact:
 @dataclass
 class ModelPusherArtifact:
     saved_model_path: str     # Path to the saved model file
-    model_file_path: str      # Path to the model file
+    model_file_path: str  
 
 # These artifacts are used to initialize training pipeline and components   

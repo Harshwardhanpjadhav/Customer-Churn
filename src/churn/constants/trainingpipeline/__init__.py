@@ -1,5 +1,6 @@
 import os
 SAVED_MODEL_DIR =os.path.join("saved_models")
+LABELENCODER_OBJ_DIR =  os.path.join("saved_LabelEncoder_obj")
 ARTIFACT_DIR_PATH =os.path.join("artifact")
 # Target column name form dataset
 TAREGT_COLUMN_NAME: str = 'Customer Status'
@@ -42,6 +43,7 @@ DATA_TRANSFORMATION_DIR_NAME: str = 'Data_Transformation'
 DATA_TRASNFORMATION_TRANSFORMED_DATA_DIR: str = 'Transformed' 
 DATA_TRASNFORMATION_TRANSFORMED_DATA_OBJECT_DIR: str = 'transformed_object'
 PREPROCESSING_PIPELINE_OBJECT = "preprocessing.pkl"
+LABEL_ENCODER_OBJECT = "labelencoder.pkl"
 
 # Model Trainer Constant
 MODEL_TRAINER_DIR_NAME: str = 'Model_Trainer' 

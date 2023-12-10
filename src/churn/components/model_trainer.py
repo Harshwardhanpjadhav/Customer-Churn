@@ -128,7 +128,7 @@ class ModelTrainer:
         #=================================================================================================
             # Saving model
             logging.info("Loading transformed_object_File_path")
-            preprocessor = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
+            preprocessor = load_object(file_path=self.data_transformation_artifact.transformed_preprocessing_object_file_path)
             model_dir_path = os.path.dirname(self.model_trainer_config.trained_model_file_path)
             os.makedirs(model_dir_path, exist_ok=True)
 

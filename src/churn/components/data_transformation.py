@@ -61,9 +61,10 @@ class DataTransformation:
                     ('categorical_pipe', categorical, make_column_selector(dtype_include=object))
                 ]
             )
+            label_encoder = LabelEncoder()
 
             logging.info("Preorocessing object Created")
-            return preprocessor
+            return preprocessor,label_encoder
         except Exception as e:
             raise CustomException(e, sys)
 
@@ -74,11 +75,13 @@ class DataTransformation:
             test_df = pd.read_csv(self.data_validation_artifact.valid_test_file_path)
             
             logging.info('Obtaining preprocessing object >>>')
-            preprocessing_obj = self.get_data_transformation_object()
+            preprocessing_obj,label_encoder_obj = self.get_data_transformation_object()
             logging.info('Preprocessing object Created Cuccessfully')
             
             input_feature_train_df = train_df.drop(columns=TAREGT_COLUMN_NAME,axis=1)
             target_feature_train_df=train_df[TAREGT_COLUMN_NAME]
+            target_feature_train_df = label_encoder_obj.fit_transform(target_feature_train_df)
+
 
             logging.info(f"Input Datatype {type(input_feature_train_df)}")
             logging.info(f"Output train Datatype {type(target_feature_train_df)}")
@@ -87,6 +90,7 @@ class DataTransformation:
 
             input_feature_test_df=test_df.drop(columns=TAREGT_COLUMN_NAME,axis=1)
             target_feature_test_df=test_df[TAREGT_COLUMN_NAME]
+            target_feature_test_df = label_encoder_obj.fit_transform(target_feature_test_df)
 
             logging.info(f"Input test Datatype {type(input_feature_test_df)}")
             logging.info(f"Output test Datatype {type(target_feature_test_df)}")
@@ -123,12 +127,16 @@ class DataTransformation:
             logging.info("Started saving numpy data")
             save_numpy_array_data( self.data_transformation_config.transformed_train_file_path, array=train_arr, )
             save_numpy_array_data( self.data_transformation_config.transformed_test_file_path,array=test_arr,)
-            save_object( self.data_transformation_config.data_transformation_object_file_path, preprocessing_obj,)
-            logging.info("Completed saving numpy data")
+            
+            #saving Preprocessing and Label Encoding PKL file in DIR
+            save_object( self.data_transformation_config.data_preporcessing_object_file_path, preprocessing_obj,)
+            save_object( self.data_transformation_config.data_labelencoder_object_file_path, label_encoder_obj,)
+            logging.info("Completed saving numpy data And")
 
             logging.info("started DataTransformationArtifact ")
             data_transformation_artifact = DataTransformationArtifact(
-                transformed_object_file_path=self.data_transformation_config.data_transformation_object_file_path,
+                transformed_preprocessing_object_file_path=self.data_transformation_config.data_preporcessing_object_file_path,
+                transformed_labelencoder_object_file_path=self.data_transformation_config.data_labelencoder_object_file_path,
                 transformed_train_file_path=self.data_transformation_config.transformed_train_file_path,
                 transformed_test_file_path=self.data_transformation_config.transformed_test_file_path,
             )

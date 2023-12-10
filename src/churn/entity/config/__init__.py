@@ -62,8 +62,10 @@ class DataTransformationConfig:
     def __init__(self, training_pipeline_config: TrainingPipelineConfig):
         self.data_trainsformation_dir_name = os.path.join(
             training_pipeline_config.artifact_dir, tp.DATA_TRANSFORMATION_DIR_NAME)
-        self.data_transformation_object_file_path = os.path.join(
+        self.data_preporcessing_object_file_path = os.path.join(
             self.data_trainsformation_dir_name, tp.DATA_TRASNFORMATION_TRANSFORMED_DATA_OBJECT_DIR, tp.PREPROCESSING_PIPELINE_OBJECT)
+        self.data_labelencoder_object_file_path = os.path.join(
+             tp.LABELENCODER_OBJ_DIR, tp.LABEL_ENCODER_OBJECT)
         self.transformed_train_file_path = os.path.join(
             self.data_trainsformation_dir_name, tp.TRAIN_FILE_NAME.replace("csv", "npy"))
         self.transformed_test_file_path = os.path.join(
@@ -102,3 +104,7 @@ class ModelPusherConfig:
             tp.SAVED_MODEL_DIR,
             f"{timestamp}",
             tp.MODEL_FILE_NAME)
+        self.LabelEncoder_Obj:str=os.path.join(
+            tp.LABELENCODER_OBJ_DIR,
+            f"{timestamp}",
+            tp.LABEL_ENCODER_OBJECT)
