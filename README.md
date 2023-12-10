@@ -43,14 +43,49 @@ To use this project, follow these steps:
 
 
 ## Installation
+### Mac OS
 1. Clone the repository:
-`git clone https://github.com/your-username/telecom-churn-prediction.git`
-
+```bash
+git clone https://github.com/your-username/telecom-churn-prediction.git
+```
 2. Navigate to the project directory:
-`cd Customer-Churn`
+```bash
+cd Customer-Churn`
+```
+3. Create virtual environment
+```bash
+python3 -m venv venv
+```
+4. Activate Virtual Environment
+```bash
+source venv/bin/activate
+```
+5. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-3. Install the required dependencies:
-`pip install -r requirements.txt`
+### Windows
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/telecom-churn-prediction.git
+```
+2. Navigate to the project directory:
+```bash
+cd Customer-Churn`
+```
+3. Create virtual environment
+```bash
+python -m venv venv
+```
+4. Activate Virtual Environment
+```bash
+venv\Scripts\activate
+```
+5. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ## Dependencies
 - Python 3.7+
