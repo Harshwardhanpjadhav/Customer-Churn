@@ -6,6 +6,233 @@
 {% endblock %}
 {% block content %}
 
-<h1> Create input fields here </h1>
+<body>
+    <div class="cnt">
+        <h2>Customer Information Form</h2>
+
+        <form action="{{ url_for('predictpage') }}" method="post">
+            <div class="form-container">
+
+					<div class="form-group">
+					<label for="Age">Age:</label>
+					<input type="text" id="Age" name="Age">
+					</div>    
+                    
+					<p><b>Married:</b></p>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Married" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Married" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<p><b>Offer:</b></p>					
+					<label for="Offer A">
+					<input type="radio" id="Offer A" name="Offer" value="1" required="required" />
+					Offer A</label>					
+					<label for="Offer B">
+					<input type="radio" id="Offer B" name="Offer" value="2" required="required" />
+					Offer B</label>					
+					<label for="Offer C">
+					<input type="radio" id="Offer C" name="Offer" value="3" required="required" />
+					Offer C</label>					
+					<label for="Offer D">
+					<input type="radio" id="Offer D" name="Offer" value="4" required="required" />
+					Offer D</label>					
+					<label for="Offer E">
+					<input type="radio" id="Offer E" name="Offer" value="5" required="required" />
+					Offer E</label>			
+					<label for="None">
+					<input type="radio" id="None" name="Offer" value="6" required="required" />
+					None</label>
+					<br>
+
+					<p><b>Phone Service:</b>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Phone_Service" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Phone_Service" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<div class="form-group">
+					<label for="Avg Monthly Long Distance Charges"><b>Avg Monthly Long Distance Charges:</b></label>
+					<input type="text" id="Avg Monthly Long Distance Charges" name="Avg_Monthly_Long_Distance_Charges">
+					</div>
+
+	                <p><b>Multiple Lines:</b>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Multiple_Lines" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Multiple_Lines" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<p><b>Internet Type:</b>					
+					<label for="Fiber Optic">
+					<input type="radio" id="Fiber Optic" name="Internet_Type" value="1" required="required" />
+					Fiber Optic</label>					
+					<label for="DSL">
+					<input type="radio" id="DSL" name="Internet_Type" value="2" required="required" />
+					DSL</label>					
+					<label for="Cable">
+					<input type="radio" id="Cable" name="Internet_Type" value="3" required="required" />
+					Cable</label></p>
+					<br>
+
+					<div class="form-group">
+					<label for="Avg Monthly GB Download"><b>Avg_Monthly_GB_Download:</b></label>
+					<input type="text" id="Avg Monthly GB Download" name="Avg_Monthly_GB_Download">
+					</div>
+
+                    <p><b>Online Security:</b>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Online_Security" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Online_Security" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<p><b>Online Backup:</b>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Online_Backup" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Online_Backup" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<p><b>Device Protection Plan:</b>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Device_Protection_Plan" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Device_Protection_Plan" value="2" required="required" />
+					No
+					</label>
+					<br>
+        
+                    <p><b>Premium Tech Support:</b>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Premium_Tech_Support" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Premium_Tech_Support" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+                    <p><b>Streaming TV:</b></p>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Streaming_TV" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Streaming_TV" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<p><b>Streaming Movies:</b></p>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Streaming_Movies" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Streaming_Movies" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+                    <p><b>Streaming Music:</b></p>
+					<label for="Yes">
+					<input type="radio" id="Yes" name="Streaming_Music" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Streaming_Music" value="2" required="required" />
+					No
+					</label>
+					<br>
+
+					<p><b>Contract:</b>
+					<label for="Month-to-Month">
+					<input type="radio" id="Month-to-Month" name="Contract" value="1" required="required" />
+					Month-to-Month
+					</label>
+					<label for="One Year">
+					<input type="radio" id="One Year" name="Contract" value="2" required="required" />
+					One Year
+					</label>
+					<label for="Two Year">
+					<input type="radio" id="Two Year" name="Contract" value="3" required="required" />
+					Two Year
+					</label>
+					<br>
+
+                    <p><b>Paperless Billing:</b>
+                    <label for="Yes">
+					<input type="radio" id="Yes" name="Paperless_Billing" value="1" required="required" />
+					Yes
+					</label>
+					<label for="No">
+					<input type="radio" id="No" name="Paperless_Billing" value="2" required="required" />
+					No
+					</label>
+					<br>
+        
+                    <p><b>Payment Method:</b>                    
+                    <label for="Bank Withdrawal">
+					<input type="radio" id="Bank Withdrawal" name="Payment_Method" value="1" required="required" />
+					Bank Withdrawal</label>                    
+                    <label for="Credit Card">
+					<input type="radio" id="Credit Card" name="Payment_Method" value="2" required="required" />
+					Credit Card</label>               
+                    <label for="Mailed Check">
+					<input type="radio" id="Mailed Check" name="Payment_Method" value="3" required="required" />
+					Mailed Check</label></p>
+                    <br>
+
+                    <div class="form-group">
+                    <label for="Monthly Charge"><b>Monthly Charge:</b></label>
+                    <input type="text" id="Monthly Charge" name="Monthly_Charge">
+                    </div>
+                    
+					<div class="form-group">
+					<label for="Total Charges"><b>Total Charges:</b></label>
+					<input type="text" id="Total Charges" name="Total_Charges">
+					</div>
+
+                    <div class="form-group">
+                    <label for="Total Long Distance Charges"><b>Total Long Distance Charges:</b></label>
+                    <input type="text" id="Total Long Distance Charges" name="Total_Long_Distance_Charges">
+                    </div>
+
+            </div>
+			<div style="text-align: center; margin-top: 20px;">
+				<button type="submit">Submit</button>
+			</div>
+        </form>
+    </div>
+
+</body>
+</html>
+
 
 {% endblock %}
