@@ -1,47 +1,60 @@
-import os 
+import os
 import sys
-import pandas 
+import pandas as pd
 from src.churn.logger import logging
 from src.churn.exception import CustomException
 from src.churn.ml.estimator import ModelResolver
 from src.churn.utils.main_utilis import load_object
 from src.churn.constants.trainingpipeline import SAVED_MODEL_DIR
+#===========================================================================================================
 
-class Prediction_pipeline:
+class PredictPipeline:
     def __init__(self):
         pass
 
-    def predict(self,data):
+    def predict_csv(self,dataframe):
+        try:
+            # create a function to take input as csv and predict the output and return in dataframe
+            #  
+            model_resolver = ModelResolver(model_dir=SAVED_MODEL_DIR)     
+            labelencoder = load_object("saved_LabelEncoder_obj","labelencoder.pkl")
+            model = model_resolver.get_model()
+            prediction = model.predict(dataframe)
+            
+            
+        except Exception as e:
+            raise CustomException(e,sys)
+
+    def predict_individual(self,dataframe):
         try:
             model_resolver = ModelResolver(model_dir=SAVED_MODEL_DIR)
             if not model_resolver.is_model_exists():
-                raise CustomException("Model Not Found")
+                raise CustomException("Model Not Found")  
             
-            best_model_path = model_resolver.get_best_model_path()
+            labelencoder = load_object("saved_LabelEncoder_obj","labelencoder.pkl")
+            model = model_resolver.get_model()
+            prediction = model.predict(dataframe)
+            prediction  = labelencoder.inverse_transform(prediction)
 
-            model = load_object(file_path=best_model_path)
-
-            y_pred = model.predict(data)
-
-            
-
-            return y_pred
-
+            return prediction
         except Exception as e:
             raise CustomException(e,sys)
         
+    def convert_to_dataframe(self,data):
 
-    def predictAll(self,dataframe):
-        try:
-            model_resolver = ModelResolver(model_dir=SAVED_MODEL_DIR)
-            if not model_resolver.is_model_exists():
-                raise CustomException("Model Not Found")
-            
-            best_model_path = model_resolver.get_best_model_path()
+        df = pd.DataFrame
 
-            model = load_object(file_path=best_model_path)
 
-            y_pred = model.predict(dataframe)
 
-        except Exception as e:
-            raise CustomException(e,sys)
+
+
+
+
+
+
+
+
+
+
+
+

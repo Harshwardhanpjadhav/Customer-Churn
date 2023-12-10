@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.train-content {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #63db34;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.train-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: #34ff6d;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.train-button:hover {
+    background-color: #2980b9;
+}

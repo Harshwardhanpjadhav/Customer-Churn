@@ -1,0 +1,21 @@
+/* Add this CSS to the existing styles.css file or create a new file, e.g., home-styles.css */
+
+.home-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}

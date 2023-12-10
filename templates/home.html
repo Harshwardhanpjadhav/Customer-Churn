@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block title %}Home{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock %}
+{% block content %}
+    <div class="home-content">
+        <h1>Welcome to Your Website</h1>
+        <p>
+            In today's dynamic business environment, predicting customer churn is crucial for
+            maintaining a healthy customer base. Our advanced machine learning model helps you
+            analyze customer behavior and make informed decisions.
+        </p>
+        <p>
+            Explore the functionalities of our customer churn prediction model by navigating
+            to the training page to train the model or the prediction page to make predictions.
+        </p>
+    </div>
+{% endblock %}

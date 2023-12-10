@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+{% block title %}Train Model{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/train.css') }}">
+{% endblock %}
+{% block content %}
+    <div class="train-content">
+        <h1>Training the Model</h1>
+        <p>
+            Click the button below to start training your machine learning model. The training process may take some time.
+        </p>
+        <form action="{{ url_for('starttraining') }}" method="post">
+            <button class="train-button" type="submit">Train Model</button>
+        </form>
+    </div>
+{% endblock %}

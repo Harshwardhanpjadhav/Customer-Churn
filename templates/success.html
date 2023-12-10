@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block title %}Successfull{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/success.css') }}">
+{% endblock %}
+{% block content %}
+<div class="train-content">
+    <h1>Model Trained Successfully</h1>
+    <p>
+       The model has been trained successfully. You can now use it to make predictions.
+    </p>
+    <a class="train-button" href="{{ url_for('predictpage') }}">Predict</a>
+</div>
+{% endblock %}
