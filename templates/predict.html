@@ -1,10 +1,15 @@
 {% extends 'index.html' %}
-
 {% block title %}Predict{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/predict.css') }}">
 {% endblock %}
 {% block content %}
-<div class="train-content">
-    <h1>predict page</h1>
+<div class="containerr">
+    <h1>Prediction</h1>
+
+    <div class="button-containerr">
+        <a href="{{ url_for('uploadcsv') }}" class="nav-buttonn">Upload csv</a>
+        <a href="{{ url_for('manualy') }}" class="nav-buttonn">Enter Manualy</a>
+    </div>
+</div>
 {% endblock %}

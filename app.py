@@ -26,14 +26,14 @@ def predictpage():
 
 #=======================================================================================================
 
-@app.route('/predict/individual')
-def individual():
+@app.route('/predict/uploadcsv')
+def uploadcsv():
     return render_template('train.html')
 
 #=======================================================================================================
 
-@app.route('/predict/csv')
-def csv():
-    return render_template('train.html')
+@app.route('/predict/manualy')
+def manualy():
+    return render_template('manual.html')
 
 app.run(debug=True,port=8000)
