@@ -6,7 +6,11 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
 }
+body {
+ 
+    background: linear-gradient(135deg, #4caf50, #3498db);
 
+}
 .navbar {
     background-color: #000000;
     color: #fff;

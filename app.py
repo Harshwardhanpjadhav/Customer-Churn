@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 from flask import Flask,request,render_template,jsonify
 from src.churn.pipeline.prediction_pipeline import PredictPipeline
 
@@ -27,9 +28,26 @@ def predictpage():
 #=======================================================================================================
 
 @app.route('/predict/uploadcsv')
-def uploadcsv():
-    return render_template('train.html')
+def uploadpage():
+    return render_template('csv.html')
 
+
+@app.route('/predict/upload', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        return "No file part"
+
+    file = request.files['file']
+
+    if file.filename == '':
+        return "No selected file"
+
+    if file and file.filename.endswith('.csv'):
+        df = pd.read_csv(file)
+        # Now you have the DataFrame (df) from the uploaded CSV file
+        return df.to_html()  # For demonstration, you can return HTML representation of the DataFrame
+    else:
+        return "Invalid file format. Please upload a CSV file."
 #=======================================================================================================
 
 @app.route('/predict/manualy')
