@@ -117,6 +117,8 @@ class ModelTrainer:
             logging.info("Calling train test split")
             x_train, y_train, x_test, y_test = self.train_test_split(
                 train_file_path, test_file_path)
+            logging.info(x_train.shape)
+            logging.info(x_test.shape)
         #=================================================================================================
             # Calling train model
             logging.info("Calling train model")

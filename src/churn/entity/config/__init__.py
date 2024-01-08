@@ -64,6 +64,8 @@ class DataTransformationConfig:
             training_pipeline_config.artifact_dir, tp.DATA_TRANSFORMATION_DIR_NAME)
         self.data_preporcessing_object_file_path = os.path.join(
             self.data_trainsformation_dir_name, tp.DATA_TRASNFORMATION_TRANSFORMED_DATA_OBJECT_DIR, tp.PREPROCESSING_PIPELINE_OBJECT)
+        self.data_preporcessing_object = os.path.join(
+            tp.LABELENCODER_OBJ_DIR, tp.PREPROCESSING_PIPELINE_OBJECT)
         self.data_labelencoder_object_file_path = os.path.join(
              tp.LABELENCODER_OBJ_DIR, tp.LABEL_ENCODER_OBJECT)
         self.transformed_train_file_path = os.path.join(

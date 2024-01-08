@@ -36,16 +36,15 @@ def uploadpage():
 def upload_file():
     if 'file' not in request.files:
         return "No file part"
-
     file = request.files['file']
-
     if file.filename == '':
         return "No selected file"
 
     if file and file.filename.endswith('.csv'):
-        df = pd.read_csv(file)
-        # Now you have the DataFrame (df) from the uploaded CSV file
-        return df.to_html()  # For demonstration, you can return HTML representation of the DataFrame
+        df = pd.read_csv(file,index_col=None)
+        model = PredictPipeline()
+        pred_df = model.predict_csv(df)
+        return pred_df.to_html()
     else:
         return "Invalid file format. Please upload a CSV file."
 #=======================================================================================================

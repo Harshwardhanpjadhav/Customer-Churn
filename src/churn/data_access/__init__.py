@@ -45,6 +45,7 @@ class GetChurnData:
 
             # Replacing nan with np.nan
             df.replace({"na": np.nan}, inplace=True)
+            df.replace({"Unnamed: 0": np.nan}, inplace=True)
 
             logging.info(f'shape of data {df.shape}')
 

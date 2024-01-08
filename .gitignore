@@ -167,3 +167,4 @@ template.py
 saved_models
 mlruns
 saved_LabelEncoder_obj
+preprocessing_obj

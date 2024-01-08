@@ -1,6 +1,6 @@
 import os
 SAVED_MODEL_DIR =os.path.join("saved_models")
-LABELENCODER_OBJ_DIR =  os.path.join("saved_LabelEncoder_obj")
+LABELENCODER_OBJ_DIR =  os.path.join("preprocessing_obj")
 ARTIFACT_DIR_PATH =os.path.join("artifact")
 # Target column name form dataset
 TAREGT_COLUMN_NAME: str = 'Customer Status'
