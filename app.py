@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from flask import Flask,request,render_template,jsonify
+from flask import Flask,request,render_template,jsonify,send_file
 from src.churn.pipeline.prediction_pipeline import PredictPipeline
 
 app = Flask(__name__)
@@ -24,14 +24,12 @@ def starttraining():
 @app.route('/predict')
 def predictpage():
     return render_template('predict.html')
-
 #=======================================================================================================
-
 @app.route('/predict/uploadcsv')
 def uploadpage():
     return render_template('csv.html')
 
-
+#=======================================================================================================
 @app.route('/predict/upload', methods=['POST'])
 def upload_file():
     if 'file' not in request.files:
@@ -44,11 +42,21 @@ def upload_file():
         df = pd.read_csv(file,index_col=None)
         model = PredictPipeline()
         pred_df = model.predict_csv(df)
-        return pred_df.to_html()
+
+        Total_Customers = pred_df.shape
+        Total_Customers = Total_Customers[0]
+
+        churned = pred_df.value_counts()
+        Stayed = pred_df.value_counts()
+        churned_count = churned['Churned']
+        Stayed_count = Stayed['Stayed']
+
+        return render_template('result_csv.html',churned=churned_count,stayed=Stayed_count,Total_Customers=Total_Customers)
     else:
         return "Invalid file format. Please upload a CSV file."
-#=======================================================================================================
+    
 
+#=======================================================================================================
 @app.route('/predict/manualy')
 def manualy():
     return render_template('manual.html')

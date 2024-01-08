@@ -1,8 +1,6 @@
 import os
 import sys
 import dill
-import pickle
-import numpy as np
 import pandas as pd
 from src.churn.logger import logging
 from src.churn.exception import CustomException
@@ -51,14 +49,15 @@ class PredictPipeline:
             prediction = model.predict(dataframe)
             prediction  = labelencoder.inverse_transform(prediction)
 
+
             return prediction
         except Exception as e:
             raise CustomException(e,sys)
         
     def convert_to_dataframe(self,data,col_name):
-
         df = pd.DataFrame(data,columns=[col_name])
         return df
+    
 
 
 

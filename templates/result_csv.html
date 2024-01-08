@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+{% block title %}Churn Status{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/predict.css') }}">
+{% endblock %}
+{% block content %}
+<div class="containerr">
+    <h1>Customers Churn Prediction</h1>
+    <h2>Total Customers</h2>
+    <p>{{Total_Customers}}</p>
+    <div>
+        <div>
+            <div class="block churned">
+                <h2>Total Churned Customers</h2>
+                <p>{{ churned }}</p>
+            </div>
+    
+            <!-- Block for Stayed Customers -->
+            <div class="block stayed">
+                <h2>Total Stayed Customers</h2>
+                <p>{{ stayed }}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
