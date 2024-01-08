@@ -34,6 +34,7 @@ class ModelEvaluation:
 
     def initiate_model_evaluation(self)->ModelEvaluationArtifact:
         try:
+            logging.info("initiated model evaluation")
             valid_train_file_path = self.data_validation_artifact.valid_train_file_path
             valid_test_file_path = self.data_validation_artifact.valid_test_file_path
 
@@ -46,7 +47,9 @@ class ModelEvaluation:
 
             y_true = df[TAREGT_COLUMN_NAME]
             df.drop(TAREGT_COLUMN_NAME,axis=1,inplace=True)
+            logging.info("loading label_encoder")
             label_encoder= load_object(file_path=labelencoder_file_path)
+            logging.info("label_encoder loaded")
             y_true=label_encoder.fit_transform(y_true)
 
             train_model_file_path = self.model_trainer_artifact.trained_model_file_path
@@ -66,7 +69,9 @@ class ModelEvaluation:
             
 
             latest_model_path = model_resolver.get_best_model_path()
+            logging.info("loading latest_model_path")
             latest_model = load_object(file_path=latest_model_path)
+            logging.info("loading train_model_file_path")
             train_model = load_object(file_path=train_model_file_path)
             
             y_trained_pred = train_model.predict(df)
