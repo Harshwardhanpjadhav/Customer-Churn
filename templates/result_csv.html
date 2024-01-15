@@ -20,6 +20,11 @@
                 <h2>Total Stayed Customers</h2>
                 <p>{{ stayed }}</p>
             </div>
+
+            <form action="{{ url_for('fetch_dataframe') }}" method="post">
+                <button type="submit">Fetch and Display CSV Data</button>
+            </form>
+        
         </div>
     </div>
 

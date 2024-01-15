@@ -25,5 +25,3 @@ class MongoDBConnection:
             logging.info("MongoDB Connection Successfull >>>")
         except Exception as e:
             raise CustomException(e,sys)
-
-

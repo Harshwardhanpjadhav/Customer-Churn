@@ -1,0 +1,1319 @@
+,Unnamed: 0,Age,Married,Offer,Phone Service,Avg Monthly Long Distance Charges,Multiple Lines,Internet Type,Avg Monthly GB Download,Online Security,Online Backup,Device Protection Plan,Premium Tech Support,Streaming TV,Streaming Movies,Streaming Music,Contract,Paperless Billing,Payment Method,Monthly Charge,Total Charges,Total Long Distance Charges
+0,0,77,Yes,,Yes,23.05,Yes,Fiber Optic,30.0,No,Yes,Yes,No,No,Yes,No,Month-to-Month,No,Credit Card,94.0,5438.95,1313.85
+1,1,22,Yes,,Yes,29.81,No,Fiber Optic,52.0,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.15,2395.7,745.25
+2,2,47,Yes,,Yes,35.46,Yes,Fiber Optic,23.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,104.3,5278.15,1914.84
+3,3,30,No,,Yes,9.37,No,DSL,59.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,59.45,3043.7,487.24
+4,4,27,No,,Yes,9.19,No,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,20.05,299.3,128.66
+5,5,52,Yes,,Yes,36.5,Yes,,,,,,,,,,Two Year,No,Credit Card,24.75,1715.1,2372.5
+6,6,54,No,,No,,,DSL,17.0,Yes,No,No,Yes,No,No,No,One Year,Yes,Credit Card,36.05,402.6,0.0
+7,7,38,No,Offer B,Yes,41.1,Yes,Fiber Optic,26.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,72.8,3249.4,1890.6
+8,8,28,Yes,Offer D,Yes,8.74,No,,,,,,,,,,One Year,No,Credit Card,20.75,418.25,148.58
+9,9,64,Yes,Offer C,Yes,12.03,No,Fiber Optic,9.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,83.85,2674.15,372.93
+10,10,44,No,,Yes,37.29,Yes,Cable,20.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,62.05,118.3,74.58
+11,11,41,Yes,,Yes,5.01,Yes,Fiber Optic,10.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,113.6,4594.95,205.41
+12,12,56,Yes,Offer C,Yes,25.3,No,Cable,28.0,No,No,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Credit Card,66.4,2019.8,784.3
+13,13,36,No,,Yes,26.55,No,Fiber Optic,12.0,No,Yes,Yes,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,91.65,3954.1,1141.65
+14,14,32,Yes,,Yes,25.48,Yes,Fiber Optic,3.0,Yes,No,Yes,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,98.2,7015.9,1834.56
+15,15,57,No,,Yes,2.58,Yes,,,,,,,,,,One Year,No,Bank Withdrawal,24.9,1334.0,144.48
+16,16,39,Yes,Offer A,No,,,DSL,19.0,Yes,Yes,No,No,Yes,No,No,One Year,No,Credit Card,44.8,2983.65,0.0
+17,17,33,Yes,Offer A,No,,,DSL,12.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,64.7,4746.05,0.0
+18,18,24,No,Offer D,Yes,26.02,No,,,,,,,,,,One Year,No,Mailed Check,19.35,324.8,364.28
+19,19,58,No,Offer B,Yes,26.41,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,20.4,854.9,1056.4
+20,20,65,No,Offer C,Yes,29.88,No,,,,,,,,,,One Year,No,Credit Card,19.3,504.2,776.88
+21,21,37,Yes,,Yes,46.18,No,Fiber Optic,24.0,No,No,No,No,No,Yes,Yes,One Year,Yes,Bank Withdrawal,80.9,4557.5,2586.08
+22,22,21,No,,Yes,14.26,No,DSL,53.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,50.15,762.25,228.16
+23,23,44,No,Offer D,Yes,45.56,No,DSL,17.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,51.2,498.25,455.6
+24,24,64,Yes,Offer B,Yes,16.67,Yes,Cable,17.0,Yes,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,69.4,3058.3,700.14
+25,25,59,Yes,,Yes,30.1,No,,,,,,,,,,Two Year,Yes,Mailed Check,19.15,1177.05,1896.3
+26,26,55,No,Offer E,No,,,DSL,2.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,39.5,210.75,0.0
+27,27,43,Yes,Offer B,Yes,5.52,Yes,Fiber Optic,16.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,80.0,3769.7,253.92
+28,28,49,No,Offer A,Yes,19.68,Yes,Fiber Optic,28.0,No,No,Yes,No,Yes,No,No,One Year,Yes,Bank Withdrawal,92.15,6056.9,1298.88
+29,29,54,No,Offer E,Yes,15.51,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.9,20.9,15.51
+30,30,22,No,Offer E,Yes,12.05,No,Fiber Optic,69.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.25,669.0,84.35
+31,31,44,Yes,,Yes,8.94,Yes,DSL,27.0,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,79.65,3870.3,429.12
+32,32,24,Yes,,Yes,22.78,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.35,1354.4,1640.16
+33,33,54,No,,Yes,17.74,No,,,,,,,,,,Two Year,Yes,Bank Withdrawal,19.3,1447.9,1224.06
+34,34,19,No,Offer E,No,,,Cable,30.0,Yes,No,Yes,Yes,No,Yes,Yes,Month-to-Month,No,Mailed Check,48.25,202.25,0.0
+35,35,46,Yes,Offer B,Yes,38.29,Yes,Fiber Optic,16.0,No,Yes,No,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,98.25,4858.7,1914.5
+36,36,63,No,Offer D,Yes,3.84,No,,,,,,,,,,One Year,No,Credit Card,20.05,337.9,65.28
+37,37,57,Yes,Offer D,Yes,1.21,Yes,Fiber Optic,16.0,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,103.9,2254.2,25.41
+38,38,19,No,Offer D,No,,,DSL,59.0,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,25.35,566.1,0.0
+39,39,57,Yes,,Yes,8.67,Yes,Cable,10.0,Yes,No,No,No,Yes,Yes,Yes,One Year,No,Credit Card,74.8,1821.2,208.08
+40,40,50,No,Offer B,Yes,44.76,Yes,DSL,18.0,Yes,No,No,Yes,No,Yes,Yes,One Year,Yes,Bank Withdrawal,70.95,3629.2,2148.48
+41,41,27,No,,Yes,20.44,No,Fiber Optic,59.0,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.25,1483.25,327.04
+42,42,45,Yes,,Yes,17.03,Yes,DSL,15.0,No,No,Yes,Yes,No,Yes,Yes,One Year,Yes,Credit Card,69.55,3435.6,817.44
+43,43,79,No,,Yes,28.14,Yes,Fiber Optic,10.0,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,103.3,2890.65,787.92
+44,44,76,Yes,Offer D,Yes,24.42,No,Fiber Optic,29.0,No,No,No,No,No,No,No,Two Year,Yes,Bank Withdrawal,70.2,834.7,268.62
+45,45,40,Yes,Offer E,Yes,6.48,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.85,119.3,38.88
+46,46,22,Yes,,Yes,48.02,Yes,,,,,,,,,,One Year,No,Credit Card,24.35,538.5,1104.46
+47,47,49,No,,Yes,17.77,Yes,DSL,13.0,No,No,No,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,66.15,3199.0,870.73
+48,48,19,Yes,Offer A,Yes,25.18,No,,,,,,,,,,Two Year,No,Credit Card,19.4,1346.2,1737.42
+49,49,61,Yes,,Yes,39.97,Yes,Fiber Optic,17.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,78.85,3126.85,1598.8
+50,50,72,Yes,,Yes,27.78,Yes,Fiber Optic,8.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,94.5,3105.55,916.74
+51,51,27,Yes,Offer A,Yes,3.86,Yes,Fiber Optic,85.0,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,104.15,7365.3,274.06
+52,52,22,Yes,Offer B,No,,,DSL,59.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,62.15,3778.85,0.0
+53,53,19,No,,Yes,49.81,No,DSL,41.0,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,-7.0,84.5,99.62
+54,54,79,No,Offer D,Yes,1.06,Yes,Fiber Optic,25.0,No,No,Yes,No,No,No,No,One Year,Yes,Credit Card,82.65,1470.05,18.02
+55,55,26,No,Offer E,Yes,14.78,No,DSL,59.0,No,Yes,No,No,No,No,Yes,Month-to-Month,No,Credit Card,50.65,50.65,14.78
+56,56,20,No,,Yes,19.64,No,Fiber Optic,71.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,94.8,3565.65,707.04
+57,57,53,No,,No,,,DSL,2.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,29.15,110.05,0.0
+58,58,28,No,Offer D,No,,,Cable,53.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,-3.0,446.1,0.0
+59,59,21,Yes,Offer D,Yes,42.98,No,DSL,30.0,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Credit Card,61.15,1422.05,945.56
+60,60,35,No,,Yes,26.43,Yes,Fiber Optic,13.0,No,Yes,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,-7.0,1021.55,264.3
+61,61,19,No,Offer C,Yes,49.87,Yes,Fiber Optic,48.0,Yes,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,86.65,2208.75,1296.62
+62,62,24,Yes,Offer B,Yes,46.76,No,,,,,,,,,,Two Year,No,Credit Card,20.55,1305.95,2852.36
+63,63,45,Yes,,Yes,43.84,No,,,,,,,,,,Two Year,Yes,Credit Card,19.15,515.75,1139.84
+64,64,50,No,,Yes,47.73,Yes,Fiber Optic,25.0,Yes,Yes,No,Yes,Yes,No,No,Month-to-Month,No,Credit Card,100.75,4669.2,2243.31
+65,65,40,No,,Yes,17.87,Yes,Fiber Optic,25.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,75.25,242.0,53.61
+66,66,23,No,Offer E,Yes,48.84,No,DSL,41.0,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,43.3,123.65,146.52
+67,67,63,No,Offer E,Yes,29.87,No,Fiber Optic,5.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,69.05,651.5,268.83
+68,68,62,Yes,,Yes,39.5,Yes,Fiber Optic,16.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,85.8,2440.25,1145.5
+69,69,53,No,,Yes,11.81,No,Fiber Optic,24.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,91.1,455.3,70.86
+70,70,29,No,Offer B,Yes,24.17,No,,,,,,,,,,Two Year,No,Credit Card,19.5,1050.5,1281.01
+71,71,21,Yes,,Yes,42.11,No,,,,,,,,,,One Year,No,Credit Card,19.1,1143.8,2568.71
+72,72,47,No,,No,,,DSL,7.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,50.35,1277.5,0.0
+73,73,61,Yes,Offer A,Yes,46.7,Yes,Fiber Optic,14.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,110.8,7553.6,3175.6
+74,74,24,Yes,,Yes,48.64,Yes,Fiber Optic,30.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,74.65,301.4,194.56
+75,75,41,Yes,Offer A,Yes,36.05,Yes,Fiber Optic,14.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,105.25,7609.75,2595.6
+76,76,33,Yes,,Yes,49.48,Yes,Fiber Optic,11.0,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.1,4107.3,2127.64
+77,77,54,Yes,,Yes,1.09,Yes,Fiber Optic,13.0,No,Yes,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,87.2,4017.45,51.23
+78,78,57,Yes,Offer B,Yes,33.54,Yes,Fiber Optic,4.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Mailed Check,113.3,5032.25,1509.3
+79,79,29,No,Offer C,Yes,3.58,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.5,516.3,89.5
+80,80,43,No,,Yes,48.93,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,23.4,1429.65,3033.66
+81,81,49,No,,Yes,22.22,No,,,,,,,,,,Two Year,Yes,Credit Card,19.9,1355.1,1577.62
+82,82,28,Yes,Offer A,Yes,39.09,Yes,Fiber Optic,69.0,Yes,No,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,97.2,6910.3,2775.39
+83,83,23,Yes,Offer B,No,,,DSL,69.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,41.05,2452.7,0.0
+84,84,67,No,,Yes,16.78,Yes,Fiber Optic,15.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,79.85,1471.75,318.82
+85,85,69,Yes,,Yes,40.94,Yes,DSL,8.0,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Credit Card,88.55,6306.5,2865.8
+86,86,48,Yes,Offer B,Yes,11.53,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,25.45,1538.6,703.33
+87,87,37,Yes,Offer A,Yes,46.16,Yes,Fiber Optic,14.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,110.9,8240.85,3323.52
+88,88,52,No,Offer D,No,,,DSL,14.0,No,No,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,50.75,688.2,0.0
+89,89,24,Yes,Offer D,Yes,1.88,No,,,,,,,,,,Two Year,Yes,Credit Card,19.65,451.55,43.24
+90,90,59,Yes,Offer D,Yes,33.46,No,Fiber Optic,29.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,80.15,1790.65,736.12
+91,91,68,No,,Yes,48.43,Yes,DSL,28.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,54.9,3725.5,3244.81
+92,92,39,Yes,Offer A,No,,,DSL,17.0,Yes,No,No,No,Yes,Yes,Yes,Two Year,No,Credit Card,50.9,3281.65,0.0
+93,93,33,Yes,Offer B,Yes,25.57,No,,,,,,,,,,Two Year,No,Credit Card,19.3,1192.7,1508.63
+94,94,71,Yes,,Yes,47.01,Yes,Fiber Optic,19.0,No,Yes,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,100.2,1369.8,658.14
+95,95,31,Yes,Offer A,Yes,9.33,Yes,,,,,,,,,,Two Year,No,Credit Card,25.4,1782.05,653.1
+96,96,55,Yes,Offer A,Yes,33.37,Yes,DSL,9.0,No,Yes,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,76.1,5264.25,2335.9
+97,97,56,No,,No,,,DSL,57.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,24.75,24.75,0.0
+98,98,72,No,Offer E,Yes,18.2,No,Fiber Optic,13.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,70.55,70.55,18.2
+99,99,42,Yes,,Yes,6.19,Yes,Fiber Optic,9.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,116.25,8564.75,439.49
+100,100,47,Yes,,Yes,1.38,No,Fiber Optic,16.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,69.95,320.4,6.9
+101,101,44,No,,Yes,23.72,No,Fiber Optic,19.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.2,69.2,23.72
+102,102,45,No,Offer B,Yes,26.25,No,,,,,,,,,,Two Year,No,Credit Card,20.1,1079.45,1417.5
+103,103,69,Yes,,Yes,17.87,Yes,Fiber Optic,9.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,77.5,3807.35,911.37
+104,104,79,No,,No,,,DSL,11.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,24.35,41.85,0.0
+105,105,56,Yes,,Yes,39.98,Yes,,,,,,,,,,Two Year,No,Credit Card,-7.0,1849.2,2878.56
+106,106,34,No,Offer D,Yes,33.79,Yes,Fiber Optic,23.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,75.25,888.65,371.69
+107,107,62,Yes,Offer B,Yes,42.35,Yes,Fiber Optic,76.0,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,104.1,5645.8,2286.9
+108,108,43,Yes,,Yes,3.79,No,Fiber Optic,14.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Credit Card,89.7,4952.95,212.24
+109,109,33,Yes,,Yes,7.49,No,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,19.9,19.9,7.49
+110,110,79,No,,Yes,43.34,No,Fiber Optic,2.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,80.85,751.65,390.06
+111,111,35,No,Offer B,Yes,49.48,Yes,Cable,9.0,No,No,Yes,No,No,No,No,Two Year,No,Credit Card,54.15,3116.15,2919.32
+112,112,40,No,,Yes,26.85,No,Fiber Optic,11.0,Yes,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,84.6,84.6,26.85
+113,113,60,No,,Yes,31.7,No,,,,,,,,,,Two Year,No,Credit Card,20.45,1024.65,1553.3
+114,114,49,Yes,,Yes,15.15,Yes,Fiber Optic,28.0,Yes,No,Yes,Yes,Yes,No,No,Month-to-Month,No,Bank Withdrawal,99.4,5943.65,924.15
+115,115,54,Yes,Offer B,Yes,31.96,No,Fiber Optic,26.0,Yes,No,Yes,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,84.05,4326.8,1661.92
+116,116,44,No,,Yes,12.17,No,Fiber Optic,16.0,No,Yes,No,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,97.0,3021.3,365.1
+117,117,32,No,,Yes,49.14,No,Fiber Optic,15.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,88.45,370.65,196.56
+118,118,40,Yes,,Yes,11.67,Yes,Fiber Optic,26.0,Yes,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,106.1,7848.5,840.24
+119,119,32,Yes,,No,,,DSL,16.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,65.65,4664.5,0.0
+120,120,65,Yes,,No,,,DSL,23.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,53.0,3656.25,0.0
+121,121,59,Yes,Offer A,Yes,26.91,No,Cable,30.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,65.85,4097.05,1776.06
+122,122,40,Yes,Offer C,No,,,Cable,23.0,Yes,Yes,No,Yes,No,No,No,Month-to-Month,No,Credit Card,38.85,1025.15,0.0
+123,123,58,No,Offer E,Yes,1.88,No,DSL,21.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,50.8,202.3,7.52
+124,124,54,Yes,,Yes,28.73,No,,,,,,,,,,Month-to-Month,No,Mailed Check,19.45,19.45,28.73
+125,125,74,No,,Yes,47.63,Yes,Fiber Optic,26.0,Yes,Yes,No,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,95.0,2497.2,1238.38
+126,126,75,No,Offer E,Yes,40.45,Yes,Fiber Optic,29.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,100.6,819.4,323.6
+127,127,45,No,Offer D,No,,,DSL,9.0,Yes,Yes,No,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,50.95,605.75,0.0
+128,128,40,No,Offer B,No,,,DSL,19.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,58.75,3038.55,0.0
+129,129,19,Yes,,No,,,Cable,82.0,Yes,No,No,Yes,No,No,No,One Year,Yes,Credit Card,35.8,1782.0,0.0
+130,130,34,No,,Yes,43.26,Yes,Fiber Optic,21.0,No,Yes,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.85,953.45,432.6
+131,131,20,No,Offer E,Yes,18.28,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,19.65,67.55,73.12
+132,132,40,Yes,,Yes,29.93,Yes,Fiber Optic,24.0,No,No,No,No,Yes,No,No,Two Year,No,Bank Withdrawal,82.5,4828.05,1735.94
+133,133,19,Yes,,Yes,46.47,No,,,,,,,,,,Two Year,No,Credit Card,19.35,278.85,697.05
+134,134,19,No,,No,,,DSL,59.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,39.7,710.05,0.0
+135,135,56,No,,Yes,23.89,No,DSL,14.0,No,No,No,No,No,No,No,Month-to-Month,No,Mailed Check,46.0,221.7,119.45
+136,136,31,Yes,,Yes,32.07,Yes,Fiber Optic,22.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,102.1,1068.85,320.7
+137,137,34,Yes,,Yes,26.11,No,,,,,,,,,,One Year,Yes,Credit Card,20.55,184.95,287.21
+138,138,76,No,,No,,,Cable,20.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,29.65,291.4,0.0
+139,139,60,No,,Yes,42.05,Yes,Fiber Optic,12.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,81.15,2640.55,1303.55
+140,140,23,No,Offer E,No,,,DSL,71.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,47.95,305.1,0.0
+141,141,79,Yes,,Yes,42.95,No,DSL,30.0,Yes,Yes,No,No,No,Yes,No,One Year,Yes,Bank Withdrawal,-3.0,1339.8,901.95
+142,142,53,Yes,,Yes,9.21,Yes,Fiber Optic,30.0,No,Yes,No,No,No,Yes,Yes,One Year,Yes,Credit Card,90.35,4614.55,469.71
+143,143,39,No,,Yes,12.92,No,Fiber Optic,24.0,No,Yes,No,Yes,Yes,No,No,Month-to-Month,No,Credit Card,89.65,2623.65,374.68
+144,144,25,No,Offer C,Yes,16.38,Yes,Fiber Optic,82.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,74.2,1993.25,475.02
+145,145,62,No,Offer B,Yes,26.21,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.75,1052.35,1389.13
+146,146,45,Yes,,Yes,30.77,No,DSL,75.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,44.65,369.15,246.16
+147,147,50,No,,Yes,44.92,Yes,Fiber Optic,16.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,90.4,4063.0,1976.48
+148,148,60,Yes,Offer D,Yes,23.0,No,Fiber Optic,17.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,70.2,1046.5,322.0
+149,149,67,Yes,,Yes,33.21,No,Fiber Optic,4.0,No,No,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,88.8,4805.3,1826.55
+150,150,23,No,,Yes,35.3,No,Fiber Optic,41.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,79.85,2001.0,847.2
+151,151,47,No,,No,,,Cable,10.0,Yes,No,No,Yes,Yes,No,No,Two Year,No,Credit Card,45.2,2460.55,0.0
+152,152,26,No,,Yes,5.6,No,Cable,30.0,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,63.95,2737.05,240.8
+153,153,61,Yes,Offer E,No,,,Cable,13.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,35.15,99.75,0.0
+154,154,22,No,,Yes,31.03,Yes,Fiber Optic,27.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,85.45,85.45,31.03
+155,155,62,No,Offer E,No,,,DSL,22.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Mailed Check,35.05,35.05,0.0
+156,156,41,No,Offer E,Yes,31.68,No,Fiber Optic,22.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,90.6,90.6,31.68
+157,157,64,Yes,,Yes,43.11,Yes,Fiber Optic,18.0,No,No,No,Yes,No,No,No,One Year,Yes,Bank Withdrawal,79.25,2619.15,1379.52
+158,158,42,No,Offer A,Yes,18.47,Yes,DSL,28.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,85.35,5897.4,1274.43
+159,159,27,No,,Yes,39.39,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,20.0,185.4,393.9
+160,160,32,No,,Yes,7.83,Yes,Fiber Optic,19.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,81.3,3190.65,321.03
+161,161,74,No,,Yes,13.8,Yes,Fiber Optic,6.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.75,606.25,110.4
+162,162,37,No,,Yes,3.84,No,Fiber Optic,4.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,81.15,952.3,49.92
+163,163,20,No,,No,,,DSL,73.0,No,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,35.65,425.1,0.0
+164,164,22,No,,Yes,13.31,Yes,Cable,59.0,No,No,No,Yes,No,Yes,Yes,Month-to-Month,No,Credit Card,65.55,237.2,53.24
+165,165,44,Yes,,No,,,Cable,25.0,No,Yes,No,No,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,49.35,3515.25,0.0
+166,166,79,No,Offer A,Yes,28.88,Yes,DSL,11.0,Yes,Yes,No,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,64.55,4250.1,1934.96
+167,167,52,No,,Yes,46.28,Yes,Fiber Optic,16.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,94.65,2104.55,1018.16
+168,168,39,Yes,,Yes,24.81,Yes,Cable,24.0,No,No,Yes,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,72.1,4194.85,1463.79
+169,169,29,No,,Yes,6.67,No,Fiber Optic,27.0,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.6,95.6,6.67
+170,170,44,Yes,,Yes,47.24,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.05,1423.65,3401.28
+171,171,52,Yes,Offer B,Yes,24.33,No,,,,,,,,,,Two Year,Yes,Credit Card,19.25,864.2,1119.18
+172,172,37,Yes,,Yes,3.65,Yes,Fiber Optic,20.0,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.4,5435.6,211.7
+173,173,35,Yes,,Yes,11.58,No,Fiber Optic,27.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,81.1,576.65,81.06
+174,174,27,No,Offer D,Yes,22.01,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,20.3,275.4,286.13
+175,175,57,No,,Yes,5.61,No,DSL,24.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Mailed Check,54.85,370.4,39.27
+176,176,53,Yes,,No,,,DSL,53.0,Yes,No,Yes,Yes,Yes,No,No,Two Year,No,Mailed Check,48.9,3527.0,0.0
+177,177,26,Yes,Offer E,Yes,28.77,Yes,Fiber Optic,19.0,No,Yes,Yes,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,84.8,371.9,115.08
+178,178,75,Yes,,Yes,23.54,No,Fiber Optic,7.0,No,No,No,No,No,No,No,Two Year,Yes,Bank Withdrawal,72.25,2575.45,870.98
+179,179,67,Yes,Offer E,No,,,DSL,20.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,36.45,93.7,0.0
+180,180,54,No,Offer E,Yes,20.86,No,Fiber Optic,8.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,96.5,492.55,104.3
+181,181,32,Yes,,Yes,28.64,Yes,Fiber Optic,52.0,Yes,No,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,101.15,6638.35,1775.68
+182,182,31,Yes,Offer A,Yes,45.32,Yes,Fiber Optic,11.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,110.9,7922.75,3263.04
+183,183,41,No,Offer B,Yes,1.7,No,Fiber Optic,28.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,68.85,2958.95,74.8
+184,184,77,Yes,,Yes,40.9,Yes,Fiber Optic,8.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,105.05,5163.3,2045.0
+185,185,38,Yes,Offer B,Yes,22.14,Yes,DSL,2.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,86.1,4890.5,1284.12
+186,186,28,Yes,Offer E,Yes,24.83,Yes,Cable,82.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,48.95,273.25,148.98
+187,187,60,No,Offer B,Yes,14.52,Yes,Fiber Optic,27.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,No,Credit Card,89.2,5500.6,885.72
+188,188,25,No,Offer A,Yes,28.4,Yes,Fiber Optic,76.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,113.15,7993.3,2016.4
+189,189,38,Yes,Offer B,Yes,9.91,No,Cable,19.0,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,78.8,3597.5,445.95
+190,190,36,Yes,,Yes,25.16,Yes,Cable,26.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,85.3,5560.0,1710.88
+191,191,61,Yes,,Yes,7.83,No,,,,,,,,,,Two Year,No,Credit Card,20.0,1374.2,516.78
+192,192,39,No,Offer D,Yes,8.95,No,,,,,,,,,,One Year,No,Bank Withdrawal,20.15,390.85,161.1
+193,193,31,No,Offer E,No,,,Cable,52.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,57.2,223.75,0.0
+194,194,56,No,,Yes,4.9,Yes,,,,,,,,,,Two Year,No,Credit Card,25.75,1654.75,318.5
+195,195,33,Yes,,Yes,18.47,No,DSL,30.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Credit Card,55.95,1082.8,332.46
+196,196,31,Yes,,Yes,34.66,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.05,761.85,1455.72
+197,197,48,Yes,,Yes,4.14,Yes,Fiber Optic,30.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.95,381.3,16.56
+198,198,33,No,Offer E,Yes,49.76,No,Fiber Optic,3.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,79.25,267.6,149.28
+199,199,58,No,,Yes,20.93,No,Fiber Optic,11.0,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,105.85,5826.65,1130.22
+200,200,65,Yes,Offer A,No,,,Cable,9.0,No,Yes,Yes,No,Yes,No,No,One Year,No,Bank Withdrawal,45.55,3027.25,0.0
+201,201,27,No,,Yes,47.79,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.65,351.55,812.43
+202,202,53,Yes,,Yes,26.03,No,,,,,,,,,,One Year,No,Credit Card,19.6,678.8,885.02
+203,203,71,No,Offer E,Yes,42.93,No,Fiber Optic,9.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,92.1,729.95,343.44
+204,204,31,No,,Yes,37.81,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,19.25,617.65,1323.35
+205,205,56,Yes,,Yes,29.5,Yes,,,,,,,,,,Two Year,No,Credit Card,25.15,1509.9,1711.0
+206,206,40,No,Offer D,Yes,4.67,No,Fiber Optic,28.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,69.0,994.8,70.05
+207,207,35,No,Offer D,Yes,4.15,No,Cable,18.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,44.35,927.15,83.0
+208,208,71,No,,Yes,30.05,No,Fiber Optic,11.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,69.05,318.5,150.25
+209,209,62,No,Offer A,No,,,DSL,11.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,44.6,3058.15,0.0
+210,210,33,No,,No,,,DSL,25.0,No,Yes,No,Yes,Yes,No,No,Two Year,No,Credit Card,45.25,2933.95,0.0
+211,211,53,No,,Yes,43.72,Yes,Fiber Optic,21.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,91.85,257.05,131.16
+212,212,56,Yes,,Yes,42.26,No,Fiber Optic,2.0,No,No,No,Yes,No,Yes,Yes,Month-to-Month,No,Credit Card,85.9,2196.45,1098.76
+213,213,74,Yes,Offer A,Yes,28.72,Yes,Fiber Optic,25.0,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,114.85,8317.95,2067.84
+214,214,58,No,Offer D,Yes,20.41,Yes,Fiber Optic,11.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,86.0,1532.45,387.79
+215,215,20,Yes,Offer B,Yes,44.79,Yes,Fiber Optic,52.0,No,No,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,101.25,5301.1,2329.08
+216,216,46,No,,Yes,24.66,Yes,Fiber Optic,22.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,84.9,3067.2,887.76
+217,217,32,Yes,,Yes,26.85,No,,,,,,,,,,Two Year,Yes,Credit Card,20.15,1411.2,1879.5
+218,218,58,Yes,,Yes,17.33,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.55,1463.45,1247.76
+219,219,57,Yes,Offer A,Yes,7.91,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,20.85,1327.4,529.97
+220,220,27,Yes,,Yes,13.11,Yes,DSL,51.0,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,79.2,1742.75,288.42
+221,221,34,No,,Yes,44.69,No,,,,,,,,,,Two Year,Yes,Credit Card,20.55,945.7,2100.43
+222,222,66,Yes,,Yes,15.6,No,Fiber Optic,19.0,No,No,Yes,Yes,Yes,No,No,Two Year,No,Bank Withdrawal,90.0,3371.75,577.2
+223,223,59,No,,Yes,43.01,No,Cable,4.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,85.35,2530.4,1290.3
+224,224,69,Yes,,Yes,33.74,Yes,Fiber Optic,6.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,93.2,2931.0,1079.68
+225,225,34,No,,Yes,7.1,Yes,Fiber Optic,10.0,No,No,Yes,No,Yes,No,No,Two Year,Yes,Bank Withdrawal,89.55,5231.2,426.0
+226,226,36,No,Offer D,Yes,6.86,No,DSL,8.0,No,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,53.9,834.15,109.76
+227,227,63,Yes,,Yes,2.8,Yes,Fiber Optic,20.0,No,Yes,Yes,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,90.55,5116.6,156.8
+228,228,71,No,,Yes,20.83,Yes,Fiber Optic,19.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,99.05,3395.8,729.05
+229,229,31,No,,Yes,20.86,No,DSL,3.0,Yes,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,49.4,874.8,375.48
+230,230,28,Yes,,Yes,12.87,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.4,1496.45,926.64
+231,231,60,Yes,Offer B,Yes,18.64,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.2,1027.25,894.72
+232,232,22,Yes,Offer C,Yes,1.71,Yes,,,,,,,,,,One Year,No,Credit Card,24.15,800.3,56.43
+233,233,48,Yes,Offer E,Yes,35.71,No,Cable,3.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,80.0,80.0,35.71
+234,234,36,No,,Yes,23.5,Yes,Fiber Optic,22.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.65,302.35,94.0
+235,235,70,No,,Yes,16.85,No,Fiber Optic,30.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,84.6,865.55,168.5
+236,236,54,No,Offer B,Yes,30.82,Yes,,,,,,,,,,Two Year,No,Credit Card,24.0,1183.05,1479.36
+237,237,69,No,Offer E,No,,,DSL,21.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,25.05,25.05,0.0
+238,238,33,No,,Yes,5.16,No,DSL,16.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,44.55,480.6,61.92
+239,239,27,Yes,,Yes,25.32,No,DSL,30.0,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Credit Card,61.0,2130.45,886.2
+240,240,76,No,Offer E,Yes,12.96,No,Fiber Optic,20.0,No,Yes,Yes,Yes,No,Yes,No,Month-to-Month,Yes,Credit Card,95.1,180.25,25.92
+241,241,39,No,,Yes,6.61,No,,,,,,,,,,One Year,Yes,Credit Card,20.25,865.0,271.01
+242,242,77,Yes,,Yes,47.64,No,Fiber Optic,25.0,No,Yes,Yes,Yes,Yes,No,No,One Year,Yes,Bank Withdrawal,94.0,4871.45,2524.92
+243,243,43,Yes,,Yes,6.68,No,Fiber Optic,25.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,110.5,5835.5,354.04
+244,244,59,No,,Yes,33.88,No,Fiber Optic,6.0,No,Yes,Yes,Yes,No,Yes,Yes,One Year,Yes,Credit Card,94.45,5042.75,1795.64
+245,245,60,Yes,Offer B,Yes,29.23,Yes,Fiber Optic,30.0,No,Yes,Yes,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,94.6,5025.8,1519.96
+246,246,59,Yes,,Yes,24.04,Yes,Fiber Optic,22.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.85,3089.6,769.28
+247,247,56,No,,Yes,23.25,No,,,,,,,,,,One Year,Yes,Credit Card,20.65,958.1,976.5
+248,248,26,Yes,Offer B,Yes,43.2,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.9,942.95,2030.4
+249,249,48,No,,Yes,37.79,No,Cable,25.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,49.85,365.55,302.32
+250,250,58,No,,Yes,8.35,No,Cable,29.0,No,No,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Credit Card,60.95,629.55,83.5
+251,251,24,No,,Yes,49.61,No,DSL,76.0,Yes,No,No,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,75.0,1908.35,1289.86
+252,252,63,No,Offer C,Yes,45.7,No,,,,,,,,,,One Year,No,Credit Card,19.8,457.3,1188.2
+253,253,49,No,Offer D,Yes,22.97,Yes,,,,,,,,,,Month-to-Month,Yes,Credit Card,24.85,493.4,505.34
+254,254,80,Yes,Offer C,Yes,33.63,Yes,Fiber Optic,25.0,Yes,No,No,No,No,Yes,No,One Year,Yes,Bank Withdrawal,89.05,2177.45,840.75
+255,255,58,No,Offer B,Yes,5.55,Yes,Fiber Optic,7.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,115.1,6993.65,338.55
+256,256,45,No,Offer E,Yes,20.23,Yes,Fiber Optic,17.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,100.25,100.25,20.23
+257,257,27,Yes,Offer B,Yes,21.07,No,Fiber Optic,46.0,Yes,Yes,Yes,No,Yes,No,No,One Year,Yes,Bank Withdrawal,93.5,4619.55,1074.57
+258,258,70,Yes,,No,,,DSL,12.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,48.35,810.7,0.0
+259,259,63,No,Offer B,Yes,8.08,Yes,Fiber Optic,21.0,Yes,Yes,No,Yes,No,Yes,Yes,One Year,No,Bank Withdrawal,102.0,6529.25,500.96
+260,260,31,No,,Yes,24.16,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.95,107.05,120.8
+261,261,33,Yes,,No,,,Cable,22.0,Yes,No,Yes,Yes,No,No,No,Two Year,Yes,Credit Card,39.4,825.4,0.0
+262,262,40,Yes,Offer D,Yes,29.92,No,Fiber Optic,21.0,Yes,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,84.05,1095.3,388.96
+263,263,35,No,,Yes,24.72,Yes,Fiber Optic,29.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,79.5,2180.55,667.44
+264,264,76,No,,No,,,DSL,26.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,25.8,25.8,0.0
+265,265,51,Yes,,Yes,22.83,Yes,Cable,22.0,Yes,Yes,Yes,No,No,No,No,Two Year,No,Credit Card,65.65,4322.85,1529.61
+266,266,63,No,,Yes,26.09,No,Fiber Optic,2.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,79.0,522.95,182.63
+267,267,52,No,,Yes,41.21,Yes,Fiber Optic,6.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,83.15,2848.45,1442.35
+268,268,40,Yes,,Yes,12.82,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.35,275.9,205.12
+269,269,28,Yes,Offer E,Yes,9.76,No,Cable,27.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,70.7,141.45,19.52
+270,270,47,Yes,,Yes,15.66,No,Fiber Optic,24.0,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,103.75,3361.05,516.78
+271,271,50,Yes,,Yes,19.23,Yes,,,,,,,,,,One Year,No,Credit Card,24.9,1595.5,1230.72
+272,272,78,No,Offer B,Yes,34.0,Yes,DSL,3.0,Yes,No,Yes,No,No,No,No,Two Year,No,Bank Withdrawal,59.85,3103.25,1768.0
+273,273,27,Yes,Offer D,Yes,46.47,No,,,,,,,,,,One Year,No,Credit Card,20.65,417.5,929.4
+274,274,46,No,,Yes,2.74,No,,,,,,,,,,Month-to-Month,No,Mailed Check,19.9,320.45,41.1
+275,275,30,No,,No,,,Cable,59.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,31.2,926.2,0.0
+276,276,53,Yes,,Yes,17.33,No,DSL,13.0,No,Yes,Yes,Yes,No,Yes,Yes,One Year,No,Bank Withdrawal,70.25,2198.9,519.9
+277,277,76,No,,Yes,19.11,No,Fiber Optic,8.0,Yes,No,Yes,Yes,No,Yes,No,Month-to-Month,Yes,Credit Card,96.3,1426.75,286.65
+278,278,65,No,Offer E,No,,,DSL,4.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,29.4,221.9,0.0
+279,279,25,Yes,,Yes,24.33,No,Fiber Optic,52.0,No,Yes,No,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,92.55,4779.45,1289.49
+280,280,67,Yes,Offer C,Yes,16.43,Yes,Fiber Optic,20.0,No,No,No,Yes,Yes,Yes,No,Month-to-Month,Yes,Credit Card,101.3,2812.2,460.04
+281,281,45,Yes,,Yes,28.04,No,Fiber Optic,28.0,No,No,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.6,1601.5,504.72
+282,282,46,Yes,,Yes,36.13,No,Cable,21.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,85.3,6129.2,2601.36
+283,283,33,Yes,,Yes,3.51,Yes,Fiber Optic,28.0,No,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,102.1,5885.4,203.58
+284,284,73,No,,Yes,19.03,Yes,Fiber Optic,24.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.05,1290.0,247.39
+285,285,23,No,,Yes,34.42,Yes,Fiber Optic,42.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,89.75,552.65,206.52
+286,286,35,Yes,,Yes,41.93,No,Fiber Optic,53.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,78.9,299.75,167.72
+287,287,55,Yes,Offer C,Yes,42.14,No,DSL,19.0,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,No,Credit Card,80.3,3058.65,1601.32
+288,288,44,No,Offer E,Yes,47.19,No,,,,,,,,,,Month-to-Month,No,Mailed Check,20.75,141.1,330.33
+289,289,44,No,Offer E,Yes,44.94,No,Fiber Optic,16.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,81.95,81.95,44.94
+290,290,41,Yes,Offer B,Yes,33.22,Yes,Fiber Optic,29.0,No,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,103.15,4594.65,1528.12
+291,291,73,Yes,,Yes,37.12,Yes,Fiber Optic,18.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,No,Credit Card,108.5,6991.9,2338.56
+292,292,69,Yes,Offer A,Yes,5.27,No,DSL,9.0,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,No,Bank Withdrawal,74.4,5360.75,379.44
+293,293,39,Yes,Offer A,Yes,42.23,Yes,Fiber Optic,30.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.2,6936.85,2787.18
+294,294,29,No,,No,,,DSL,73.0,No,No,No,No,No,No,Yes,Month-to-Month,No,Mailed Check,25.2,25.2,0.0
+295,295,36,Yes,,Yes,2.92,Yes,Fiber Optic,21.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,74.4,896.75,37.96
+296,296,29,No,Offer D,Yes,44.43,Yes,Fiber Optic,41.0,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,100.75,1313.25,577.59
+297,297,74,Yes,,Yes,46.11,Yes,DSL,20.0,No,Yes,Yes,Yes,No,Yes,No,One Year,Yes,Bank Withdrawal,72.9,5139.65,3273.81
+298,298,58,Yes,Offer B,Yes,36.3,No,Fiber Optic,9.0,No,Yes,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,94.8,4690.65,1778.7
+299,299,43,No,,Yes,16.82,No,Fiber Optic,26.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,101.25,1457.25,252.3
+300,300,28,Yes,,Yes,13.58,Yes,DSL,51.0,No,Yes,Yes,No,Yes,No,No,One Year,No,Bank Withdrawal,68.5,2839.95,556.78
+301,301,53,Yes,Offer E,Yes,1.57,No,,,,,,,,,,One Year,No,Credit Card,19.45,113.5,9.42
+302,302,57,Yes,,Yes,27.41,Yes,DSL,10.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,55.05,2030.75,1014.17
+303,303,28,Yes,,No,,,Cable,58.0,Yes,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,45.3,2145.0,0.0
+304,304,31,No,,No,,,DSL,10.0,No,No,No,Yes,No,No,No,Month-to-Month,No,Credit Card,28.6,973.55,0.0
+305,305,80,No,,Yes,14.89,No,Fiber Optic,20.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.7,560.85,119.12
+306,306,56,No,,Yes,29.95,Yes,DSL,19.0,Yes,Yes,No,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,61.9,619.0,299.5
+307,307,61,Yes,,Yes,9.13,Yes,Fiber Optic,12.0,No,No,No,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,91.65,1301.0,127.82
+308,308,38,Yes,Offer A,Yes,31.78,No,,,,,,,,,,Two Year,No,Credit Card,-3.0,1458.1,2224.6
+309,309,41,No,Offer D,No,,,Cable,29.0,No,No,No,Yes,No,No,No,Two Year,Yes,Mailed Check,29.6,299.05,0.0
+310,310,71,Yes,,Yes,21.67,Yes,Cable,6.0,Yes,No,No,Yes,No,No,No,One Year,Yes,Bank Withdrawal,60.05,3229.65,1148.51
+311,311,45,No,,No,,,DSL,27.0,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,54.85,916.15,0.0
+312,312,79,No,,Yes,4.99,No,,,,,,,,,,Two Year,Yes,Bank Withdrawal,20.05,1198.05,319.36
+313,313,44,No,,Yes,21.66,No,,,,,,,,,,One Year,No,Credit Card,20.3,595.05,584.82
+314,314,51,Yes,,Yes,46.92,No,Fiber Optic,7.0,No,No,Yes,Yes,No,Yes,Yes,Month-to-Month,No,Credit Card,90.0,190.05,93.84
+315,315,66,No,,Yes,1.78,No,Fiber Optic,7.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,74.5,606.55,14.24
+316,316,31,No,,No,,,DSL,29.0,No,No,Yes,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,54.85,2191.7,0.0
+317,317,32,No,,Yes,3.95,No,DSL,30.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,48.8,1054.6,86.9
+318,318,25,No,,Yes,26.51,No,Cable,85.0,No,Yes,No,Yes,No,Yes,Yes,One Year,Yes,Credit Card,65.4,2498.4,954.36
+319,319,48,No,,Yes,11.09,Yes,Fiber Optic,6.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Mailed Check,94.55,2724.6,299.43
+320,320,33,No,Offer C,Yes,4.24,No,,,,,,,,,,Two Year,No,Credit Card,19.25,677.9,148.4
+321,321,67,No,Offer B,Yes,11.23,No,DSL,30.0,Yes,No,Yes,Yes,Yes,No,No,Two Year,No,Bank Withdrawal,69.85,4003.0,640.11
+322,322,51,No,,Yes,43.49,Yes,Cable,4.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,49.95,49.95,43.49
+323,323,55,Yes,,Yes,33.63,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,25.25,1108.2,1412.46
+324,324,21,No,,Yes,39.21,No,Fiber Optic,42.0,No,No,No,No,Yes,No,Yes,Month-to-Month,Yes,Mailed Check,80.3,526.7,274.47
+325,325,45,No,Offer D,Yes,27.6,No,,,,,,,,,,Two Year,No,Credit Card,19.6,397.0,579.6
+326,326,22,Yes,Offer B,Yes,14.75,Yes,Fiber Optic,52.0,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.5,6487.2,914.5
+327,327,35,Yes,,Yes,48.07,Yes,Fiber Optic,53.0,No,Yes,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,96.65,5580.8,2836.13
+328,328,73,No,,Yes,5.57,No,Cable,24.0,Yes,No,Yes,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,66.4,94.55,11.14
+329,329,75,Yes,Offer C,Yes,46.61,Yes,Fiber Optic,26.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,85.7,3171.15,1724.57
+330,330,44,No,Offer D,Yes,17.23,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.35,212.3,206.76
+331,331,46,No,Offer D,Yes,33.86,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,18.9,347.65,677.2
+332,332,78,Yes,Offer B,Yes,46.65,Yes,Fiber Optic,23.0,No,Yes,No,Yes,No,No,No,One Year,Yes,Bank Withdrawal,85.55,5251.75,2845.65
+333,333,44,Yes,Offer A,No,,,DSL,16.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,47.6,3377.8,0.0
+334,334,75,Yes,,Yes,16.87,Yes,Fiber Optic,17.0,No,No,Yes,No,No,No,No,Two Year,Yes,Bank Withdrawal,80.8,457.1,101.22
+335,335,79,Yes,,Yes,25.57,Yes,,,,,,,,,,Month-to-Month,No,Mailed Check,25.7,734.6,715.96
+336,336,58,No,Offer D,Yes,34.07,No,DSL,28.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,45.65,747.2,613.26
+337,337,37,Yes,Offer E,Yes,48.38,No,Fiber Optic,14.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,80.3,250.05,145.14
+338,338,53,No,,Yes,2.32,No,,,,,,,,,,Two Year,Yes,Credit Card,19.85,810.45,95.12
+339,339,23,No,,Yes,7.99,Yes,Fiber Optic,76.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,109.8,3587.25,271.66
+340,340,20,No,,No,,,DSL,59.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Mailed Check,51.0,305.95,0.0
+341,341,57,Yes,,Yes,46.06,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.5,255.5,552.72
+342,342,57,Yes,Offer A,Yes,42.67,Yes,DSL,24.0,Yes,No,Yes,Yes,No,No,No,Two Year,No,Credit Card,65.3,4759.75,2986.9
+343,343,27,No,Offer B,Yes,30.6,No,Fiber Optic,59.0,Yes,Yes,Yes,No,Yes,No,No,One Year,Yes,Credit Card,95.65,4664.2,1407.6
+344,344,44,No,Offer E,No,,,DSL,21.0,No,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Mailed Check,36.85,108.7,0.0
+345,345,40,Yes,Offer B,Yes,3.78,Yes,Fiber Optic,27.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,105.25,5576.3,200.34
+346,346,46,Yes,,Yes,5.69,No,,,,,,,,,,Month-to-Month,No,Mailed Check,19.85,573.05,165.01
+347,347,56,Yes,,Yes,11.94,No,DSL,3.0,Yes,Yes,Yes,No,No,Yes,Yes,Two Year,No,Bank Withdrawal,70.95,4741.45,811.92
+348,348,29,Yes,Offer C,Yes,40.25,No,Fiber Optic,19.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,86.3,3266.0,1569.75
+349,349,23,Yes,,Yes,28.4,No,,,,,,,,,,One Year,No,Credit Card,20.1,579.4,937.2
+350,350,64,No,Offer C,Yes,17.46,Yes,Fiber Optic,22.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.05,3810.55,646.02
+351,351,56,Yes,Offer B,Yes,8.18,Yes,Fiber Optic,53.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.4,4613.95,400.82
+352,352,75,Yes,,Yes,10.6,Yes,Fiber Optic,23.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.5,1893.95,286.2
+353,353,44,No,Offer E,Yes,3.34,No,Cable,13.0,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,78.5,571.05,23.38
+354,354,58,No,Offer E,Yes,26.53,No,DSL,30.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,44.4,44.4,26.53
+355,355,49,No,Offer D,Yes,1.36,Yes,Fiber Optic,25.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,85.25,1734.5,27.2
+356,356,64,No,,Yes,29.53,Yes,Cable,7.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,89.75,6367.2,2067.1
+357,357,35,No,,Yes,45.61,No,DSL,53.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,50.3,846.8,775.37
+358,358,23,Yes,,Yes,6.09,Yes,DSL,41.0,Yes,No,Yes,Yes,No,No,No,Two Year,Yes,Credit Card,66.5,4811.6,438.48
+359,359,55,No,Offer D,Yes,9.04,No,DSL,8.0,No,Yes,Yes,No,No,No,No,One Year,No,Bank Withdrawal,55.8,1327.85,207.92
+360,360,56,No,,Yes,34.49,No,Cable,22.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,51.0,354.05,241.43
+361,361,78,No,,No,,,DSL,23.0,No,Yes,Yes,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,50.5,2566.3,0.0
+362,362,30,No,Offer E,Yes,15.44,No,Fiber Optic,51.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,90.55,90.55,15.44
+363,363,36,Yes,Offer E,Yes,19.0,No,Cable,8.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,54.75,445.85,152.0
+364,364,46,Yes,,Yes,9.06,Yes,DSL,30.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,87.95,6365.35,643.26
+365,365,59,Yes,,Yes,46.99,No,Cable,13.0,Yes,Yes,No,Yes,Yes,No,No,One Year,No,Credit Card,70.8,4448.8,2960.37
+366,366,26,No,,Yes,21.45,Yes,Fiber Optic,85.0,Yes,Yes,Yes,Yes,Yes,No,No,One Year,No,Credit Card,104.5,6590.8,1351.35
+367,367,68,No,Offer D,Yes,28.12,Yes,Fiber Optic,25.0,Yes,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,90.6,1660.0,534.28
+368,368,78,No,Offer E,Yes,17.13,No,Fiber Optic,9.0,No,No,No,No,No,No,No,Two Year,Yes,Credit Card,71.45,371.6,85.65
+369,369,19,Yes,Offer A,Yes,5.7,No,,,,,,,,,,Two Year,No,Bank Withdrawal,21.0,1493.75,410.4
+370,370,52,No,,Yes,3.14,No,,,,,,,,,,Month-to-Month,No,Mailed Check,-8.0,19.4,3.14
+371,371,51,Yes,Offer B,No,,,DSL,21.0,No,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,56.3,2780.6,0.0
+372,372,38,Yes,,Yes,12.12,Yes,Cable,23.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,93.2,6506.15,860.52
+373,373,43,Yes,,No,,,DSL,19.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,31.0,95.05,0.0
+374,374,30,Yes,,Yes,8.21,Yes,,,,,,,,,,Two Year,Yes,Credit Card,24.25,1732.95,582.91
+375,375,61,No,,Yes,34.81,No,Fiber Optic,16.0,No,No,Yes,No,Yes,Yes,Yes,One Year,No,Mailed Check,95.5,1115.15,417.72
+376,376,49,No,,Yes,40.66,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.95,268.4,569.24
+377,377,31,No,Offer E,Yes,9.81,Yes,Fiber Optic,28.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,81.7,81.7,9.81
+378,378,56,No,,Yes,4.8,No,Fiber Optic,11.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,74.35,74.35,4.8
+379,379,77,Yes,Offer C,Yes,6.23,No,Fiber Optic,4.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,79.65,2365.15,186.9
+380,380,40,Yes,,Yes,49.39,Yes,,,,,,,,,,Two Year,No,Credit Card,25.55,1714.95,3160.96
+381,381,64,No,Offer B,Yes,40.83,No,Fiber Optic,21.0,Yes,Yes,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Credit Card,93.5,4747.5,2041.5
+382,382,45,Yes,Offer B,Yes,9.85,No,Fiber Optic,14.0,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,104.45,4162.05,403.85
+383,383,30,Yes,,Yes,23.51,Yes,Fiber Optic,52.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,106.05,6981.35,1551.66
+384,384,54,No,Offer D,Yes,2.19,Yes,Fiber Optic,18.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.95,1931.75,41.61
+385,385,42,No,,Yes,32.78,Yes,Fiber Optic,29.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,102.65,4108.15,1311.2
+386,386,48,No,,Yes,47.45,Yes,DSL,30.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,65.2,1043.35,759.2
+387,387,66,No,Offer D,Yes,22.9,No,Fiber Optic,24.0,No,No,No,No,No,No,No,Two Year,No,Bank Withdrawal,69.65,1043.3,366.4
+388,388,73,No,Offer E,Yes,22.5,No,Fiber Optic,27.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.95,69.95,22.5
+389,389,43,Yes,Offer D,Yes,31.08,Yes,Fiber Optic,26.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.5,1056.95,341.88
+390,390,49,Yes,,Yes,49.22,Yes,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,26.2,1077.5,1968.8
+391,391,39,No,,Yes,9.98,Yes,DSL,13.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,51.75,201.1,39.92
+392,392,55,Yes,,Yes,18.42,Yes,Fiber Optic,53.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,109.05,7508.55,1252.56
+393,393,47,No,Offer E,Yes,42.55,No,DSL,30.0,No,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,55.05,102.75,85.1
+394,394,20,Yes,Offer B,Yes,47.46,Yes,DSL,53.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,90.15,4916.95,2610.3
+395,395,60,No,Offer B,Yes,9.36,Yes,Fiber Optic,4.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,109.15,6941.2,608.4
+396,396,71,Yes,,Yes,28.3,Yes,Fiber Optic,27.0,No,Yes,No,No,Yes,Yes,No,One Year,No,Bank Withdrawal,101.15,3741.85,1075.4
+397,397,69,No,,Yes,18.58,Yes,Fiber Optic,14.0,No,Yes,No,No,No,Yes,No,Two Year,Yes,Bank Withdrawal,-8.0,4931.8,1003.32
+398,398,36,Yes,Offer B,Yes,27.88,Yes,DSL,5.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,79.8,4914.8,1700.68
+399,399,75,No,Offer B,Yes,17.65,Yes,Fiber Optic,29.0,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,104.95,5222.35,882.5
+400,400,31,Yes,,Yes,48.7,Yes,,,,,,,,,,One Year,No,Bank Withdrawal,24.5,343.6,633.1
+401,401,66,Yes,,Yes,39.49,Yes,Fiber Optic,28.0,No,Yes,Yes,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,104.8,7308.95,2764.3
+402,402,37,Yes,,Yes,43.81,Yes,DSL,17.0,Yes,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,80.6,5460.2,3066.7
+403,403,32,Yes,,Yes,16.09,Yes,Fiber Optic,53.0,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,103.75,7039.45,1094.12
+404,404,42,Yes,Offer B,Yes,6.49,No,DSL,22.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,50.25,2221.55,292.05
+405,405,51,Yes,,Yes,18.47,Yes,Fiber Optic,75.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,110.2,7467.5,1255.96
+406,406,22,Yes,,Yes,30.83,No,,,,,,,,,,Two Year,No,Credit Card,20.35,191.1,277.47
+407,407,23,Yes,,No,,,Cable,41.0,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,50.55,565.35,0.0
+408,408,64,No,,Yes,48.38,No,Fiber Optic,8.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,85.3,781.4,435.42
+409,409,51,No,Offer E,Yes,17.33,No,Fiber Optic,14.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,80.95,171.15,34.66
+410,410,30,No,,Yes,26.26,No,Fiber Optic,30.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.55,222.3,78.78
+411,411,30,Yes,Offer B,Yes,13.8,Yes,Fiber Optic,48.0,Yes,Yes,Yes,No,No,No,No,One Year,No,Bank Withdrawal,89.45,5692.65,883.2
+412,412,73,No,,Yes,44.44,Yes,Fiber Optic,13.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,98.55,1842.8,888.8
+413,413,35,No,,Yes,24.35,Yes,Fiber Optic,16.0,Yes,Yes,No,No,No,Yes,Yes,One Year,Yes,Bank Withdrawal,92.3,5731.45,1509.7
+414,414,50,Yes,,Yes,8.44,No,Cable,21.0,No,Yes,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Credit Card,69.5,1071.4,126.6
+415,415,56,No,Offer E,Yes,3.13,No,Fiber Optic,5.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,79.95,79.95,3.13
+416,416,72,Yes,Offer B,Yes,27.56,Yes,Fiber Optic,29.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,76.85,4275.75,1543.36
+417,417,32,No,Offer B,Yes,2.45,No,Fiber Optic,13.0,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,103.7,4730.6,115.15
+418,418,61,Yes,Offer E,No,,,Cable,10.0,No,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,40.55,217.5,0.0
+419,419,46,No,,Yes,29.7,Yes,Fiber Optic,17.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,83.3,803.3,267.3
+420,420,64,No,Offer B,Yes,47.16,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,24.9,1195.25,2358.0
+421,421,20,No,Offer D,Yes,17.14,No,DSL,48.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,49.4,611.65,205.68
+422,422,51,Yes,Offer C,Yes,45.68,Yes,Cable,26.0,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,81.0,1923.85,1096.32
+423,423,20,Yes,,Yes,11.68,Yes,,,,,,,,,,One Year,No,Bank Withdrawal,26.9,1250.85,548.96
+424,424,28,Yes,Offer B,Yes,18.84,Yes,Cable,26.0,Yes,Yes,Yes,No,Yes,No,No,One Year,Yes,Credit Card,78.35,3211.2,772.44
+425,425,43,Yes,,Yes,27.95,Yes,,,,,,,,,,Two Year,No,Credit Card,25.25,1006.9,1118.0
+426,426,32,Yes,Offer E,Yes,37.28,Yes,DSL,14.0,Yes,Yes,No,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,76.15,645.8,298.24
+427,427,45,No,,Yes,19.22,Yes,Fiber Optic,10.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.5,829.1,172.98
+428,428,43,No,Offer C,Yes,17.64,No,,,,,,,,,,Month-to-Month,Yes,Mailed Check,20.15,536.35,441.0
+429,429,61,Yes,,No,,,DSL,22.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,63.8,4684.3,0.0
+430,430,39,Yes,,Yes,31.37,No,,,,,,,,,,Two Year,No,Credit Card,19.1,780.1,1254.8
+431,431,31,Yes,Offer A,Yes,31.15,No,DSL,5.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,86.45,5950.2,2180.5
+432,432,66,No,,Yes,19.67,Yes,Fiber Optic,28.0,No,Yes,Yes,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,95.9,6503.2,1337.56
+433,433,40,Yes,Offer A,Yes,9.72,Yes,Cable,15.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,No,Bank Withdrawal,80.85,5824.75,699.84
+434,434,49,No,Offer A,Yes,2.83,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.05,1386.9,192.44
+435,435,63,No,Offer E,Yes,48.31,No,Cable,22.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,44.45,44.45,48.31
+436,436,47,No,,No,,,Cable,4.0,Yes,No,Yes,No,No,No,No,One Year,Yes,Credit Card,35.2,1463.7,0.0
+437,437,43,Yes,,No,,,Cable,20.0,Yes,No,Yes,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,52.55,525.5,0.0
+438,438,31,No,Offer E,Yes,4.41,No,DSL,30.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,44.1,44.1,4.41
+439,439,50,No,,Yes,31.22,No,DSL,12.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,45.05,523.1,374.64
+440,440,68,Yes,,Yes,38.5,Yes,Fiber Optic,25.0,Yes,No,No,No,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,90.85,6470.1,2695.0
+441,441,60,No,Offer C,Yes,47.33,Yes,,,,,,,,,,One Year,No,Bank Withdrawal,24.6,592.65,1135.92
+442,442,59,No,,Yes,25.2,Yes,Cable,23.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,81.75,2028.8,630.0
+443,443,26,Yes,,Yes,2.86,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.45,781.25,108.68
+444,444,52,No,Offer E,Yes,7.64,No,Fiber Optic,27.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,69.65,145.15,15.28
+445,445,44,No,,Yes,13.76,No,Cable,11.0,Yes,Yes,Yes,No,Yes,No,No,One Year,No,Credit Card,70.2,2894.55,564.16
+446,446,33,No,Offer D,Yes,7.42,No,DSL,17.0,No,No,Yes,Yes,No,No,No,One Year,No,Bank Withdrawal,53.8,651.55,81.62
+447,447,44,Yes,,Yes,37.6,Yes,Fiber Optic,23.0,No,Yes,No,No,Yes,No,No,One Year,Yes,Bank Withdrawal,88.4,5798.3,2519.2
+448,448,60,No,,Yes,15.51,Yes,Fiber Optic,23.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.85,635.6,108.57
+449,449,39,No,,Yes,28.13,Yes,Fiber Optic,18.0,No,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,100.05,6254.2,1800.32
+450,450,25,Yes,,Yes,21.96,Yes,Fiber Optic,59.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,105.5,7544.0,1581.12
+451,451,63,Yes,,Yes,5.65,No,Fiber Optic,26.0,No,No,Yes,No,Yes,No,No,Month-to-Month,Yes,Credit Card,84.05,2909.95,192.1
+452,452,25,Yes,Offer A,Yes,29.41,Yes,,,,,,,,,,Two Year,No,Credit Card,23.9,1663.5,2088.11
+453,453,52,Yes,Offer B,Yes,12.96,Yes,Fiber Optic,7.0,Yes,No,No,Yes,No,No,No,Two Year,Yes,Credit Card,84.65,5377.8,816.48
+454,454,22,Yes,Offer B,Yes,13.25,Yes,Fiber Optic,47.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,109.3,7337.55,861.25
+455,455,31,No,,Yes,29.81,No,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,19.6,35.85,59.62
+456,456,50,Yes,Offer B,Yes,39.49,Yes,DSL,18.0,Yes,Yes,Yes,No,No,No,No,One Year,No,Credit Card,67.05,4309.55,2566.85
+457,457,30,Yes,Offer B,Yes,10.79,Yes,Cable,41.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,50.25,2203.65,453.18
+458,458,19,Yes,,Yes,2.43,No,Cable,58.0,Yes,No,Yes,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,70.85,4973.4,172.53
+459,459,19,No,,Yes,6.91,Yes,Fiber Optic,53.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.65,338.9,27.64
+460,460,39,No,Offer B,Yes,19.66,Yes,Fiber Optic,28.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,75.35,3161.4,845.38
+461,461,27,Yes,Offer A,Yes,35.33,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,24.75,1769.6,2543.76
+462,462,46,Yes,,Yes,26.25,No,Fiber Optic,25.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,92.95,4122.9,1155.0
+463,463,77,Yes,,Yes,7.92,Yes,Fiber Optic,3.0,No,Yes,Yes,No,Yes,Yes,No,Month-to-Month,No,Bank Withdrawal,106.35,3520.75,253.44
+464,464,57,No,,Yes,21.61,No,Cable,27.0,Yes,No,Yes,No,No,No,No,One Year,No,Credit Card,52.7,3019.7,1210.16
+465,465,41,Yes,Offer E,Yes,30.19,No,Cable,16.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,44.6,80.55,60.38
+466,466,67,No,,Yes,31.83,No,Fiber Optic,10.0,Yes,Yes,No,Yes,Yes,Yes,No,Month-to-Month,Yes,Credit Card,108.15,4600.7,1368.69
+467,467,38,No,,Yes,25.62,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.9,323.15,435.54
+468,468,66,No,,Yes,29.8,No,Fiber Optic,16.0,Yes,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,87.3,1637.3,566.2
+469,469,21,Yes,,Yes,35.31,Yes,,,,,,,,,,Two Year,Yes,Credit Card,24.5,740.3,1165.23
+470,470,53,No,,Yes,16.13,No,,,,,,,,,,Month-to-Month,Yes,Mailed Check,19.8,309.4,241.95
+471,471,66,No,Offer E,Yes,36.4,No,Fiber Optic,29.0,Yes,No,No,No,No,No,No,One Year,No,Bank Withdrawal,75.35,273.4,145.6
+472,472,29,No,Offer C,Yes,24.67,Yes,Cable,59.0,No,No,No,No,No,No,No,One Year,Yes,Credit Card,51.55,1295.4,641.42
+473,473,74,No,,Yes,17.62,Yes,Fiber Optic,29.0,No,Yes,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,106.4,2483.5,405.26
+474,474,20,No,Offer D,Yes,43.78,Yes,DSL,47.0,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Credit Card,65.05,1427.55,963.16
+475,475,29,Yes,,Yes,23.55,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.2,1376.5,1624.95
+476,476,30,No,Offer E,Yes,47.51,Yes,Fiber Optic,85.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.5,220.6,142.53
+477,477,22,Yes,,Yes,15.09,Yes,Fiber Optic,85.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,106.3,7565.35,1086.48
+478,478,41,No,,Yes,33.68,No,,,,,,,,,,Two Year,No,Credit Card,20.15,982.95,1616.64
+479,479,31,No,,Yes,37.99,Yes,Fiber Optic,24.0,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,105.35,5794.45,2127.44
+480,480,32,Yes,Offer B,Yes,41.34,Yes,Fiber Optic,15.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,108.05,7118.9,2687.1
+481,481,74,No,Offer E,Yes,39.63,No,Fiber Optic,23.0,No,No,No,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,79.75,159.4,79.26
+482,482,48,Yes,,Yes,41.93,No,,,,,,,,,,Two Year,Yes,Bank Withdrawal,-3.0,1092.35,2264.22
+483,483,71,No,Offer D,Yes,11.33,Yes,Fiber Optic,52.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.45,1752.55,203.94
+484,484,28,Yes,,Yes,1.41,No,DSL,73.0,Yes,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,60.2,1834.15,40.89
+485,485,25,Yes,Offer A,Yes,35.9,Yes,Cable,59.0,Yes,Yes,Yes,Yes,No,Yes,Yes,One Year,No,Bank Withdrawal,78.35,5445.95,2513.0
+486,486,33,Yes,,Yes,13.27,Yes,DSL,15.0,Yes,No,Yes,Yes,Yes,No,No,Two Year,Yes,Credit Card,76.45,4519.5,782.93
+487,487,52,Yes,Offer E,Yes,25.05,No,,,,,,,,,,Two Year,No,Credit Card,20.1,100.35,150.3
+488,488,51,No,Offer B,Yes,2.83,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,26.0,1638.7,175.46
+489,489,26,No,,Yes,36.48,No,DSL,59.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,45.35,141.5,109.44
+490,490,37,No,,Yes,43.27,Yes,Fiber Optic,21.0,Yes,Yes,No,No,No,No,No,Month-to-Month,No,Credit Card,84.25,3847.6,1990.42
+491,491,36,Yes,Offer B,Yes,18.0,Yes,Fiber Optic,20.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,108.95,5718.2,954.0
+492,492,23,Yes,,Yes,2.12,No,Fiber Optic,30.0,Yes,No,No,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,101.9,1667.25,31.8
+493,493,41,No,,Yes,12.36,Yes,Fiber Optic,23.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,84.45,1059.55,148.32
+494,494,49,Yes,Offer A,Yes,41.46,Yes,DSL,30.0,Yes,No,No,Yes,No,No,No,One Year,No,Bank Withdrawal,58.25,3975.7,2819.28
+495,495,24,Yes,Offer B,Yes,26.75,Yes,Cable,51.0,Yes,Yes,Yes,No,No,Yes,Yes,One Year,No,Credit Card,72.45,4653.85,1738.75
+496,496,79,Yes,Offer C,Yes,25.84,Yes,Fiber Optic,15.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,79.6,2718.3,878.56
+497,497,62,No,Offer E,Yes,32.12,No,Fiber Optic,10.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,96.25,512.45,160.6
+498,498,55,No,,Yes,14.54,Yes,Cable,18.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,84.6,4449.75,770.62
+499,499,75,No,Offer D,Yes,1.92,Yes,Fiber Optic,25.0,No,No,Yes,Yes,Yes,No,No,Two Year,No,Bank Withdrawal,93.9,1743.9,34.56
+500,500,55,Yes,Offer D,Yes,44.12,Yes,,,,,,,,,,Two Year,Yes,Bank Withdrawal,25.4,313.0,529.44
+501,501,59,Yes,,Yes,48.29,Yes,,,,,,,,,,Two Year,Yes,Bank Withdrawal,24.05,1709.15,3476.88
+502,502,25,No,,Yes,21.37,No,DSL,30.0,Yes,Yes,Yes,No,No,No,No,Two Year,Yes,Bank Withdrawal,61.15,4017.45,1410.42
+503,503,35,No,,Yes,4.38,No,,,,,,,,,,One Year,No,Mailed Check,20.15,353.65,74.46
+504,504,47,Yes,,Yes,31.7,Yes,,,,,,,,,,Month-to-Month,No,Credit Card,25.55,372.45,443.8
+505,505,75,No,,Yes,39.51,Yes,Fiber Optic,13.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,84.8,546.95,276.57
+506,506,35,Yes,Offer A,Yes,35.06,No,DSL,26.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,84.45,6033.1,2524.32
+507,507,77,No,,Yes,2.98,No,Fiber Optic,3.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,79.9,260.9,8.94
+508,508,63,No,Offer E,Yes,34.79,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,20.15,238.15,313.11
+509,509,35,Yes,Offer A,Yes,40.35,Yes,Fiber Optic,16.0,Yes,No,No,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,106.7,7009.5,2703.45
+510,510,39,Yes,,No,,,DSL,6.0,Yes,Yes,No,Yes,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,50.95,3521.7,0.0
+511,511,41,Yes,Offer A,Yes,24.93,No,DSL,15.0,Yes,Yes,No,Yes,No,Yes,Yes,Two Year,No,Credit Card,67.95,4664.15,1745.1
+512,512,21,Yes,Offer A,Yes,13.27,Yes,,,,,,,,,,Two Year,No,Credit Card,24.85,1871.85,955.44
+513,513,42,No,Offer B,Yes,13.45,No,,,,,,,,,,Two Year,No,Mailed Check,19.9,868.1,591.8
+514,514,36,Yes,,Yes,12.71,Yes,Fiber Optic,9.0,Yes,No,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,91.7,3479.05,482.98
+515,515,49,Yes,Offer A,Yes,22.67,Yes,DSL,29.0,Yes,No,Yes,No,Yes,No,No,Two Year,No,Credit Card,68.95,4858.7,1586.9
+516,516,36,No,Offer B,Yes,24.13,No,Cable,16.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,45.2,2065.15,1109.98
+517,517,67,Yes,,No,,,Cable,27.0,No,Yes,Yes,No,No,Yes,No,Two Year,Yes,Credit Card,43.35,371.4,0.0
+518,518,43,No,,Yes,16.81,No,,,,,,,,,,Two Year,No,Mailed Check,19.6,390.4,353.01
+519,519,33,Yes,Offer B,Yes,10.76,Yes,Fiber Optic,5.0,No,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,99.5,5961.1,634.84
+520,520,22,Yes,Offer A,Yes,28.34,Yes,Fiber Optic,59.0,No,Yes,No,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,100.55,7113.75,2012.14
+521,521,61,No,,Yes,47.03,Yes,Fiber Optic,2.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.8,673.25,329.21
+522,522,21,No,,No,,,Cable,52.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Mailed Check,63.4,348.8,0.0
+523,523,47,Yes,Offer A,Yes,22.49,Yes,Fiber Optic,11.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,105.0,7297.75,1551.81
+524,524,72,No,Offer B,Yes,9.1,Yes,DSL,16.0,No,Yes,Yes,No,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,79.75,4438.2,518.7
+525,525,60,No,Offer D,Yes,19.57,No,DSL,29.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,45.65,985.05,410.97
+526,526,53,Yes,Offer B,Yes,17.07,Yes,DSL,25.0,No,Yes,No,No,No,No,No,One Year,Yes,Bank Withdrawal,53.85,3399.85,1092.48
+527,527,46,No,Offer C,No,,,DSL,8.0,Yes,No,No,Yes,No,No,No,One Year,No,Mailed Check,35.6,1072.6,0.0
+528,528,68,No,,Yes,10.51,No,DSL,20.0,No,Yes,Yes,No,No,No,No,One Year,Yes,Bank Withdrawal,54.8,731.3,136.63
+529,529,57,No,Offer E,Yes,2.6,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.25,186.15,23.4
+530,530,37,Yes,,Yes,12.8,No,DSL,5.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,45.7,45.7,12.8
+531,531,22,No,Offer C,No,,,Cable,82.0,Yes,No,No,Yes,Yes,Yes,Yes,One Year,No,Credit Card,54.55,1362.85,0.0
+532,532,30,No,Offer A,Yes,49.42,Yes,Fiber Optic,53.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,108.05,7532.15,3508.82
+533,533,50,No,Offer E,Yes,31.02,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.7,129.55,186.12
+534,534,30,Yes,Offer E,Yes,42.66,Yes,Cable,85.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,50.35,314.55,255.96
+535,535,31,No,,Yes,22.13,Yes,Fiber Optic,22.0,No,Yes,Yes,No,Yes,No,No,One Year,Yes,Credit Card,94.9,4422.95,1017.98
+536,536,57,No,,Yes,38.97,No,Cable,3.0,No,No,Yes,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,59.55,1646.45,1091.16
+537,537,60,No,Offer A,Yes,1.27,Yes,Cable,13.0,Yes,Yes,Yes,No,No,Yes,Yes,One Year,Yes,Credit Card,76.9,5023.0,86.36
+538,538,21,Yes,Offer A,Yes,28.02,No,DSL,27.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,79.1,5564.85,1989.42
+539,539,65,Yes,Offer B,Yes,27.49,Yes,Fiber Optic,3.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.8,5629.55,1704.38
+540,540,53,No,,Yes,5.49,Yes,DSL,14.0,No,No,Yes,Yes,Yes,No,No,Month-to-Month,Yes,Credit Card,69.0,1108.0,93.33
+541,541,51,Yes,Offer C,Yes,3.0,Yes,Fiber Optic,15.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,104.65,2542.45,72.0
+542,542,72,No,,Yes,16.36,No,Fiber Optic,28.0,No,No,No,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,89.15,574.35,114.52
+543,543,56,No,,Yes,49.4,Yes,Cable,22.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,53.8,283.95,247.0
+544,544,59,Yes,,Yes,16.07,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,19.6,851.2,739.22
+545,545,21,No,Offer D,Yes,1.16,No,DSL,41.0,Yes,No,No,Yes,No,No,No,One Year,Yes,Mailed Check,54.6,617.85,12.76
+546,546,46,No,Offer D,Yes,49.43,Yes,Cable,17.0,Yes,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,59.0,1254.7,1087.46
+547,547,73,No,,Yes,43.61,Yes,Fiber Optic,8.0,No,Yes,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,99.7,2967.35,1308.3
+548,548,73,Yes,,Yes,14.34,Yes,Fiber Optic,14.0,No,No,No,No,Yes,No,No,One Year,Yes,Bank Withdrawal,83.25,308.05,57.36
+549,549,45,Yes,Offer D,Yes,42.65,Yes,Fiber Optic,3.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,104.4,2157.95,895.65
+550,550,45,Yes,Offer A,Yes,17.79,Yes,Fiber Optic,22.0,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,105.65,6717.9,1191.93
+551,551,72,Yes,,Yes,19.44,No,Fiber Optic,4.0,No,Yes,Yes,No,No,Yes,Yes,Two Year,No,Bank Withdrawal,88.4,2191.15,486.0
+552,552,77,Yes,Offer D,Yes,6.97,No,Fiber Optic,19.0,No,No,No,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,80.45,950.2,83.64
+553,553,61,Yes,Offer B,No,,,Cable,2.0,Yes,Yes,No,Yes,No,No,No,Two Year,No,Bank Withdrawal,37.7,2288.7,0.0
+554,554,25,Yes,,Yes,21.21,Yes,DSL,27.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,83.55,6093.3,1527.12
+555,555,53,No,Offer B,Yes,39.29,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.1,1001.5,2160.95
+556,556,73,No,,Yes,3.23,Yes,Fiber Optic,26.0,No,Yes,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Credit Card,102.95,2496.7,77.52
+557,557,42,Yes,,Yes,31.55,Yes,DSL,23.0,Yes,No,No,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,75.9,1549.75,662.55
+558,558,45,No,,No,,,Cable,15.0,No,No,No,Yes,No,No,No,One Year,No,Credit Card,29.45,1983.15,0.0
+559,559,64,Yes,,Yes,20.49,Yes,,,,,,,,,,Two Year,No,Credit Card,25.2,987.95,799.11
+560,560,37,No,,No,,,DSL,19.0,Yes,Yes,No,Yes,No,No,No,One Year,Yes,Bank Withdrawal,40.3,1630.4,0.0
+561,561,29,No,,Yes,9.43,No,,,,,,,,,,Two Year,No,Credit Card,19.45,165.35,66.01
+562,562,46,Yes,Offer E,No,,,Cable,15.0,Yes,No,No,No,No,No,No,Month-to-Month,No,Credit Card,-4.0,91.7,0.0
+563,563,40,Yes,,Yes,39.35,Yes,DSL,2.0,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,79.15,5536.5,2754.5
+564,564,80,Yes,Offer C,Yes,29.66,No,Fiber Optic,29.0,No,No,Yes,No,Yes,No,No,Month-to-Month,Yes,Credit Card,85.2,2874.45,1008.44
+565,565,50,No,,Yes,8.93,Yes,Fiber Optic,26.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,73.1,4144.9,491.15
+566,566,66,No,,Yes,32.11,Yes,Fiber Optic,14.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,96.4,1581.2,513.76
+567,567,34,No,,Yes,38.01,No,Cable,5.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Mailed Check,49.25,208.45,152.04
+568,568,51,No,Offer E,Yes,42.41,Yes,Fiber Optic,8.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,76.85,663.55,381.69
+569,569,51,Yes,,Yes,11.3,Yes,Fiber Optic,16.0,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.4,1742.95,203.4
+570,570,22,No,,Yes,35.59,No,Fiber Optic,69.0,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,73.85,4092.85,1993.04
+571,571,42,No,,Yes,14.32,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.2,156.85,114.56
+572,572,21,No,Offer B,Yes,36.05,Yes,Fiber Optic,73.0,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,106.45,6300.15,2199.05
+573,573,38,No,Offer D,No,,,Cable,6.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,50.75,712.75,0.0
+574,574,27,No,,Yes,38.44,No,,,,,,,,,,Month-to-Month,No,Mailed Check,19.55,19.55,38.44
+575,575,77,Yes,,Yes,7.11,Yes,Fiber Optic,16.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,103.75,6383.35,440.82
+576,576,51,Yes,Offer A,Yes,33.37,Yes,Fiber Optic,24.0,Yes,Yes,Yes,Yes,No,Yes,Yes,One Year,Yes,Credit Card,107.2,7317.1,2302.53
+577,577,53,No,Offer C,Yes,17.3,No,Fiber Optic,26.0,Yes,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,74.3,1952.25,432.5
+578,578,23,No,Offer A,Yes,23.02,No,Cable,69.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,73.0,5265.2,1657.44
+579,579,39,No,Offer D,Yes,39.58,No,Fiber Optic,12.0,No,Yes,Yes,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,89.4,2001.5,870.76
+580,580,59,Yes,,Yes,15.06,No,DSL,11.0,Yes,No,No,No,No,No,No,Month-to-Month,No,Credit Card,51.05,2066.0,587.34
+581,581,79,Yes,Offer C,Yes,48.02,Yes,Fiber Optic,24.0,No,No,No,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,101.5,2917.65,1440.6
+582,582,56,No,,Yes,26.0,No,Fiber Optic,8.0,No,No,No,No,No,No,No,Month-to-Month,No,Mailed Check,70.75,70.75,26.0
+583,583,65,No,,Yes,41.98,No,,,,,,,,,,Two Year,No,Credit Card,20.05,91.45,167.92
+584,584,43,No,Offer B,Yes,29.19,Yes,Fiber Optic,4.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,98.05,3990.6,1196.79
+585,585,19,Yes,,Yes,9.77,No,,,,,,,,,,Two Year,No,Credit Card,20.0,935.9,468.96
+586,586,28,No,,Yes,4.08,Yes,Fiber Optic,59.0,No,No,Yes,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,84.8,3958.85,187.68
+587,587,54,No,Offer D,Yes,37.45,No,DSL,5.0,No,Yes,No,Yes,No,Yes,Yes,One Year,No,Credit Card,64.9,685.55,374.5
+588,588,69,Yes,,Yes,15.16,Yes,Fiber Optic,7.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,98.75,1587.55,242.56
+589,589,37,Yes,Offer D,Yes,37.59,No,,,,,,,,,,One Year,No,Credit Card,20.45,242.4,375.9
+590,590,47,Yes,,Yes,3.07,Yes,Fiber Optic,23.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,103.4,7372.65,221.04
+591,591,45,Yes,Offer A,Yes,37.84,Yes,Cable,53.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,84.2,5986.55,2724.48
+592,592,55,Yes,Offer B,Yes,1.87,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.8,1013.2,93.5
+593,593,54,Yes,,Yes,35.35,No,DSL,29.0,No,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,75.2,4300.8,2050.3
+594,594,25,No,Offer D,Yes,45.42,No,,,,,,,,,,One Year,Yes,Credit Card,19.3,185.2,454.2
+595,595,80,Yes,,Yes,21.37,Yes,Fiber Optic,21.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,-10.0,533.05,149.59
+596,596,54,Yes,,Yes,45.15,Yes,,,,,,,,,,One Year,No,Mailed Check,26.4,314.95,541.8
+597,597,28,No,,Yes,4.02,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.9,164.6,36.18
+598,598,37,Yes,Offer C,Yes,19.32,No,DSL,30.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Credit Card,49.85,1336.15,521.64
+599,599,74,Yes,,Yes,21.91,Yes,Cable,11.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,95.6,644.35,153.37
+600,600,28,Yes,,Yes,13.97,Yes,Fiber Optic,48.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,No,Credit Card,88.85,3000.25,474.98
+601,601,23,Yes,Offer A,Yes,26.44,No,,,,,,,,,,One Year,Yes,Credit Card,20.55,1403.1,1824.36
+602,602,41,No,,Yes,33.83,Yes,DSL,19.0,No,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,80.75,3208.65,1353.2
+603,603,64,No,,Yes,26.26,No,,,,,,,,,,Two Year,No,Credit Card,20.05,388.6,472.68
+604,604,45,No,,Yes,30.18,No,DSL,4.0,Yes,No,No,Yes,No,No,No,Month-to-Month,No,Credit Card,56.35,1381.2,724.32
+605,605,49,No,,Yes,30.5,Yes,Fiber Optic,8.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,113.2,3914.05,1067.5
+606,606,75,No,,Yes,24.67,Yes,Fiber Optic,26.0,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,No,Bank Withdrawal,113.8,7845.8,1776.24
+607,607,68,No,Offer D,Yes,32.68,Yes,Cable,11.0,No,Yes,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,106.9,1364.3,424.84
+608,608,21,Yes,Offer A,Yes,41.88,Yes,Fiber Optic,59.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,109.5,7674.55,2931.6
+609,609,20,Yes,,Yes,37.45,Yes,DSL,48.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,92.4,6786.1,2696.4
+610,610,49,Yes,Offer D,Yes,17.43,No,,,,,,,,,,Month-to-Month,No,Mailed Check,19.8,272.95,261.45
+611,611,35,Yes,,Yes,14.91,No,,,,,,,,,,Two Year,Yes,Mailed Check,20.1,936.85,685.86
+612,612,33,Yes,Offer E,Yes,35.09,No,DSL,30.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,45.25,155.35,140.36
+613,613,42,Yes,Offer B,Yes,40.73,Yes,Fiber Optic,76.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,104.8,6597.25,2565.99
+614,614,58,Yes,,Yes,18.65,No,Fiber Optic,10.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,68.95,351.5,93.25
+615,615,39,No,,Yes,20.34,No,Fiber Optic,7.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,80.8,713.1,183.06
+616,616,73,Yes,,Yes,49.91,Yes,Fiber Optic,13.0,No,Yes,Yes,No,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,95.35,6382.0,3443.79
+617,617,38,No,,Yes,20.76,No,DSL,30.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,56.4,234.85,83.04
+618,618,41,Yes,Offer C,Yes,9.09,No,DSL,16.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,84.75,2839.45,309.06
+619,619,59,No,,Yes,17.83,Yes,Fiber Optic,27.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,84.9,3369.05,713.2
+620,620,77,Yes,,Yes,32.12,No,,,,,,,,,,Two Year,No,Credit Card,19.8,1388.45,2280.52
+621,621,48,Yes,Offer D,No,,,Cable,53.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,35.5,552.7,0.0
+622,622,39,No,,Yes,42.62,No,Fiber Optic,15.0,No,Yes,No,No,No,No,No,One Year,Yes,Credit Card,74.65,966.25,554.06
+623,623,41,No,,Yes,27.21,Yes,Fiber Optic,29.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,94.4,857.25,244.89
+624,624,60,No,Offer D,Yes,10.95,Yes,Fiber Optic,29.0,No,No,Yes,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,89.2,990.3,120.45
+625,625,80,No,,Yes,39.01,No,Fiber Optic,28.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,87.1,713.6,312.08
+626,626,72,Yes,Offer A,Yes,46.82,Yes,Fiber Optic,18.0,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,115.05,8016.6,3324.22
+627,627,56,No,Offer B,Yes,39.37,Yes,Fiber Optic,23.0,No,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,100.0,4211.55,1692.91
+628,628,40,Yes,Offer B,Yes,39.52,Yes,Fiber Optic,57.0,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,104.1,6700.05,2568.8
+629,629,52,No,,Yes,14.26,No,DSL,26.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,70.05,346.4,71.3
+630,630,51,Yes,Offer D,Yes,9.47,Yes,DSL,13.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,50.1,910.45,179.93
+631,631,30,Yes,Offer D,Yes,41.95,No,Fiber Optic,51.0,Yes,No,No,Yes,Yes,No,No,Month-to-Month,No,Bank Withdrawal,91.85,1574.45,713.15
+632,632,68,No,Offer E,Yes,10.53,No,DSL,21.0,Yes,No,No,No,No,No,No,Two Year,Yes,Bank Withdrawal,48.2,340.35,73.71
+633,633,57,No,,Yes,22.03,No,Fiber Optic,26.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.35,69.35,22.03
+634,634,46,No,,Yes,2.76,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.35,601.6,80.04
+635,635,46,No,,No,,,Cable,9.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,53.1,1901.25,0.0
+636,636,65,Yes,Offer B,Yes,36.49,No,Fiber Optic,9.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,105.85,6725.5,2371.85
+637,637,59,No,,Yes,40.71,Yes,Fiber Optic,25.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.75,99.75,40.71
+638,638,50,Yes,,Yes,1.93,Yes,Fiber Optic,21.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,107.5,6873.75,121.59
+639,639,80,No,,Yes,28.64,No,Fiber Optic,5.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,71.0,71.0,28.64
+640,640,55,Yes,Offer B,Yes,14.14,No,DSL,28.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,73.6,3522.65,664.58
+641,641,65,Yes,,Yes,28.64,Yes,Fiber Optic,22.0,No,No,No,No,No,No,No,One Year,Yes,Credit Card,75.2,775.3,315.04
+642,642,65,No,,Yes,31.13,Yes,DSL,15.0,No,No,No,No,No,No,No,Two Year,No,Mailed Check,48.75,179.85,124.52
+643,643,27,Yes,,No,,,DSL,52.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,50.85,2036.55,0.0
+644,644,31,No,Offer C,Yes,31.73,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.9,518.3,824.98
+645,645,52,Yes,Offer B,Yes,27.38,Yes,Fiber Optic,57.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.35,4889.2,1341.62
+646,646,59,No,Offer E,Yes,26.47,No,,,,,,,,,,Month-to-Month,Yes,Mailed Check,20.7,137.6,211.76
+647,647,43,No,Offer B,Yes,31.31,No,Fiber Optic,12.0,Yes,No,Yes,No,Yes,No,No,One Year,No,Bank Withdrawal,91.25,4738.3,1628.12
+648,648,37,No,,Yes,8.91,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.25,178.5,80.19
+649,649,22,No,Offer B,Yes,5.75,No,DSL,53.0,Yes,Yes,Yes,Yes,No,Yes,Yes,One Year,No,Credit Card,73.9,3160.55,241.5
+650,650,49,No,Offer B,Yes,48.72,No,DSL,2.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,80.4,4981.15,3020.64
+651,651,21,No,Offer A,Yes,8.71,Yes,DSL,41.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Mailed Check,85.25,5714.2,583.57
+652,652,63,No,,Yes,25.49,No,DSL,9.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,45.35,89.5,50.98
+653,653,31,Yes,Offer A,Yes,7.16,Yes,Fiber Optic,24.0,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,Yes,Credit Card,106.1,7548.6,515.52
+654,654,52,Yes,Offer D,Yes,2.96,Yes,DSL,76.0,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,No,Credit Card,69.2,944.65,41.44
+655,655,79,Yes,Offer D,Yes,48.15,Yes,Fiber Optic,6.0,Yes,Yes,No,No,No,Yes,Yes,Two Year,No,Credit Card,93.8,1261.0,625.95
+656,656,55,No,,Yes,25.59,No,Cable,7.0,No,Yes,No,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,54.65,1517.5,716.52
+657,657,29,Yes,,Yes,31.99,No,DSL,59.0,No,No,Yes,No,No,Yes,Yes,One Year,No,Credit Card,60.6,3297.0,1695.47
+658,658,44,No,,Yes,8.32,No,Fiber Optic,16.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,79.75,164.5,16.64
+659,659,51,No,,Yes,37.69,Yes,Fiber Optic,15.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,104.5,4036.85,1507.6
+660,660,28,No,Offer A,Yes,37.5,Yes,Fiber Optic,30.0,Yes,Yes,Yes,No,Yes,No,No,Month-to-Month,Yes,Credit Card,102.95,6886.25,2512.5
+661,661,48,Yes,,Yes,11.18,Yes,,,,,,,,,,Two Year,No,Credit Card,25.6,1888.25,793.78
+662,662,27,No,Offer D,Yes,22.26,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.7,340.35,378.42
+663,663,50,No,Offer D,Yes,39.34,No,,,,,,,,,,Two Year,No,Credit Card,19.45,369.05,668.78
+664,664,51,No,,Yes,19.74,Yes,Fiber Optic,27.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,79.05,434.5,118.44
+665,665,38,Yes,,No,,,DSL,16.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,29.5,1423.05,0.0
+666,666,34,No,,Yes,41.77,No,Fiber Optic,15.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,80.8,80.8,41.77
+667,667,60,No,Offer C,Yes,44.28,No,Fiber Optic,5.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,74.9,2068.55,1239.84
+668,668,39,Yes,Offer B,Yes,15.24,No,DSL,16.0,Yes,No,No,No,Yes,No,No,One Year,Yes,Credit Card,59.8,3561.15,914.4
+669,669,57,No,Offer A,Yes,2.93,Yes,Fiber Optic,10.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,106.75,7283.25,208.03
+670,670,80,No,,Yes,41.93,Yes,Fiber Optic,21.0,No,Yes,Yes,No,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,104.1,3121.1,1257.9
+671,671,30,No,,Yes,37.03,Yes,DSL,52.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,88.95,1161.75,481.39
+672,672,42,Yes,Offer B,Yes,31.49,No,,,,,,,,,,One Year,No,Credit Card,20.4,1226.45,1920.89
+673,673,40,No,Offer B,No,,,DSL,76.0,Yes,Yes,No,No,Yes,No,No,One Year,Yes,Bank Withdrawal,43.05,2208.05,0.0
+674,674,32,Yes,,Yes,5.26,No,DSL,19.0,No,Yes,No,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,55.15,1206.05,115.72
+675,675,26,Yes,,Yes,32.28,Yes,,,,,,,,,,One Year,Yes,Credit Card,23.75,1446.8,2001.36
+676,676,34,Yes,,Yes,42.09,No,Fiber Optic,9.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,109.75,6110.2,2272.86
+677,677,42,Yes,Offer D,Yes,35.96,No,DSL,17.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,50.3,908.75,647.28
+678,678,77,Yes,Offer E,No,,,DSL,12.0,No,Yes,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,40.2,40.2,0.0
+679,679,74,No,,Yes,14.78,Yes,DSL,10.0,No,Yes,No,Yes,No,No,No,Two Year,No,Bank Withdrawal,59.6,2754.0,694.66
+680,680,56,Yes,Offer A,Yes,29.29,Yes,DSL,30.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,82.3,5980.55,2108.88
+681,681,47,Yes,,Yes,3.08,Yes,Fiber Optic,20.0,No,Yes,No,Yes,Yes,No,No,Two Year,Yes,Credit Card,92.45,6460.55,212.52
+682,682,31,Yes,,Yes,5.88,Yes,,,,,,,,,,One Year,Yes,Credit Card,24.2,914.6,229.32
+683,683,43,No,,Yes,15.6,Yes,Fiber Optic,22.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,79.85,797.25,156.0
+684,684,54,Yes,Offer B,Yes,27.93,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.55,1108.8,1619.94
+685,685,77,Yes,Offer C,Yes,16.1,No,Cable,12.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.15,2231.05,386.4
+686,686,28,No,Offer E,Yes,26.16,Yes,Fiber Optic,85.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,101.7,364.55,104.64
+687,687,52,Yes,Offer B,Yes,27.87,No,Fiber Optic,17.0,No,No,No,No,No,No,No,Two Year,Yes,Credit Card,69.05,3842.6,1532.85
+688,688,64,No,Offer E,Yes,36.76,Yes,Fiber Optic,20.0,No,Yes,No,No,Yes,No,No,Month-to-Month,No,Credit Card,89.6,365.65,147.04
+689,689,39,No,,Yes,31.88,No,Fiber Optic,7.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,78.5,242.05,95.64
+690,690,67,No,,Yes,12.52,No,Fiber Optic,25.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,70.65,142.35,25.04
+691,691,52,No,Offer D,No,,,DSL,17.0,Yes,No,No,Yes,Yes,No,No,Month-to-Month,Yes,Credit Card,45.55,597.0,0.0
+692,692,63,No,Offer D,Yes,47.12,Yes,Fiber Optic,23.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Mailed Check,78.0,851.8,518.32
+693,693,69,No,,Yes,5.46,No,Fiber Optic,24.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,72.85,688.65,54.6
+694,694,41,No,,Yes,25.24,No,Fiber Optic,29.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,74.95,815.5,277.64
+695,695,42,Yes,,Yes,13.95,Yes,Fiber Optic,11.0,Yes,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,104.4,6721.6,892.8
+696,696,25,No,Offer D,Yes,12.76,Yes,Fiber Optic,48.0,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,82.35,1852.85,267.96
+697,697,42,Yes,,Yes,47.6,Yes,,,,,,,,,,Two Year,No,Credit Card,24.25,1784.5,3427.2
+698,698,64,No,,Yes,42.8,No,,,,,,,,,,Two Year,Yes,Credit Card,20.2,684.4,1498.0
+699,699,73,Yes,,Yes,4.19,Yes,Fiber Optic,11.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,86.85,156.35,8.38
+700,700,78,No,,Yes,14.22,Yes,Fiber Optic,11.0,No,Yes,No,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,95.05,4504.55,668.34
+701,701,40,No,Offer E,Yes,42.52,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,20.65,93.55,212.6
+702,702,55,No,,Yes,21.3,No,Fiber Optic,18.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.7,3512.5,766.8
+703,703,47,Yes,Offer D,Yes,38.93,No,Cable,4.0,No,No,Yes,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,54.25,1221.55,895.39
+704,704,61,Yes,,Yes,12.02,No,Fiber Optic,30.0,No,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,95.2,6671.7,829.38
+705,705,56,Yes,Offer B,Yes,38.85,Yes,Fiber Optic,27.0,No,No,No,Yes,No,No,No,One Year,Yes,Credit Card,81.2,4965.1,2447.55
+706,706,24,No,Offer E,Yes,9.75,Yes,,,,,,,,,,Two Year,Yes,Credit Card,25.3,116.95,39.0
+707,707,33,No,Offer D,Yes,32.75,Yes,DSL,24.0,Yes,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,59.05,1253.5,720.5
+708,708,34,No,,Yes,49.58,No,DSL,17.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,44.85,435.4,495.8
+709,709,44,No,,Yes,1.85,Yes,Fiber Optic,13.0,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,104.0,7028.5,127.65
+710,710,60,Yes,,Yes,5.8,Yes,DSL,12.0,No,No,No,No,No,No,No,One Year,Yes,Credit Card,48.35,1067.15,133.4
+711,711,64,No,,Yes,2.95,No,DSL,21.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,51.1,531.15,32.45
+712,712,26,Yes,,Yes,18.14,Yes,,,,,,,,,,One Year,Yes,Bank Withdrawal,23.3,1623.15,1306.08
+713,713,29,Yes,,Yes,44.95,No,DSL,69.0,Yes,No,No,Yes,No,Yes,Yes,One Year,No,Credit Card,63.7,2763.35,1887.9
+714,714,50,No,,No,,,Cable,19.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,30.15,382.2,0.0
+715,715,63,No,,Yes,44.36,No,Fiber Optic,20.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,86.05,308.1,177.44
+716,716,47,Yes,,Yes,18.87,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.9,505.45,471.75
+717,717,46,Yes,Offer A,Yes,18.26,Yes,DSL,18.0,Yes,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,76.95,5289.8,1278.2
+718,718,21,No,,Yes,41.94,No,Fiber Optic,30.0,Yes,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,99.95,2292.75,964.62
+719,719,32,Yes,Offer C,Yes,28.86,No,Cable,24.0,Yes,Yes,No,Yes,No,No,No,Month-to-Month,No,Mailed Check,60.9,1785.65,808.08
+720,720,58,Yes,,Yes,46.54,No,DSL,52.0,No,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,54.9,2549.1,2047.76
+721,721,67,No,,Yes,26.1,No,DSL,27.0,Yes,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,57.15,2250.65,991.8
+722,722,56,Yes,,Yes,39.07,Yes,DSL,19.0,Yes,No,No,Yes,No,No,No,Two Year,No,Credit Card,61.4,4059.85,2695.83
+723,723,66,Yes,,Yes,32.08,Yes,Fiber Optic,8.0,Yes,No,No,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,100.75,6674.65,2085.2
+724,724,40,No,,Yes,36.81,No,Fiber Optic,16.0,Yes,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,86.25,181.65,73.62
+725,725,60,No,,Yes,26.76,No,DSL,22.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,49.5,312.7,160.56
+726,726,25,Yes,Offer A,Yes,33.75,Yes,Cable,30.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,89.7,6339.3,2430.0
+727,727,23,No,Offer E,Yes,32.86,Yes,Fiber Optic,58.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,75.05,75.05,32.86
+728,728,19,No,,Yes,31.89,Yes,Fiber Optic,30.0,Yes,Yes,No,No,No,No,No,One Year,Yes,Credit Card,85.45,6028.95,2264.19
+729,729,50,Yes,,Yes,35.32,Yes,Fiber Optic,30.0,No,Yes,Yes,Yes,No,No,No,One Year,Yes,Bank Withdrawal,89.55,3474.45,1377.48
+730,730,56,No,,Yes,15.21,No,,,,,,,,,,Two Year,Yes,Credit Card,19.75,1567.0,1095.12
+731,731,39,Yes,,Yes,14.07,Yes,Fiber Optic,15.0,Yes,Yes,No,Yes,Yes,No,No,Month-to-Month,No,Bank Withdrawal,100.75,2793.55,379.89
+732,732,26,No,,Yes,34.98,No,Fiber Optic,26.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,69.05,1793.25,944.46
+733,733,50,Yes,Offer B,Yes,47.05,Yes,Cable,24.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,90.3,5194.05,2775.95
+734,734,62,Yes,Offer D,Yes,12.06,Yes,Fiber Optic,9.0,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Credit Card,90.2,1454.15,205.02
+735,735,33,Yes,Offer C,Yes,32.86,No,,,,,,,,,,One Year,No,Credit Card,20.15,456.85,788.64
+736,736,61,Yes,Offer B,Yes,16.87,No,Fiber Optic,24.0,No,Yes,Yes,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,85.8,4433.3,877.24
+737,737,27,No,,Yes,1.63,No,Fiber Optic,59.0,No,Yes,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,84.3,84.3,1.63
+738,738,33,Yes,Offer E,Yes,25.11,Yes,Fiber Optic,26.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,81.3,416.3,125.55
+739,739,64,No,Offer E,Yes,43.18,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.2,123.65,259.08
+740,740,47,Yes,,Yes,49.31,Yes,Fiber Optic,21.0,Yes,Yes,Yes,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,106.75,6252.9,2909.29
+741,741,77,Yes,Offer D,Yes,6.01,Yes,Fiber Optic,27.0,No,No,No,No,No,Yes,No,Month-to-Month,No,Bank Withdrawal,85.55,851.75,60.1
+742,742,62,No,,Yes,48.22,No,Cable,22.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,55.7,55.7,48.22
+743,743,21,Yes,Offer B,Yes,25.69,Yes,DSL,26.0,Yes,Yes,No,Yes,Yes,No,No,Two Year,No,Credit Card,73.85,3371.0,1156.05
+744,744,68,Yes,,No,,,Cable,28.0,No,No,Yes,Yes,No,No,No,Two Year,No,Credit Card,34.25,828.2,0.0
+745,745,30,Yes,,Yes,46.27,No,Cable,30.0,Yes,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,54.5,2076.05,1758.26
+746,746,51,No,Offer B,Yes,9.95,No,Fiber Optic,2.0,Yes,Yes,No,No,Yes,Yes,Yes,One Year,Yes,Credit Card,100.3,6603.8,636.8
+747,747,73,Yes,Offer A,Yes,1.34,Yes,Fiber Optic,30.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,93.05,6735.05,96.48
+748,748,48,No,,No,,,DSL,11.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,25.1,382.8,0.0
+749,749,51,No,Offer E,Yes,12.13,No,Fiber Optic,19.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.85,69.85,12.13
+750,750,55,No,,Yes,31.92,No,Fiber Optic,4.0,No,No,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,90.4,356.65,127.68
+751,751,32,Yes,Offer D,Yes,2.52,No,,,,,,,,,,Two Year,No,Credit Card,20.9,202.3,27.72
+752,752,25,No,Offer A,Yes,48.52,Yes,Fiber Optic,51.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,116.45,8013.55,3493.44
+753,753,43,Yes,Offer A,Yes,11.72,Yes,Fiber Optic,20.0,No,Yes,Yes,Yes,No,No,No,One Year,Yes,Bank Withdrawal,90.55,6130.95,773.52
+754,754,72,Yes,,Yes,48.16,Yes,DSL,10.0,No,Yes,Yes,No,Yes,No,No,One Year,Yes,Credit Card,71.1,4140.1,2745.12
+755,755,47,Yes,,Yes,13.95,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,22.95,1014.25,585.9
+756,756,31,Yes,Offer B,Yes,41.84,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.35,1263.85,2635.92
+757,757,60,Yes,,Yes,42.04,No,Cable,26.0,No,Yes,No,Yes,No,No,No,One Year,Yes,Credit Card,54.15,2319.8,1891.8
+758,758,80,Yes,,Yes,13.84,Yes,Cable,18.0,No,No,Yes,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,107.55,4533.9,595.12
+759,759,56,No,,Yes,36.97,Yes,Fiber Optic,27.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.55,1415.55,517.58
+760,760,72,Yes,,Yes,8.92,Yes,Fiber Optic,17.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,74.4,527.9,62.44
+761,761,40,No,,Yes,44.94,No,Fiber Optic,25.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,73.85,926.25,494.34
+762,762,58,No,Offer E,Yes,1.28,No,DSL,27.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,50.8,50.8,1.28
+763,763,29,Yes,Offer D,Yes,7.6,Yes,DSL,52.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,75.4,1322.55,129.2
+764,764,62,No,,Yes,27.11,No,,,,,,,,,,Two Year,Yes,Credit Card,19.7,419.4,542.2
+765,765,42,No,Offer D,No,,,DSL,8.0,Yes,No,No,No,No,No,No,Month-to-Month,No,Mailed Check,29.75,301.9,0.0
+766,766,30,Yes,,Yes,45.37,Yes,Fiber Optic,52.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.1,1620.8,862.03
+767,767,48,Yes,,Yes,41.2,Yes,Fiber Optic,10.0,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,104.25,6812.95,2678.0
+768,768,30,Yes,,Yes,33.97,Yes,DSL,69.0,Yes,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,80.2,3581.6,1460.71
+769,769,80,Yes,Offer E,Yes,22.86,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,20.85,20.85,22.86
+770,770,20,Yes,,Yes,8.3,No,DSL,48.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,59.8,1130.85,157.7
+771,771,21,Yes,,Yes,15.35,Yes,DSL,41.0,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,86.4,6058.95,1105.2
+772,772,64,Yes,Offer C,Yes,40.68,No,Fiber Optic,76.0,No,No,Yes,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,81.5,3107.3,1586.52
+773,773,25,Yes,Offer A,Yes,24.08,No,Fiber Optic,41.0,Yes,No,Yes,No,No,No,No,Two Year,No,Credit Card,80.35,5375.15,1637.44
+774,774,32,Yes,,Yes,20.12,No,Cable,30.0,Yes,Yes,No,Yes,No,Yes,Yes,Two Year,No,Bank Withdrawal,68.25,1114.85,321.92
+775,775,69,No,,Yes,47.47,Yes,Fiber Optic,19.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,89.5,161.5,94.94
+776,776,27,No,,Yes,24.4,Yes,Fiber Optic,71.0,No,No,No,No,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,85.2,1553.9,439.2
+777,777,28,No,Offer E,Yes,43.77,No,DSL,41.0,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,44.8,176.2,175.08
+778,778,25,Yes,,No,,,DSL,59.0,No,Yes,Yes,No,Yes,No,No,One Year,No,Credit Card,46.4,812.4,0.0
+779,779,35,No,,Yes,31.33,Yes,,,,,,,,,,One Year,No,Credit Card,26.05,1856.4,2193.1
+780,780,63,No,Offer B,Yes,27.0,No,Cable,20.0,No,Yes,Yes,No,No,Yes,Yes,Two Year,Yes,Mailed Check,64.75,3617.1,1485.0
+781,781,50,No,Offer A,Yes,45.54,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.7,1253.8,3005.64
+782,782,80,No,Offer D,Yes,26.84,No,Fiber Optic,15.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,79.15,827.7,295.24
+783,783,38,Yes,Offer A,Yes,32.22,Yes,Fiber Optic,25.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,104.9,7732.65,2319.84
+784,784,65,No,Offer E,Yes,18.37,No,Fiber Optic,13.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,78.45,78.45,18.37
+785,785,60,Yes,Offer C,Yes,25.26,Yes,Fiber Optic,23.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.75,1929.0,682.02
+786,786,39,Yes,,Yes,43.7,Yes,Fiber Optic,26.0,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,104.5,3684.95,1573.2
+787,787,40,Yes,Offer B,Yes,4.33,Yes,DSL,12.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,86.2,4524.05,233.82
+788,788,51,Yes,,Yes,18.62,No,,,,,,,,,,Two Year,No,Credit Card,20.15,220.8,186.2
+789,789,53,Yes,Offer B,Yes,44.49,Yes,Cable,28.0,Yes,No,No,Yes,Yes,No,No,Two Year,Yes,Credit Card,70.5,3486.65,2224.5
+790,790,38,No,Offer E,Yes,30.07,No,Cable,29.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,44.55,220.75,120.28
+791,791,32,No,Offer A,Yes,15.03,No,Cable,22.0,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,75.1,5336.35,1082.16
+792,792,60,Yes,,Yes,23.66,Yes,Fiber Optic,26.0,Yes,Yes,No,Yes,Yes,No,No,Two Year,No,Bank Withdrawal,99.9,7251.7,1703.52
+793,793,53,Yes,,Yes,22.95,Yes,Fiber Optic,17.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,109.75,7758.9,1652.4
+794,794,26,No,,Yes,17.3,No,,,,,,,,,,One Year,No,Credit Card,20.05,552.9,467.1
+795,795,35,No,Offer D,Yes,46.99,Yes,Fiber Optic,17.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,72.65,1194.3,751.84
+796,796,25,No,,Yes,16.57,No,,,,,,,,,,Two Year,Yes,Credit Card,20.6,1298.7,1043.91
+797,797,37,No,,Yes,39.85,Yes,Fiber Optic,21.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,75.75,777.3,398.5
+798,798,25,Yes,,No,,,DSL,69.0,No,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,54.3,2317.1,0.0
+799,799,79,Yes,,Yes,36.58,Yes,Fiber Optic,23.0,No,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,100.65,5189.75,1829.0
+800,800,47,No,Offer E,Yes,48.58,No,DSL,21.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,46.2,46.2,48.58
+801,801,72,No,,Yes,16.94,Yes,Fiber Optic,11.0,No,No,Yes,No,No,Yes,No,Month-to-Month,No,Credit Card,88.3,2467.75,457.38
+802,802,57,Yes,,Yes,23.29,No,DSL,25.0,No,Yes,Yes,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,68.3,4378.8,1490.56
+803,803,27,Yes,,Yes,33.39,Yes,Fiber Optic,52.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,No,Credit Card,109.55,7887.25,2404.08
+804,804,27,No,,Yes,25.72,No,,,,,,,,,,Two Year,No,Credit Card,19.65,1008.7,1388.88
+805,805,42,No,,Yes,1.91,No,,,,,,,,,,Month-to-Month,No,Mailed Check,19.7,19.7,1.91
+806,806,54,No,,Yes,13.35,Yes,Fiber Optic,7.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.15,3615.6,480.6
+807,807,50,Yes,Offer B,Yes,34.65,Yes,Fiber Optic,9.0,No,Yes,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.45,4138.05,1455.3
+808,808,27,Yes,,Yes,4.16,Yes,,,,,,,,,,Month-to-Month,Yes,Credit Card,24.4,253.9,41.6
+809,809,47,Yes,Offer C,Yes,16.48,No,DSL,17.0,Yes,No,No,Yes,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,66.3,1923.5,494.4
+810,810,30,Yes,Offer E,Yes,2.87,No,,,,,,,,,,Two Year,No,Credit Card,20.15,165.5,22.96
+811,811,27,No,,Yes,39.84,No,Cable,42.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,54.75,1406.9,1035.84
+812,812,24,No,,Yes,13.16,No,,,,,,,,,,Two Year,No,Credit Card,20.25,202.5,131.6
+813,813,64,No,Offer E,Yes,10.71,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,20.25,20.25,10.71
+814,814,55,Yes,Offer B,Yes,33.47,No,,,,,,,,,,Two Year,Yes,Credit Card,19.85,1267.05,2175.55
+815,815,36,Yes,,Yes,26.83,Yes,,,,,,,,,,Two Year,No,Mailed Check,25.75,1686.15,1824.44
+816,816,49,No,Offer B,Yes,25.4,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,20.4,930.45,1143.0
+817,817,64,No,Offer D,Yes,8.54,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.6,300.4,119.56
+818,818,48,Yes,,Yes,46.86,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.6,314.45,749.76
+819,819,34,No,Offer D,No,,,DSL,4.0,Yes,No,No,Yes,No,No,No,Two Year,No,Credit Card,35.1,770.4,0.0
+820,820,67,No,Offer D,Yes,29.29,Yes,Fiber Optic,15.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,85.8,1727.5,585.8
+821,821,70,Yes,,Yes,8.98,No,DSL,16.0,No,Yes,No,No,No,Yes,No,One Year,Yes,Bank Withdrawal,60.0,1259.35,179.6
+822,822,69,Yes,Offer C,Yes,49.36,Yes,Fiber Optic,19.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,103.95,2964.8,1431.44
+823,823,80,Yes,Offer C,Yes,6.33,Yes,Fiber Optic,14.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,76.5,2868.15,234.21
+824,824,29,No,,Yes,25.71,Yes,Fiber Optic,48.0,Yes,No,No,No,No,No,No,One Year,No,Bank Withdrawal,80.1,2603.3,848.43
+825,825,75,Yes,Offer A,Yes,5.6,Yes,Fiber Optic,19.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Mailed Check,114.5,8331.95,403.2
+826,826,19,No,,Yes,45.04,No,DSL,73.0,No,No,Yes,Yes,No,Yes,Yes,Month-to-Month,No,Mailed Check,64.1,504.05,360.32
+827,827,36,Yes,Offer A,No,,,Cable,17.0,Yes,Yes,Yes,No,No,No,No,Two Year,No,Bank Withdrawal,42.1,2962.0,0.0
+828,828,47,No,Offer D,No,,,DSL,27.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,49.15,649.4,0.0
+829,829,30,No,,Yes,5.97,Yes,Fiber Optic,73.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,108.45,4964.7,268.65
+830,830,31,No,Offer E,No,,,DSL,8.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,34.7,34.7,0.0
+831,831,20,Yes,Offer B,Yes,20.09,Yes,,,,,,,,,,Two Year,No,Mailed Check,24.4,1417.9,1225.49
+832,832,24,No,,Yes,43.02,No,DSL,42.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,50.55,244.75,215.1
+833,833,45,Yes,,Yes,41.74,Yes,Fiber Optic,24.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,98.4,5149.5,2212.22
+834,834,50,Yes,Offer C,Yes,1.53,No,Fiber Optic,57.0,No,Yes,No,Yes,Yes,No,No,One Year,Yes,Bank Withdrawal,89.7,3165.6,53.55
+835,835,34,Yes,Offer A,Yes,28.21,No,DSL,19.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,82.55,5832.65,2002.91
+836,836,45,No,,Yes,23.18,No,DSL,18.0,Yes,No,No,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,65.1,3846.75,1437.16
+837,837,49,No,Offer E,No,,,DSL,21.0,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,42.6,72.4,0.0
+838,838,33,No,Offer E,Yes,39.19,No,Cable,20.0,No,No,No,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,59.5,530.05,352.71
+839,839,52,Yes,Offer B,Yes,38.45,No,DSL,15.0,Yes,No,Yes,Yes,No,No,No,One Year,No,Credit Card,56.9,2560.1,1768.7
+840,840,50,No,,Yes,2.52,No,Fiber Optic,24.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,104.05,7262.0,173.88
+841,841,39,No,,Yes,49.64,Yes,Fiber Optic,27.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,101.4,4528.0,2134.52
+842,842,38,No,Offer A,No,,,DSL,28.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,-8.0,4539.6,0.0
+843,843,28,Yes,,Yes,47.02,Yes,Fiber Optic,48.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,117.6,8308.9,3385.44
+844,844,64,No,,Yes,40.99,No,DSL,21.0,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Mailed Check,73.35,931.55,532.87
+845,845,71,Yes,,Yes,28.56,No,DSL,18.0,No,No,No,No,No,Yes,Yes,One Year,No,Bank Withdrawal,55.8,2283.3,1142.4
+846,846,33,Yes,,Yes,39.82,Yes,DSL,13.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,No,Credit Card,78.75,3600.65,1791.9
+847,847,44,Yes,,Yes,6.58,Yes,Fiber Optic,7.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,105.0,7589.8,473.76
+848,848,40,Yes,,Yes,4.15,Yes,,,,,,,,,,Two Year,No,Credit Card,25.4,1797.1,298.8
+849,849,55,No,,Yes,38.74,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.8,849.9,1627.08
+850,850,62,Yes,,Yes,13.23,Yes,Fiber Optic,23.0,Yes,No,No,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,97.1,4016.75,555.66
+851,851,19,Yes,Offer B,Yes,30.51,Yes,Fiber Optic,41.0,Yes,Yes,No,No,No,Yes,Yes,One Year,No,Bank Withdrawal,96.1,6001.45,1891.62
+852,852,57,No,Offer D,Yes,44.88,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.7,216.2,493.68
+853,853,31,Yes,,Yes,30.44,Yes,Fiber Optic,20.0,Yes,Yes,Yes,No,Yes,No,No,Two Year,Yes,Bank Withdrawal,99.35,6347.55,1978.6
+854,854,40,Yes,Offer E,Yes,25.9,No,DSL,19.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,44.8,169.65,103.6
+855,855,44,No,,Yes,14.21,Yes,Fiber Optic,28.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,104.05,3416.85,454.72
+856,856,52,Yes,Offer B,Yes,47.55,Yes,DSL,13.0,Yes,No,Yes,Yes,Yes,No,No,One Year,No,Bank Withdrawal,77.4,4155.95,2520.15
+857,857,54,Yes,,Yes,26.84,No,,,,,,,,,,Two Year,Yes,Credit Card,20.2,746.05,1019.92
+858,858,21,Yes,,No,,,Cable,52.0,Yes,Yes,Yes,No,Yes,No,No,One Year,No,Mailed Check,50.0,2919.85,0.0
+859,859,43,Yes,,No,,,DSL,22.0,Yes,No,Yes,No,No,Yes,Yes,One Year,No,Credit Card,45.0,2196.3,0.0
+860,860,68,No,Offer B,Yes,6.9,Yes,Fiber Optic,20.0,No,No,Yes,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,100.15,4459.8,310.5
+861,861,40,No,,Yes,8.71,No,DSL,23.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,49.55,2077.95,365.82
+862,862,35,Yes,Offer D,Yes,18.05,No,Fiber Optic,5.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,89.0,1820.45,361.0
+863,863,26,No,,Yes,13.9,No,Cable,73.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,85.85,3003.55,500.4
+864,864,52,Yes,,No,,,DSL,11.0,Yes,No,Yes,Yes,No,No,No,Two Year,No,Credit Card,39.1,2779.5,0.0
+865,865,63,Yes,,Yes,6.54,No,,,,,,,,,,Two Year,No,Credit Card,19.65,973.1,307.38
+866,866,74,Yes,,Yes,32.9,Yes,DSL,18.0,Yes,Yes,Yes,No,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,75.15,3822.45,1645.0
+867,867,55,No,,Yes,13.65,Yes,Fiber Optic,5.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,90.0,1527.35,245.7
+868,868,27,Yes,Offer B,Yes,42.1,Yes,DSL,52.0,No,Yes,No,No,Yes,No,No,One Year,No,Bank Withdrawal,63.9,2635.0,1684.0
+869,869,44,Yes,,Yes,32.22,Yes,,,,,,,,,,One Year,No,Bank Withdrawal,24.85,1013.6,1417.68
+870,870,61,No,Offer B,Yes,18.42,No,DSL,13.0,No,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,75.75,4284.65,1031.52
+871,871,28,No,Offer D,Yes,38.73,No,,,,,,,,,,One Year,No,Credit Card,20.1,401.85,697.14
+872,872,40,Yes,Offer D,Yes,16.2,Yes,Fiber Optic,17.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.1,1873.7,356.4
+873,873,47,Yes,,Yes,14.9,No,DSL,6.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,45.85,45.85,14.9
+874,874,38,No,,Yes,18.12,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.45,246.25,217.44
+875,875,27,Yes,,Yes,29.67,Yes,Fiber Optic,85.0,Yes,Yes,No,No,No,No,No,One Year,Yes,Bank Withdrawal,85.5,5696.6,2017.56
+876,876,47,No,,Yes,25.95,Yes,Fiber Optic,23.0,No,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,104.65,6889.8,1660.8
+877,877,60,Yes,Offer A,No,,,Cable,56.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,54.95,3772.5,0.0
+878,878,29,Yes,Offer E,No,,,DSL,29.0,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,-4.0,24.8,0.0
+879,879,68,No,,Yes,45.77,Yes,Fiber Optic,10.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,79.5,4370.25,2471.58
+880,880,78,Yes,Offer B,Yes,5.93,No,DSL,19.0,Yes,No,No,Yes,Yes,Yes,No,Two Year,Yes,Credit Card,72.6,4084.35,332.08
+881,881,52,No,,Yes,26.16,No,,,,,,,,,,Two Year,No,Credit Card,20.9,689.35,810.96
+882,882,42,Yes,,Yes,45.26,Yes,Cable,56.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Month-to-Month,No,Credit Card,79.9,3326.2,1855.66
+883,883,49,Yes,,Yes,19.8,No,Cable,17.0,Yes,No,Yes,Yes,Yes,No,No,One Year,Yes,Bank Withdrawal,67.5,1544.05,435.6
+884,884,50,No,Offer C,Yes,13.69,No,Fiber Optic,12.0,No,Yes,No,Yes,Yes,No,No,One Year,Yes,Bank Withdrawal,91.25,2483.65,383.32
+885,885,36,No,,Yes,47.43,No,,,,,,,,,,Two Year,No,Credit Card,20.45,1042.65,2418.93
+886,886,69,Yes,Offer E,Yes,47.9,No,Fiber Optic,6.0,No,No,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,95.75,573.75,287.4
+887,887,36,No,,Yes,10.41,No,DSL,17.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,45.7,45.7,10.41
+888,888,64,Yes,Offer E,No,,,DSL,26.0,No,No,No,Yes,Yes,No,No,Month-to-Month,No,Mailed Check,40.65,328.95,0.0
+889,889,52,Yes,,Yes,44.73,No,,,,,,,,,,One Year,No,Bank Withdrawal,20.5,79.05,178.92
+890,890,50,No,Offer D,Yes,10.25,No,,,,,,,,,,One Year,No,Bank Withdrawal,20.85,450.65,225.5
+891,891,32,Yes,,Yes,46.87,No,Fiber Optic,11.0,No,Yes,No,No,Yes,Yes,Yes,One Year,Yes,Credit Card,95.65,6744.2,3234.03
+892,892,54,Yes,Offer C,Yes,32.43,No,Cable,19.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,76.3,2404.15,1037.76
+893,893,34,No,,Yes,37.59,Yes,Fiber Optic,8.0,Yes,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,92.4,2349.8,977.34
+894,894,39,No,,No,,,DSL,6.0,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,44.65,1156.55,0.0
+895,895,36,No,,No,,,DSL,18.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,24.75,66.95,0.0
+896,896,50,Yes,,Yes,4.34,No,DSL,23.0,No,No,No,No,Yes,No,No,One Year,Yes,Credit Card,56.35,2391.15,186.62
+897,897,36,No,,Yes,14.3,Yes,Fiber Optic,20.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,83.95,2254.2,371.8
+898,898,73,Yes,Offer A,Yes,4.59,Yes,Fiber Optic,27.0,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,114.65,8333.95,330.48
+899,899,41,Yes,,Yes,28.54,Yes,Fiber Optic,23.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,110.5,7752.05,1997.8
+900,900,74,No,,Yes,3.84,Yes,Fiber Optic,13.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,76.45,76.45,3.84
+901,901,28,No,Offer E,Yes,32.76,No,Fiber Optic,73.0,No,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.7,293.65,98.28
+902,902,57,Yes,Offer D,Yes,25.79,Yes,Cable,12.0,Yes,No,Yes,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,94.4,1607.2,438.43
+903,903,31,No,Offer A,Yes,23.43,No,,,,,,,,,,Two Year,Yes,Credit Card,20.8,1521.2,1686.96
+904,904,57,Yes,Offer A,Yes,9.44,Yes,Fiber Optic,9.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,115.15,8078.1,670.24
+905,905,50,Yes,,Yes,9.67,No,Cable,22.0,No,No,No,Yes,No,No,No,Month-to-Month,No,Credit Card,50.05,179.35,38.68
+906,906,59,Yes,,Yes,39.76,No,DSL,76.0,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,-9.0,4663.4,2385.6
+907,907,46,No,Offer D,Yes,49.5,Yes,Fiber Optic,19.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,81.0,818.05,495.0
+908,908,48,Yes,,No,,,DSL,22.0,No,No,No,Yes,No,No,No,One Year,No,Credit Card,30.25,368.85,0.0
+909,909,40,Yes,,Yes,28.47,No,Fiber Optic,5.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,70.5,294.2,113.88
+910,910,23,Yes,Offer C,Yes,46.54,Yes,DSL,85.0,Yes,Yes,Yes,No,No,No,No,Two Year,No,Bank Withdrawal,64.35,1558.65,1116.96
+911,911,53,No,,No,,,DSL,18.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,30.9,59.05,0.0
+912,912,29,No,,Yes,4.48,Yes,Cable,51.0,No,No,Yes,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,87.25,3941.7,201.6
+913,913,28,Yes,,Yes,18.05,Yes,Fiber Optic,51.0,No,Yes,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,84.25,1968.1,415.15
+914,914,42,No,,Yes,5.68,Yes,Fiber Optic,24.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,110.5,7069.25,363.52
+915,915,21,Yes,,Yes,19.16,Yes,Fiber Optic,48.0,No,Yes,No,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,98.25,5508.35,1072.96
+916,916,32,No,,Yes,10.9,No,,,,,,,,,,One Year,Yes,Credit Card,19.35,433.75,218.0
+917,917,43,No,Offer B,Yes,19.04,No,Fiber Optic,21.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,102.5,4904.25,913.92
+918,918,48,No,Offer E,Yes,30.58,No,,,,,,,,,,One Year,No,Credit Card,19.5,128.6,214.06
+919,919,54,No,,Yes,42.93,Yes,Fiber Optic,11.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,81.0,4085.75,2189.43
+920,920,25,No,Offer A,Yes,12.19,Yes,Fiber Optic,42.0,Yes,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,104.0,7250.15,853.3
+921,921,32,No,,Yes,41.37,Yes,Fiber Optic,28.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.55,166.3,82.74
+922,922,42,Yes,Offer B,Yes,19.02,Yes,Fiber Optic,17.0,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,110.85,5275.8,893.94
+923,923,49,No,Offer E,Yes,19.98,No,Fiber Optic,5.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,79.25,79.25,19.98
+924,924,62,No,Offer E,Yes,24.05,No,Fiber Optic,27.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Mailed Check,-5.0,178.7,48.1
+925,925,75,No,Offer E,Yes,8.91,No,Fiber Optic,27.0,No,No,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,74.4,434.1,53.46
+926,926,24,No,,Yes,15.29,Yes,Fiber Optic,48.0,No,No,Yes,No,No,No,No,One Year,Yes,Bank Withdrawal,79.2,4765.0,917.4
+927,927,48,No,,Yes,36.59,No,DSL,20.0,No,No,No,Yes,No,No,No,One Year,No,Credit Card,47.85,2356.75,1866.09
+928,928,76,No,,No,,,DSL,18.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,49.15,2550.9,0.0
+929,929,49,Yes,Offer D,Yes,32.47,No,,,,,,,,,,One Year,No,Credit Card,19.9,357.7,616.93
+930,930,35,No,,Yes,34.79,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,19.1,19.1,34.79
+931,931,67,Yes,,Yes,17.36,Yes,Fiber Optic,29.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,74.4,74.4,17.36
+932,932,40,Yes,Offer A,Yes,26.56,Yes,Fiber Optic,7.0,No,Yes,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.25,6669.45,1885.76
+933,933,33,Yes,Offer B,Yes,45.21,Yes,Fiber Optic,19.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,110.8,7245.9,2938.65
+934,934,29,No,Offer E,Yes,45.67,No,DSL,71.0,No,No,Yes,No,Yes,No,No,Month-to-Month,No,Credit Card,60.9,414.1,274.02
+935,935,35,No,Offer D,Yes,5.74,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,19.7,342.4,91.84
+936,936,32,Yes,Offer D,Yes,42.0,No,DSL,14.0,No,Yes,Yes,No,No,Yes,Yes,One Year,Yes,Credit Card,65.9,660.05,420.0
+937,937,62,No,,Yes,31.97,Yes,Fiber Optic,2.0,No,No,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Credit Card,89.9,2723.15,959.1
+938,938,56,No,Offer E,Yes,6.47,No,DSL,21.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,45.15,98.5,12.94
+939,939,40,No,,Yes,39.13,Yes,Fiber Optic,20.0,No,Yes,Yes,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,96.55,500.1,195.65
+940,940,26,Yes,Offer D,Yes,46.88,No,Cable,73.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,51.25,612.1,562.56
+941,941,22,Yes,,Yes,28.06,Yes,,,,,,,,,,Two Year,Yes,Bank Withdrawal,25.2,1798.9,2020.32
+942,942,39,Yes,,Yes,10.87,Yes,DSL,24.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,85.9,6110.75,782.64
+943,943,53,Yes,,Yes,41.88,Yes,Fiber Optic,7.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,108.65,6937.95,2722.2
+944,944,73,Yes,,Yes,37.15,No,DSL,13.0,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,79.2,943.85,445.8
+945,945,22,No,,Yes,40.03,No,DSL,52.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,51.0,286.8,200.15
+946,946,48,Yes,Offer B,No,,,Cable,8.0,Yes,No,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,48.15,2032.3,0.0
+947,947,48,Yes,,Yes,19.64,Yes,,,,,,,,,,Two Year,No,Credit Card,24.1,1734.65,1414.08
+948,948,33,Yes,Offer E,Yes,15.74,Yes,Fiber Optic,28.0,Yes,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.15,413.25,78.7
+949,949,22,No,,Yes,17.98,Yes,Fiber Optic,26.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,75.05,786.3,179.8
+950,950,54,No,,Yes,21.12,No,Fiber Optic,7.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,69.15,488.65,147.84
+951,951,36,No,Offer C,Yes,2.87,Yes,Fiber Optic,29.0,Yes,Yes,Yes,Yes,No,No,No,Month-to-Month,Yes,Credit Card,95.0,2852.4,86.1
+952,952,23,Yes,,Yes,46.71,No,Cable,41.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,65.65,3047.15,2148.66
+953,953,76,No,,Yes,22.86,Yes,Fiber Optic,24.0,Yes,No,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,108.95,7111.3,1463.04
+954,954,63,Yes,,Yes,14.46,No,Fiber Optic,29.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,108.65,7726.35,1041.12
+955,955,32,No,,Yes,27.7,Yes,Fiber Optic,19.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,77.15,77.15,27.7
+956,956,25,Yes,Offer A,Yes,35.01,Yes,DSL,59.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,79.85,5234.95,2310.66
+957,957,59,No,,Yes,23.89,Yes,Fiber Optic,14.0,No,Yes,Yes,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,94.0,773.65,191.12
+958,958,48,Yes,Offer A,Yes,15.71,Yes,DSL,57.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,90.3,6287.3,1115.41
+959,959,62,Yes,,Yes,48.29,Yes,DSL,23.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Credit Card,56.6,2379.1,1931.6
+960,960,44,Yes,,Yes,36.45,Yes,,,,,,,,,,One Year,Yes,Credit Card,24.5,1497.9,2114.1
+961,961,51,Yes,Offer D,Yes,19.63,No,DSL,12.0,Yes,No,No,Yes,No,No,No,One Year,No,Bank Withdrawal,54.15,701.05,255.19
+962,962,42,No,,Yes,18.97,Yes,Fiber Optic,3.0,No,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,100.6,5069.65,929.53
+963,963,21,Yes,,Yes,37.57,Yes,,,,,,,,,,Two Year,Yes,Credit Card,24.65,1171.3,1690.65
+964,964,28,No,Offer C,Yes,31.53,No,,,,,,,,,,One Year,Yes,Credit Card,20.65,595.5,819.78
+965,965,26,No,Offer A,Yes,44.46,Yes,DSL,48.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,88.6,6201.95,3201.12
+966,966,45,No,Offer C,Yes,17.26,Yes,Fiber Optic,19.0,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.4,2936.25,517.8
+967,967,37,Yes,,Yes,45.95,No,Cable,10.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,No,Mailed Check,81.0,3846.35,2113.7
+968,968,76,Yes,Offer C,Yes,43.51,Yes,Fiber Optic,22.0,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,104.9,3351.55,1392.32
+969,969,19,No,,Yes,13.16,Yes,Fiber Optic,27.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Credit Card,110.45,3327.05,394.8
+970,970,51,No,Offer E,Yes,30.79,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.4,94.5,123.16
+971,971,55,Yes,Offer C,Yes,26.8,No,Fiber Optic,17.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,91.25,2964.05,884.4
+972,972,39,Yes,,Yes,25.33,No,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,19.2,239.0,303.96
+973,973,30,No,,Yes,46.88,Yes,Fiber Optic,59.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.9,357.75,234.4
+974,974,41,Yes,,Yes,16.61,No,Fiber Optic,3.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,80.85,1400.85,282.37
+975,975,56,Yes,Offer B,Yes,20.65,Yes,DSL,25.0,Yes,No,No,No,No,No,No,One Year,No,Credit Card,-7.0,2386.85,867.3
+976,976,19,Yes,,Yes,28.42,Yes,DSL,41.0,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,52.15,2583.75,1392.58
+977,977,53,No,,No,,,DSL,9.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,35.25,35.25,0.0
+978,978,48,No,,Yes,32.0,No,Cable,23.0,Yes,Yes,Yes,Yes,No,Yes,Yes,One Year,Yes,Credit Card,75.55,2680.15,1152.0
+979,979,35,Yes,,No,,,DSL,17.0,No,Yes,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,50.2,2554.0,0.0
+980,980,44,No,Offer B,Yes,10.83,No,,,,,,,,,,Two Year,Yes,Credit Card,20.5,1035.7,584.82
+981,981,22,No,,Yes,7.86,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.95,219.5,78.6
+982,982,31,Yes,,Yes,2.82,No,,,,,,,,,,Two Year,Yes,Bank Withdrawal,20.15,973.35,138.18
+983,983,52,No,,Yes,20.3,Yes,DSL,13.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,80.65,5330.2,1380.4
+984,984,23,No,,Yes,13.86,No,Fiber Optic,76.0,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,74.25,639.65,124.74
+985,985,32,No,,Yes,32.91,No,Fiber Optic,24.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Credit Card,78.75,426.35,164.55
+986,986,75,No,,Yes,2.63,Yes,Fiber Optic,13.0,No,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,111.4,1183.05,28.93
+987,987,53,Yes,,No,,,DSL,30.0,Yes,No,Yes,No,Yes,Yes,Yes,One Year,No,Credit Card,53.15,1930.9,0.0
+988,988,52,No,,Yes,11.73,Yes,Fiber Optic,30.0,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,91.2,3382.3,434.01
+989,989,35,No,,Yes,13.04,Yes,Fiber Optic,16.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,74.75,1129.35,208.64
+990,990,38,No,,Yes,47.61,No,DSL,12.0,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Credit Card,70.5,829.3,523.71
+991,991,47,No,Offer B,Yes,27.75,Yes,Fiber Optic,30.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,No,Credit Card,-3.0,6631.85,1803.75
+992,992,30,Yes,Offer B,Yes,18.88,No,Fiber Optic,48.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,80.3,4896.35,1189.44
+993,993,73,Yes,,Yes,26.95,No,Fiber Optic,26.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,70.55,3309.25,1266.65
+994,994,24,Yes,,Yes,33.61,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,24.45,1730.65,2386.31
+995,995,35,No,,Yes,18.1,Yes,Fiber Optic,15.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,75.45,480.75,126.7
+996,996,61,No,Offer C,Yes,35.97,No,,,,,,,,,,One Year,No,Bank Withdrawal,20.55,654.55,1151.04
+997,997,57,Yes,,Yes,21.14,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.55,608.5,634.2
+998,998,70,Yes,Offer E,Yes,32.31,Yes,Fiber Optic,27.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,94.6,279.55,96.93
+999,999,56,Yes,,Yes,26.17,Yes,,,,,,,,,,Two Year,Yes,Bank Withdrawal,24.0,269.65,314.04
+1000,1000,73,No,,No,,,DSL,18.0,Yes,Yes,No,No,No,No,No,Two Year,Yes,Credit Card,33.45,1500.25,0.0
+1001,1001,74,No,,Yes,28.54,Yes,Fiber Optic,24.0,No,No,Yes,Yes,Yes,Yes,No,One Year,Yes,Credit Card,103.75,4188.4,1141.6
+1002,1002,30,Yes,,Yes,22.33,Yes,Cable,71.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,90.1,6310.9,1585.43
+1003,1003,80,Yes,,No,,,Cable,18.0,Yes,No,No,No,No,Yes,No,Month-to-Month,No,Mailed Check,40.05,880.2,0.0
+1004,1004,43,No,,Yes,49.45,No,Fiber Optic,19.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,70.4,2406.1,1631.85
+1005,1005,48,Yes,Offer B,Yes,19.22,Yes,Fiber Optic,4.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,102.5,6157.6,1153.2
+1006,1006,42,Yes,,Yes,12.6,No,Fiber Optic,26.0,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,100.4,4303.65,529.2
+1007,1007,45,Yes,,Yes,9.23,No,Fiber Optic,25.0,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Mailed Check,99.15,465.05,46.15
+1008,1008,36,No,Offer C,Yes,44.11,No,DSL,8.0,No,No,No,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,49.15,1237.3,1146.86
+1009,1009,37,Yes,,Yes,43.24,No,DSL,28.0,Yes,Yes,Yes,No,No,No,No,Two Year,No,Bank Withdrawal,60.5,3694.45,2594.4
+1010,1010,26,Yes,,Yes,15.41,Yes,DSL,46.0,Yes,No,No,Yes,Yes,No,No,One Year,Yes,Credit Card,72.8,2333.05,493.12
+1011,1011,60,No,,Yes,12.19,Yes,Fiber Optic,23.0,No,No,No,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,-2.0,1993.8,268.18
+1012,1012,31,Yes,Offer A,Yes,8.51,Yes,Fiber Optic,24.0,No,Yes,Yes,Yes,No,No,No,Two Year,No,Bank Withdrawal,90.45,6565.85,612.72
+1013,1013,53,No,,Yes,33.14,Yes,DSL,17.0,Yes,No,No,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,59.2,1191.2,662.8
+1014,1014,60,No,Offer A,Yes,44.57,Yes,Fiber Optic,26.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,111.95,7795.95,3119.9
+1015,1015,56,Yes,Offer A,Yes,5.81,Yes,Fiber Optic,29.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,114.05,8289.2,418.32
+1016,1016,35,Yes,Offer D,Yes,49.36,No,,,,,,,,,,One Year,Yes,Credit Card,19.5,239.75,740.4
+1017,1017,60,Yes,Offer A,Yes,18.29,Yes,Fiber Optic,11.0,Yes,Yes,No,Yes,No,No,No,One Year,No,Bank Withdrawal,89.55,6038.55,1225.43
+1018,1018,62,No,Offer D,Yes,44.96,Yes,Fiber Optic,29.0,No,No,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,80.05,1345.65,764.32
+1019,1019,35,No,Offer D,Yes,37.36,Yes,Fiber Optic,28.0,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.7,973.25,373.6
+1020,1020,47,No,,No,,,Cable,28.0,Yes,Yes,No,Yes,No,No,No,One Year,No,Credit Card,39.5,1082.75,0.0
+1021,1021,21,Yes,Offer B,Yes,18.42,Yes,Fiber Optic,47.0,Yes,No,No,Yes,Yes,No,Yes,One Year,Yes,Mailed Check,95.15,5000.05,939.42
+1022,1022,49,Yes,Offer B,Yes,30.31,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.55,1007.9,1606.43
+1023,1023,60,Yes,,Yes,32.43,No,Fiber Optic,13.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,80.35,307.4,129.72
+1024,1024,63,Yes,,Yes,47.48,Yes,Fiber Optic,20.0,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.15,4730.9,2136.6
+1025,1025,43,Yes,,Yes,35.62,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,25.1,1857.85,2564.64
+1026,1026,29,Yes,,Yes,47.76,Yes,Fiber Optic,26.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.45,1451.6,811.92
+1027,1027,47,No,Offer D,No,,,DSL,4.0,No,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,55.0,771.95,0.0
+1028,1028,56,Yes,,Yes,34.84,Yes,,,,,,,,,,Two Year,Yes,Credit Card,24.2,1445.2,2125.24
+1029,1029,61,Yes,,Yes,23.02,Yes,Cable,21.0,No,Yes,Yes,No,No,No,No,Two Year,Yes,Bank Withdrawal,59.8,3246.45,1243.08
+1030,1030,33,No,,Yes,1.22,No,DSL,10.0,No,Yes,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,65.8,1679.65,30.5
+1031,1031,26,Yes,Offer E,Yes,23.06,No,Fiber Optic,52.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,90.75,90.75,23.06
+1032,1032,68,Yes,Offer C,Yes,2.17,Yes,Fiber Optic,11.0,No,No,Yes,No,No,No,No,Two Year,No,Mailed Check,79.3,2570.0,69.44
+1033,1033,26,Yes,,Yes,21.29,Yes,Fiber Optic,52.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,116.6,8337.45,1532.88
+1034,1034,76,Yes,Offer D,Yes,1.47,No,Fiber Optic,5.0,No,Yes,No,Yes,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,89.05,1169.35,19.11
+1035,1035,38,Yes,Offer A,Yes,19.9,Yes,DSL,27.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,89.3,6388.65,1412.9
+1036,1036,42,No,Offer E,Yes,43.8,Yes,Fiber Optic,5.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.55,536.4,262.8
+1037,1037,24,Yes,Offer C,Yes,15.94,No,DSL,53.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,80.8,2369.3,478.2
+1038,1038,39,Yes,,Yes,42.55,Yes,DSL,18.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,72.1,5016.65,3063.6
+1039,1039,30,No,Offer B,Yes,42.4,Yes,Fiber Optic,71.0,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,107.75,6521.9,2586.4
+1040,1040,56,Yes,Offer B,Yes,4.45,No,DSL,57.0,Yes,Yes,Yes,No,No,Yes,Yes,Two Year,Yes,Credit Card,70.1,3238.4,213.6
+1041,1041,45,Yes,,Yes,1.87,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.45,1297.35,115.94
+1042,1042,57,Yes,Offer B,Yes,2.83,Yes,Fiber Optic,19.0,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,103.75,5969.95,169.8
+1043,1043,63,Yes,Offer C,Yes,21.43,Yes,DSL,56.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,No,Credit Card,78.6,1846.65,514.32
+1044,1044,38,No,,Yes,16.26,No,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,20.3,470.6,373.98
+1045,1045,40,Yes,Offer B,Yes,24.71,Yes,Fiber Optic,27.0,No,Yes,Yes,No,No,Yes,Yes,One Year,No,Bank Withdrawal,94.4,4295.35,1087.24
+1046,1046,20,Yes,,Yes,45.66,Yes,DSL,47.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,90.95,6652.45,3287.52
+1047,1047,48,No,Offer E,Yes,28.5,No,Fiber Optic,13.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,71.05,472.65,199.5
+1048,1048,76,No,Offer E,Yes,12.91,Yes,Fiber Optic,21.0,No,No,No,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,84.45,762.5,116.19
+1049,1049,34,Yes,Offer B,Yes,38.15,Yes,Fiber Optic,14.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.5,4707.1,1793.05
+1050,1050,34,Yes,,Yes,24.22,Yes,Fiber Optic,14.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,101.15,3956.7,920.36
+1051,1051,53,No,,Yes,32.54,Yes,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,24.8,324.15,488.1
+1052,1052,48,Yes,,Yes,22.14,Yes,DSL,11.0,No,No,No,Yes,Yes,No,No,Month-to-Month,Yes,Credit Card,66.6,979.5,309.96
+1053,1053,79,Yes,,Yes,44.66,Yes,Fiber Optic,8.0,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,105.1,7548.1,3170.86
+1054,1054,55,No,Offer E,Yes,34.48,No,Cable,9.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,43.95,43.95,34.48
+1055,1055,67,No,,Yes,38.79,Yes,Fiber Optic,14.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,80.55,1411.65,698.22
+1056,1056,30,Yes,Offer C,Yes,18.29,No,,,,,,,,,,One Year,No,Credit Card,19.65,708.8,640.15
+1057,1057,30,No,,Yes,46.77,No,,,,,,,,,,Month-to-Month,No,Mailed Check,20.0,20.0,46.77
+1058,1058,54,Yes,,Yes,19.11,Yes,DSL,21.0,Yes,Yes,Yes,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,72.75,2447.45,630.63
+1059,1059,46,No,Offer B,Yes,43.57,No,Fiber Optic,13.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,No,Credit Card,99.5,5424.25,2309.21
+1060,1060,49,No,Offer D,Yes,8.02,Yes,DSL,57.0,Yes,Yes,No,Yes,Yes,No,No,Month-to-Month,Yes,Credit Card,75.9,1375.6,152.38
+1061,1061,41,No,Offer E,Yes,15.86,No,,,,,,,,,,Two Year,No,Mailed Check,20.25,174.65,126.88
+1062,1062,24,No,,Yes,16.25,Yes,DSL,51.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,50.7,214.55,65.0
+1063,1063,68,No,,Yes,43.61,No,Fiber Optic,2.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,91.3,91.3,43.61
+1064,1064,25,Yes,,Yes,16.05,No,Cable,46.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,83.7,6096.9,1155.6
+1065,1065,68,No,Offer C,Yes,8.88,Yes,DSL,22.0,Yes,Yes,No,No,No,No,No,Two Year,Yes,Bank Withdrawal,58.55,1718.95,257.52
+1066,1066,48,No,Offer B,Yes,7.96,No,DSL,8.0,Yes,Yes,No,No,No,No,No,One Year,No,Bank Withdrawal,56.15,3487.95,493.52
+1067,1067,45,Yes,Offer B,No,,,Cable,22.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,58.75,3437.45,0.0
+1068,1068,36,Yes,,Yes,31.79,Yes,Fiber Optic,13.0,Yes,Yes,Yes,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,103.05,5925.75,1812.03
+1069,1069,68,Yes,,Yes,27.56,Yes,Fiber Optic,3.0,No,Yes,No,Yes,Yes,Yes,No,One Year,No,Bank Withdrawal,107.05,2172.05,551.2
+1070,1070,37,Yes,Offer B,Yes,29.46,Yes,Fiber Optic,28.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,106.0,4178.65,1178.4
+1071,1071,30,No,Offer B,Yes,40.25,Yes,Fiber Optic,69.0,Yes,No,Yes,No,Yes,No,No,One Year,No,Credit Card,94.9,4615.25,1891.75
+1072,1072,30,No,Offer B,Yes,37.65,Yes,Fiber Optic,30.0,No,Yes,Yes,No,Yes,No,No,One Year,Yes,Bank Withdrawal,94.75,5121.75,2033.1
+1073,1073,56,No,,Yes,25.58,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.4,609.1,792.98
+1074,1074,50,Yes,Offer B,Yes,49.29,No,Cable,22.0,Yes,Yes,No,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,59.75,3450.15,2809.53
+1075,1075,20,Yes,Offer E,Yes,6.35,No,Cable,69.0,Yes,Yes,Yes,Yes,No,No,No,Month-to-Month,No,Mailed Check,65.0,663.05,57.15
+1076,1076,56,No,,Yes,5.59,Yes,Fiber Optic,2.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.45,95.45,5.59
+1077,1077,35,No,,No,,,DSL,8.0,No,Yes,Yes,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,41.1,1597.05,0.0
+1078,1078,42,No,Offer D,Yes,18.74,No,Cable,20.0,No,No,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,75.35,1025.95,262.36
+1079,1079,63,No,,Yes,34.0,No,Fiber Optic,11.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.2,3198.6,1462.0
+1080,1080,55,No,Offer D,Yes,30.88,No,DSL,15.0,Yes,No,Yes,No,No,Yes,Yes,One Year,No,Mailed Check,64.85,1336.8,648.48
+1081,1081,65,No,,Yes,36.93,No,Fiber Optic,18.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,78.85,292.8,147.72
+1082,1082,27,No,Offer B,Yes,42.88,Yes,Fiber Optic,52.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,89.9,5450.7,2572.8
+1083,1083,75,No,,Yes,36.36,Yes,Fiber Optic,12.0,No,Yes,No,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,89.8,502.6,181.8
+1084,1084,51,Yes,,No,,,DSL,2.0,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,59.3,3014.65,0.0
+1085,1085,51,Yes,,Yes,30.41,No,,,,,,,,,,Two Year,No,Credit Card,19.7,452.55,729.84
+1086,1086,69,No,,Yes,45.88,Yes,Fiber Optic,19.0,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Credit Card,91.7,2758.15,1376.4
+1087,1087,36,No,,Yes,34.37,No,,,,,,,,,,One Year,No,Credit Card,20.15,785.75,1271.69
+1088,1088,52,Yes,Offer C,Yes,44.32,No,,,,,,,,,,One Year,No,Credit Card,20.3,749.35,1684.16
+1089,1089,63,No,Offer C,Yes,33.71,No,,,,,,,,,,One Year,No,Credit Card,20.1,589.25,1045.01
+1090,1090,42,Yes,Offer A,Yes,37.03,Yes,DSL,26.0,Yes,No,No,No,Yes,No,No,One Year,Yes,Bank Withdrawal,66.2,4692.55,2629.13
+1091,1091,19,Yes,,No,,,DSL,69.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,60.8,3603.45,0.0
+1092,1092,35,Yes,,Yes,35.29,No,DSL,28.0,Yes,No,Yes,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,61.75,3024.15,1729.21
+1093,1093,74,No,Offer D,Yes,23.18,No,Fiber Optic,21.0,No,No,No,No,No,Yes,Yes,One Year,Yes,Bank Withdrawal,81.45,1671.6,463.6
+1094,1094,42,Yes,Offer C,Yes,39.11,Yes,DSL,23.0,Yes,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,59.45,2136.9,1368.85
+1095,1095,79,Yes,,Yes,36.66,Yes,Fiber Optic,9.0,No,Yes,No,No,No,Yes,No,One Year,Yes,Bank Withdrawal,89.85,4925.35,2089.62
+1096,1096,42,No,Offer E,Yes,39.03,No,Fiber Optic,30.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,80.25,144.55,78.06
+1097,1097,23,No,,Yes,41.21,Yes,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,25.25,996.45,1689.61
+1098,1098,39,No,,Yes,41.23,Yes,Fiber Optic,28.0,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,106.6,6428.4,2515.03
+1099,1099,20,No,,Yes,5.19,Yes,Fiber Optic,47.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,107.4,5121.3,249.12
+1100,1100,42,Yes,Offer B,Yes,40.86,Yes,Fiber Optic,27.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,115.85,6567.9,2288.16
+1101,1101,65,Yes,Offer B,Yes,19.58,Yes,Fiber Optic,26.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,107.45,7047.5,1272.7
+1102,1102,39,Yes,Offer B,Yes,26.7,No,Cable,17.0,Yes,No,No,Yes,Yes,No,No,One Year,No,Mailed Check,65.8,4068.0,1708.8
+1103,1103,23,Yes,,Yes,42.31,No,DSL,59.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,-6.0,4158.25,2580.91
+1104,1104,27,No,,Yes,45.62,Yes,Fiber Optic,59.0,No,No,Yes,Yes,Yes,No,No,Month-to-Month,No,Bank Withdrawal,95.5,3418.2,1596.7
+1105,1105,19,No,Offer C,Yes,28.42,No,DSL,48.0,Yes,No,No,Yes,No,No,No,One Year,No,Credit Card,54.3,1546.3,795.76
+1106,1106,48,Yes,Offer C,No,,,DSL,53.0,No,No,Yes,Yes,No,No,No,One Year,Yes,Mailed Check,36.25,1151.05,0.0
+1107,1107,68,Yes,,Yes,3.19,Yes,Cable,26.0,Yes,Yes,No,Yes,No,No,No,Two Year,No,Bank Withdrawal,64.2,475.0,22.33
+1108,1108,37,Yes,Offer B,Yes,15.65,No,,,,,,,,,,Two Year,No,Credit Card,20.55,1205.05,939.0
+1109,1109,54,Yes,,Yes,15.51,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,19.85,717.5,573.87
+1110,1110,71,Yes,,Yes,18.41,Yes,Fiber Optic,17.0,No,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,109.95,7634.25,1270.29
+1111,1111,60,Yes,Offer B,Yes,16.39,Yes,Fiber Optic,14.0,Yes,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,94.75,5597.65,967.01
+1112,1112,69,No,Offer E,Yes,6.18,No,Fiber Optic,12.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,70.65,293.85,24.72
+1113,1113,59,No,Offer C,No,,,Cable,12.0,No,No,Yes,Yes,No,No,No,Month-to-Month,Yes,Credit Card,33.45,1175.85,0.0
+1114,1114,50,No,Offer D,Yes,31.33,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.25,331.35,563.94
+1115,1115,25,No,Offer B,Yes,24.77,Yes,Fiber Optic,51.0,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,106.6,5893.95,1387.12
+1116,1116,50,Yes,Offer B,Yes,29.81,Yes,Fiber Optic,27.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,107.75,4882.8,1341.45
+1117,1117,36,Yes,,Yes,2.4,No,,,,,,,,,,Two Year,No,Credit Card,19.9,550.1,64.8
+1118,1118,58,No,,Yes,9.74,No,,,,,,,,,,One Year,No,Credit Card,20.1,302.45,146.1
+1119,1119,29,Yes,Offer B,Yes,41.89,Yes,Fiber Optic,52.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,85.5,4713.4,2303.95
+1120,1120,80,No,Offer B,Yes,18.46,Yes,Cable,3.0,Yes,No,No,Yes,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,70.05,3062.45,830.7
+1121,1121,67,No,,Yes,3.62,Yes,Fiber Optic,22.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.15,997.65,39.82
+1122,1122,43,No,,Yes,11.91,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.75,19.75,11.91
+1123,1123,42,Yes,,Yes,35.62,Yes,Fiber Optic,29.0,Yes,No,No,Yes,Yes,No,No,Month-to-Month,No,Credit Card,95.9,2234.95,783.64
+1124,1124,25,No,Offer E,Yes,1.49,Yes,Fiber Optic,51.0,No,Yes,No,No,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,90.8,455.5,7.45
+1125,1125,44,No,,Yes,1.27,Yes,Fiber Optic,13.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,81.85,3141.7,48.26
+1126,1126,69,No,,Yes,46.67,Yes,Fiber Optic,18.0,Yes,Yes,No,No,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,96.85,5219.65,2613.52
+1127,1127,32,No,Offer E,Yes,45.99,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,20.45,147.55,413.91
+1128,1128,33,Yes,Offer D,Yes,13.13,No,,,,,,,,,,One Year,No,Credit Card,19.8,344.5,249.47
+1129,1129,35,Yes,Offer D,Yes,46.45,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,19.05,454.05,1021.9
+1130,1130,57,Yes,,Yes,28.79,Yes,Fiber Optic,16.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.85,2239.65,575.8
+1131,1131,65,Yes,Offer B,No,,,Cable,9.0,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,53.95,2215.4,0.0
+1132,1132,68,No,Offer E,Yes,39.78,No,Cable,12.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Mailed Check,-9.0,50.15,39.78
+1133,1133,45,No,Offer D,Yes,45.39,No,Fiber Optic,24.0,No,No,No,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,-5.0,1641.3,907.8
+1134,1134,45,No,Offer E,Yes,46.84,No,DSL,3.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,44.35,81.25,93.68
+1135,1135,21,Yes,Offer C,Yes,11.01,Yes,Fiber Optic,73.0,No,Yes,Yes,Yes,No,No,Yes,Month-to-Month,No,Credit Card,88.6,2888.7,363.33
+1136,1136,57,No,,No,,,DSL,26.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,30.3,1380.1,0.0
+1137,1137,53,No,Offer D,Yes,23.2,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.4,266.6,278.4
+1138,1138,71,Yes,,Yes,16.88,Yes,Fiber Optic,24.0,No,No,Yes,No,No,Yes,No,Month-to-Month,Yes,Bank Withdrawal,89.8,914.3,168.8
+1139,1139,28,No,,Yes,40.64,No,Fiber Optic,51.0,No,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Credit Card,85.95,514.6,243.84
+1140,1140,25,No,Offer D,Yes,8.82,No,,,,,,,,,,Month-to-Month,No,Credit Card,20.1,223.6,105.84
+1141,1141,61,Yes,,Yes,18.37,No,DSL,18.0,No,No,Yes,No,No,No,No,One Year,No,Credit Card,50.3,2878.55,1065.46
+1142,1142,23,Yes,,Yes,27.96,No,,,,,,,,,,One Year,No,Credit Card,20.35,393.15,559.2
+1143,1143,70,No,,Yes,25.7,No,Fiber Optic,23.0,No,No,Yes,No,No,Yes,No,Two Year,Yes,Bank Withdrawal,84.95,1443.65,462.6
+1144,1144,78,No,,Yes,32.4,Yes,Fiber Optic,7.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,73.75,545.15,226.8
+1145,1145,19,Yes,Offer A,Yes,24.72,Yes,,,,,,,,,,Two Year,Yes,Credit Card,24.4,1725.4,1755.12
+1146,1146,30,Yes,Offer B,Yes,17.31,Yes,Cable,82.0,Yes,No,No,Yes,Yes,Yes,Yes,One Year,No,Credit Card,80.45,3375.9,727.02
+1147,1147,51,Yes,,Yes,37.11,No,,,,,,,,,,Two Year,No,Bank Withdrawal,20.55,1432.55,2671.92
+1148,1148,30,Yes,Offer D,Yes,49.85,Yes,Fiber Optic,69.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,79.95,1267.95,797.6
+1149,1149,76,No,,Yes,35.67,No,Fiber Optic,8.0,No,Yes,No,No,No,No,No,Two Year,No,Bank Withdrawal,72.75,317.75,142.68
+1150,1150,79,No,Offer C,Yes,34.69,No,Fiber Optic,27.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,91.25,2351.8,901.94
+1151,1151,21,No,Offer C,Yes,3.72,No,Cable,59.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,49.7,1218.25,89.28
+1152,1152,47,Yes,,Yes,34.57,No,,,,,,,,,,Month-to-Month,Yes,Mailed Check,20.5,20.5,34.57
+1153,1153,35,No,Offer B,Yes,32.83,No,Fiber Optic,24.0,No,Yes,Yes,No,Yes,No,No,Month-to-Month,Yes,Credit Card,88.15,3973.2,1444.52
+1154,1154,53,Yes,,Yes,14.43,Yes,Fiber Optic,25.0,No,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,107.25,6033.3,808.08
+1155,1155,39,Yes,Offer D,Yes,9.58,No,Cable,57.0,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,49.2,571.15,114.96
+1156,1156,56,No,,No,,,DSL,18.0,Yes,No,No,No,Yes,No,No,One Year,Yes,Credit Card,40.65,970.55,0.0
+1157,1157,35,No,,Yes,4.76,Yes,Fiber Optic,58.0,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,109.2,5290.45,233.24
+1158,1158,32,No,,Yes,11.04,No,Fiber Optic,16.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,81.45,912.0,132.48
+1159,1159,29,No,Offer C,No,,,DSL,48.0,No,No,No,Yes,No,No,No,Month-to-Month,Yes,Credit Card,30.1,810.85,0.0
+1160,1160,70,Yes,,Yes,39.49,Yes,Fiber Optic,7.0,No,Yes,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.55,2510.2,1066.23
+1161,1161,68,No,Offer C,Yes,15.35,Yes,Fiber Optic,10.0,No,No,Yes,Yes,Yes,No,No,Two Year,Yes,Bank Withdrawal,96.6,2877.95,475.85
+1162,1162,20,Yes,Offer D,Yes,6.5,Yes,Fiber Optic,76.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,85.95,858.6,65.0
+1163,1163,55,Yes,Offer A,Yes,25.02,Yes,Fiber Optic,53.0,Yes,No,Yes,No,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,105.55,7405.5,1776.42
+1164,1164,49,Yes,Offer B,Yes,36.41,No,DSL,14.0,Yes,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,55.7,3131.8,2002.55
+1165,1165,76,Yes,,Yes,3.66,Yes,Fiber Optic,22.0,Yes,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,94.5,4156.8,157.38
+1166,1166,26,No,Offer E,Yes,23.63,Yes,Cable,85.0,No,Yes,No,Yes,No,No,No,Month-to-Month,No,Mailed Check,60.1,60.1,23.63
+1167,1167,38,Yes,,Yes,28.06,Yes,DSL,15.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,70.9,4677.1,1880.02
+1168,1168,56,No,Offer D,Yes,10.11,No,,,,,,,,,,Two Year,No,Credit Card,19.75,265.75,131.43
+1169,1169,70,No,,Yes,19.21,No,Fiber Optic,15.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,78.8,2006.1,499.46
+1170,1170,43,Yes,,Yes,28.46,Yes,Cable,14.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,90.45,5957.9,1849.9
+1171,1171,60,No,Offer C,Yes,49.61,No,Fiber Optic,26.0,Yes,No,No,Yes,No,Yes,Yes,One Year,Yes,Bank Withdrawal,89.2,3251.3,1736.35
+1172,1172,46,No,Offer E,No,,,Cable,3.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,29.6,79.45,0.0
+1173,1173,38,No,Offer C,Yes,36.42,No,Fiber Optic,2.0,No,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,99.25,3532.0,1274.7
+1174,1174,60,No,Offer E,Yes,35.88,No,Fiber Optic,10.0,No,No,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.25,487.05,215.28
+1175,1175,24,Yes,,Yes,36.17,No,DSL,69.0,Yes,No,No,No,No,Yes,Yes,One Year,No,Credit Card,59.45,3157.0,1989.35
+1176,1176,26,Yes,Offer D,Yes,2.02,Yes,Fiber Optic,82.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.25,855.3,20.2
+1177,1177,48,No,Offer B,Yes,14.37,No,,,,,,,,,,Two Year,No,Bank Withdrawal,19.55,819.95,632.28
+1178,1178,65,No,,Yes,37.62,Yes,Fiber Optic,10.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.6,1273.3,526.68
+1179,1179,53,Yes,Offer B,Yes,46.49,Yes,DSL,11.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,84.15,4164.4,2324.5
+1180,1180,69,No,Offer E,Yes,43.96,Yes,Fiber Optic,14.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,78.55,149.55,87.92
+1181,1181,60,No,,Yes,19.58,Yes,DSL,22.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,88.65,5321.25,1194.38
+1182,1182,20,No,,Yes,38.37,Yes,Cable,59.0,Yes,Yes,Yes,Yes,No,No,No,One Year,No,Bank Withdrawal,68.8,4111.35,2417.31
+1183,1183,56,No,,Yes,12.35,No,Fiber Optic,13.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,80.1,398.55,61.75
+1184,1184,63,Yes,,Yes,24.23,No,,,,,,,,,,One Year,No,Bank Withdrawal,19.9,666.0,848.05
+1185,1185,42,No,,Yes,46.12,No,,,,,,,,,,One Year,Yes,Credit Card,19.8,572.2,1337.48
+1186,1186,51,Yes,,Yes,43.2,No,DSL,23.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,86.1,5215.25,2678.4
+1187,1187,36,No,Offer A,Yes,26.67,Yes,Fiber Optic,17.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,114.6,7882.5,1866.9
+1188,1188,73,Yes,,Yes,37.3,No,Fiber Optic,8.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.25,69.25,37.3
+1189,1189,53,Yes,,No,,,DSL,52.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,24.4,36.55,0.0
+1190,1190,27,Yes,Offer D,Yes,49.51,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.9,400.3,1089.22
+1191,1191,67,Yes,,Yes,39.38,Yes,Fiber Optic,30.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,104.9,6891.45,2599.08
+1192,1192,61,Yes,Offer C,Yes,10.43,No,Fiber Optic,4.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,70.3,2416.55,365.05
+1193,1193,34,No,Offer E,No,,,DSL,8.0,No,Yes,Yes,Yes,No,No,No,Month-to-Month,Yes,Credit Card,40.4,77.15,0.0
+1194,1194,70,Yes,,Yes,27.74,Yes,Fiber Optic,18.0,No,Yes,Yes,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,106.5,5621.85,1442.48
+1195,1195,45,No,,No,,,DSL,20.0,Yes,Yes,Yes,Yes,Yes,No,No,Month-to-Month,Yes,Credit Card,55.0,1165.55,0.0
+1196,1196,35,Yes,Offer A,Yes,34.53,Yes,Fiber Optic,19.0,Yes,Yes,Yes,Yes,No,No,No,One Year,Yes,Credit Card,95.15,6770.85,2451.63
+1197,1197,49,No,,Yes,35.11,Yes,Fiber Optic,22.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,109.2,7878.3,2527.92
+1198,1198,46,Yes,,Yes,40.21,No,DSL,13.0,Yes,Yes,Yes,Yes,No,No,No,One Year,No,Credit Card,66.15,1874.45,1085.67
+1199,1199,44,No,Offer D,Yes,17.8,Yes,Fiber Optic,5.0,No,No,Yes,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,88.45,1422.1,284.8
+1200,1200,20,No,,Yes,30.36,No,,,,,,,,,,Month-to-Month,No,Credit Card,19.15,537.35,819.72
+1201,1201,22,Yes,Offer E,Yes,30.46,Yes,Fiber Optic,82.0,No,No,Yes,No,Yes,No,No,One Year,Yes,Bank Withdrawal,-10.0,767.9,274.14
+1202,1202,60,No,Offer D,Yes,15.03,Yes,DSL,13.0,No,No,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,53.75,608.0,165.33
+1203,1203,62,Yes,Offer E,Yes,12.41,Yes,DSL,53.0,No,Yes,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,55.75,446.8,99.28
+1204,1204,42,No,,Yes,24.19,Yes,Fiber Optic,13.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,111.6,8012.75,1741.68
+1205,1205,64,No,Offer C,Yes,36.17,Yes,Fiber Optic,5.0,No,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,75.25,3017.65,1410.63
+1206,1206,62,Yes,,Yes,46.63,Yes,Fiber Optic,14.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,110.45,8058.85,3357.36
+1207,1207,57,No,,Yes,22.24,Yes,,,,,,,,,,Two Year,No,Bank Withdrawal,23.95,1713.1,1534.56
+1208,1208,74,No,,Yes,23.53,Yes,Fiber Optic,9.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,74.2,1133.9,352.95
+1209,1209,33,No,Offer C,Yes,8.5,No,,,,,,,,,,Two Year,Yes,Credit Card,18.55,689.0,306.0
+1210,1210,19,No,Offer B,Yes,43.79,Yes,Fiber Optic,82.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,111.5,5703.25,2233.29
+1211,1211,45,No,Offer D,No,,,DSL,11.0,No,No,Yes,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,35.2,607.3,0.0
+1212,1212,61,No,Offer D,Yes,15.97,No,Fiber Optic,19.0,Yes,No,No,No,Yes,No,No,One Year,Yes,Credit Card,85.15,979.05,191.64
+1213,1213,50,Yes,Offer C,Yes,45.97,Yes,DSL,13.0,No,Yes,No,Yes,Yes,No,No,One Year,Yes,Bank Withdrawal,69.0,2441.7,1608.95
+1214,1214,47,No,Offer D,Yes,33.14,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,19.4,289.3,497.1
+1215,1215,44,Yes,Offer A,Yes,8.36,Yes,DSL,19.0,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,No,Bank Withdrawal,79.7,5743.3,585.2
+1216,1216,52,No,Offer D,No,,,DSL,57.0,Yes,Yes,No,Yes,No,No,No,One Year,No,Credit Card,40.25,411.45,0.0
+1217,1217,21,Yes,,Yes,34.95,Yes,Fiber Optic,48.0,No,Yes,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,99.4,7285.7,2516.4
+1218,1218,60,No,,Yes,21.88,Yes,Fiber Optic,4.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,84.45,1058.6,284.44
+1219,1219,44,Yes,,Yes,30.09,No,Fiber Optic,11.0,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,106.1,5769.75,1594.77
+1220,1220,60,No,,Yes,17.52,No,DSL,28.0,Yes,Yes,No,Yes,No,No,No,One Year,No,Bank Withdrawal,58.2,469.25,140.16
+1221,1221,56,No,,Yes,46.74,Yes,Fiber Optic,16.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,111.1,6014.85,2523.96
+1222,1222,39,Yes,,Yes,3.63,No,,,,,,,,,,Month-to-Month,Yes,Mailed Check,20.5,77.6,14.52
+1223,1223,74,No,,Yes,8.66,Yes,Cable,27.0,No,Yes,No,No,No,No,No,Two Year,No,Credit Card,54.8,1291.3,207.84
+1224,1224,79,Yes,,Yes,4.77,Yes,Fiber Optic,17.0,No,No,Yes,No,Yes,No,No,Month-to-Month,No,Bank Withdrawal,90.8,1951.0,95.4
+1225,1225,38,No,Offer E,Yes,13.28,No,,,,,,,,,,Month-to-Month,Yes,Credit Card,19.6,59.75,39.84
+1226,1226,21,Yes,,Yes,15.29,Yes,Cable,59.0,Yes,No,No,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,76.0,1588.75,305.8
+1227,1227,76,Yes,Offer A,Yes,30.16,No,Fiber Optic,19.0,Yes,Yes,Yes,No,No,No,No,One Year,Yes,Bank Withdrawal,86.7,6179.35,2141.36
+1228,1228,62,No,,Yes,30.61,No,Fiber Optic,7.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,76.65,1313.55,520.37
+1229,1229,68,Yes,Offer A,Yes,48.51,Yes,Cable,17.0,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,89.85,6697.35,3492.72
+1230,1230,56,Yes,,Yes,43.95,No,Fiber Optic,20.0,No,Yes,No,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,100.0,1888.65,835.05
+1231,1231,44,Yes,Offer C,Yes,26.28,Yes,Fiber Optic,19.0,No,No,No,Yes,No,Yes,Yes,One Year,Yes,Bank Withdrawal,90.45,2509.25,735.84
+1232,1232,60,No,Offer C,Yes,25.66,Yes,Fiber Optic,3.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.5,2599.95,667.16
+1233,1233,33,No,Offer A,Yes,43.14,Yes,Fiber Optic,20.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,103.1,6595.0,2847.24
+1234,1234,59,Yes,Offer B,Yes,10.03,No,Cable,29.0,No,No,Yes,No,No,No,No,One Year,Yes,Bank Withdrawal,50.95,2610.65,521.56
+1235,1235,39,Yes,Offer C,Yes,47.21,Yes,,,,,,,,,,Two Year,Yes,Credit Card,25.1,789.55,1416.3
+1236,1236,70,No,Offer D,Yes,48.46,No,Fiber Optic,23.0,No,No,No,No,Yes,Yes,No,Two Year,No,Bank Withdrawal,89.95,1648.45,969.2
+1237,1237,61,No,Offer E,Yes,39.32,No,Fiber Optic,12.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,84.85,523.5,235.92
+1238,1238,62,Yes,,Yes,22.61,Yes,Fiber Optic,11.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,86.5,582.5,158.27
+1239,1239,23,No,Offer C,Yes,48.17,No,DSL,58.0,No,Yes,No,No,Yes,No,No,One Year,Yes,Credit Card,58.6,2224.5,1878.63
+1240,1240,26,Yes,Offer E,Yes,48.39,No,,,,,,,,,,One Year,No,Credit Card,19.9,153.95,387.12
+1241,1241,21,Yes,Offer E,Yes,9.98,Yes,Fiber Optic,51.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,97.95,384.5,39.92
+1242,1242,61,Yes,Offer B,Yes,39.55,Yes,Cable,10.0,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,84.35,4059.35,1937.95
+1243,1243,35,Yes,,Yes,1.54,Yes,DSL,15.0,Yes,Yes,No,Yes,No,No,No,Month-to-Month,No,Bank Withdrawal,65.2,3687.85,87.78
+1244,1244,66,Yes,Offer B,Yes,45.04,Yes,Cable,29.0,No,Yes,Yes,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,111.95,4534.9,1846.64
+1245,1245,68,No,,Yes,45.81,Yes,Fiber Optic,21.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,85.7,85.7,45.81
+1246,1246,31,No,,Yes,12.15,Yes,Cable,26.0,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.65,820.5,97.2
+1247,1247,79,No,,Yes,8.35,Yes,Fiber Optic,23.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,75.75,75.75,8.35
+1248,1248,35,Yes,,Yes,32.57,No,,,,,,,,,,Two Year,Yes,Bank Withdrawal,19.85,854.8,1270.23
+1249,1249,44,Yes,,Yes,40.57,Yes,DSL,25.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,71.6,4230.25,2353.06
+1250,1250,35,Yes,,Yes,42.45,Yes,Fiber Optic,27.0,No,Yes,Yes,No,Yes,No,No,One Year,No,Credit Card,95.75,6511.25,2929.05
+1251,1251,30,No,,Yes,28.27,Yes,Fiber Optic,41.0,Yes,Yes,No,Yes,No,No,No,Month-to-Month,Yes,Bank Withdrawal,87.55,4884.85,1611.39
+1252,1252,35,No,Offer D,Yes,11.46,Yes,Fiber Optic,16.0,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,83.05,1799.3,252.12
+1253,1253,47,No,Offer D,Yes,47.45,Yes,DSL,5.0,Yes,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,65.75,1111.2,806.65
+1254,1254,65,Yes,,Yes,49.94,No,,,,,,,,,,Two Year,Yes,Bank Withdrawal,20.05,1263.05,3345.98
+1255,1255,20,No,,Yes,18.46,No,Fiber Optic,26.0,No,No,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,76.45,1117.55,258.44
+1256,1256,39,No,,Yes,26.24,Yes,Cable,53.0,Yes,Yes,Yes,No,No,No,No,One Year,Yes,Bank Withdrawal,64.4,3035.35,1259.52
+1257,1257,79,Yes,Offer B,Yes,37.12,Yes,Fiber Optic,4.0,No,Yes,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,88.05,4367.35,1856.0
+1258,1258,30,Yes,Offer A,Yes,26.58,Yes,Cable,27.0,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,80.45,5662.25,1887.18
+1259,1259,59,No,,Yes,35.53,No,Cable,5.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,45.15,438.4,284.24
+1260,1260,33,Yes,,Yes,46.23,Yes,Fiber Optic,18.0,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,110.45,7982.5,3328.56
+1261,1261,37,Yes,Offer B,Yes,5.08,Yes,Fiber Optic,9.0,Yes,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,89.8,4959.6,279.4
+1262,1262,47,No,,Yes,35.13,No,Fiber Optic,29.0,No,No,Yes,Yes,No,No,No,One Year,No,Bank Withdrawal,81.9,3219.75,1370.07
+1263,1263,39,No,,Yes,45.25,No,DSL,22.0,No,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,70.0,347.4,226.25
+1264,1264,53,Yes,Offer A,No,,,DSL,6.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,64.45,4528.0,0.0
+1265,1265,47,No,,Yes,34.18,No,Fiber Optic,19.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,81.9,1028.9,444.34
+1266,1266,23,No,,Yes,45.71,Yes,Fiber Optic,58.0,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,104.35,3205.6,1417.01
+1267,1267,47,No,Offer B,Yes,31.08,Yes,DSL,12.0,Yes,No,Yes,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,74.65,3090.65,1274.28
+1268,1268,34,No,,Yes,19.52,No,Cable,16.0,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,45.85,81.0,39.04
+1269,1269,70,No,,Yes,25.19,Yes,Fiber Optic,14.0,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,93.85,196.75,50.38
+1270,1270,71,No,Offer B,Yes,10.57,No,Fiber Optic,28.0,Yes,No,No,No,Yes,Yes,No,One Year,No,Credit Card,94.8,5264.3,591.92
+1271,1271,48,No,,Yes,1.37,No,DSL,21.0,Yes,Yes,Yes,Yes,Yes,No,No,One Year,No,Credit Card,74.3,1863.8,34.25
+1272,1272,23,Yes,,No,,,DSL,42.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,60.8,4263.4,0.0
+1273,1273,60,No,Offer E,Yes,48.97,No,Fiber Optic,23.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,79.5,79.5,48.97
+1274,1274,60,Yes,Offer D,Yes,39.83,No,Cable,16.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,54.7,1178.75,876.26
+1275,1275,48,No,,Yes,41.23,No,DSL,27.0,Yes,Yes,Yes,Yes,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,72.45,2156.25,1278.13
+1276,1276,45,Yes,Offer E,Yes,16.13,No,,,,,,,,,,Two Year,No,Credit Card,19.75,210.65,145.17
+1277,1277,26,No,Offer B,Yes,33.46,Yes,Fiber Optic,52.0,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.2,4400.75,1405.32
+1278,1278,43,No,,Yes,37.07,Yes,Fiber Optic,23.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,80.45,2429.1,1149.17
+1279,1279,37,No,Offer E,Yes,13.01,No,Cable,4.0,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,55.4,55.4,13.01
+1280,1280,64,No,,Yes,24.48,Yes,Fiber Optic,24.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,79.15,79.15,24.48
+1281,1281,31,No,Offer B,No,,,DSL,28.0,Yes,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,54.55,2236.2,0.0
+1282,1282,30,Yes,,No,,,Cable,69.0,Yes,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,55.95,1157.05,0.0
+1283,1283,56,Yes,,Yes,3.6,Yes,,,,,,,,,,One Year,Yes,Credit Card,26.8,733.55,90.0
+1284,1284,56,No,Offer B,Yes,45.46,Yes,Fiber Optic,27.0,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,98.7,4920.55,2227.54
+1285,1285,77,Yes,Offer C,Yes,37.65,Yes,DSL,9.0,No,No,No,No,No,No,No,One Year,Yes,Bank Withdrawal,51.6,1442.0,1091.85
+1286,1286,60,No,,Yes,49.7,Yes,Fiber Optic,10.0,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,80.05,830.7,497.0
+1287,1287,24,Yes,Offer A,Yes,1.63,No,DSL,41.0,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,64.95,4523.25,114.1
+1288,1288,51,No,Offer E,Yes,45.66,No,Fiber Optic,28.0,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.9,69.9,45.66
+1289,1289,21,No,,Yes,41.72,Yes,Fiber Optic,69.0,No,Yes,Yes,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,84.05,333.55,166.88
+1290,1290,79,Yes,,Yes,29.15,Yes,Fiber Optic,9.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,105.1,5376.4,1515.8
+1291,1291,19,Yes,,Yes,13.21,No,,,,,,,,,,Two Year,No,Credit Card,19.5,162.15,105.68
+1292,1292,65,Yes,,No,,,DSL,14.0,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,34.3,577.15,0.0
+1293,1293,64,Yes,,Yes,27.4,No,,,,,,,,,,One Year,Yes,Bank Withdrawal,20.5,865.05,1205.6
+1294,1294,42,Yes,,Yes,34.17,Yes,Fiber Optic,16.0,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.75,1691.9,615.06
+1295,1295,78,Yes,Offer E,Yes,25.57,No,Cable,12.0,No,No,Yes,Yes,No,Yes,Yes,Two Year,Yes,Credit Card,64.4,581.7,204.56
+1296,1296,58,Yes,,Yes,43.12,Yes,Fiber Optic,6.0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,115.8,8424.9,3104.64
+1297,1297,23,No,,Yes,48.97,No,Fiber Optic,42.0,No,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,94.1,5060.9,2644.38
+1298,1298,67,No,,Yes,20.62,No,,,,,,,,,,Two Year,No,Credit Card,-7.0,1356.3,1422.78
+1299,1299,20,No,Offer C,Yes,19.38,No,Fiber Optic,76.0,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,101.4,3143.65,600.78
+1300,1300,19,No,Offer B,Yes,42.44,No,Fiber Optic,69.0,No,No,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,74.8,3548.3,1952.24
+1301,1301,72,Yes,,Yes,7.04,Yes,DSL,22.0,No,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,80.85,4079.55,366.08
+1302,1302,24,No,,Yes,5.3,Yes,DSL,59.0,Yes,No,No,No,No,No,No,Month-to-Month,No,Mailed Check,54.45,3687.75,360.4
+1303,1303,23,Yes,Offer A,Yes,27.97,No,,,,,,,,,,Two Year,No,Credit Card,19.7,1421.9,2013.84
+1304,1304,61,No,,Yes,1.59,No,Cable,14.0,No,No,No,No,Yes,No,No,Month-to-Month,Yes,Credit Card,53.55,53.55,1.59
+1305,1305,59,Yes,,Yes,5.63,No,Fiber Optic,23.0,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,No,Credit Card,105.95,1348.9,78.82
+1306,1306,34,Yes,Offer A,Yes,29.59,Yes,Fiber Optic,3.0,No,Yes,No,No,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,98.3,6859.5,2071.3
+1307,1307,72,Yes,,Yes,47.4,Yes,DSL,28.0,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,84.1,6129.65,3412.8
+1308,1308,37,Yes,,Yes,13.19,Yes,Fiber Optic,30.0,No,No,No,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,92.2,2568.15,369.32
+1309,1309,35,Yes,Offer B,Yes,18.75,No,,,,,,,,,,Two Year,No,Credit Card,19.5,1147.85,1106.25
+1310,1310,26,Yes,,Yes,19.76,No,DSL,59.0,Yes,Yes,Yes,Yes,No,Yes,Yes,Two Year,No,Credit Card,73.6,2316.85,632.32
+1311,1311,75,No,,Yes,36.5,Yes,Fiber Optic,30.0,Yes,Yes,No,No,Yes,Yes,No,Month-to-Month,Yes,Credit Card,102.8,2660.2,912.5
+1312,1312,71,No,,Yes,7.51,No,Fiber Optic,24.0,No,Yes,No,No,No,No,No,Two Year,Yes,Bank Withdrawal,73.55,1359.45,135.18
+1313,1313,40,No,,Yes,48.92,No,,,,,,,,,,Month-to-Month,No,Bank Withdrawal,20.3,246.3,538.12
+1314,1314,48,Yes,Offer B,Yes,39.37,Yes,Fiber Optic,53.0,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,111.45,7266.95,2519.68
+1315,1315,65,No,,Yes,34.39,No,,,,,,,,,,One Year,Yes,Credit Card,20.05,417.0,756.58
+1316,1316,41,Yes,Offer B,Yes,11.85,Yes,DSL,2.0,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,85.0,5484.4,758.4
+1317,1317,47,Yes,Offer D,Yes,36.85,Yes,,,,,,,,,,Month-to-Month,Yes,Bank Withdrawal,25.55,507.4,737.0
