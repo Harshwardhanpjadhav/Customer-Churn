@@ -72,8 +72,10 @@ def fetch_dataframe():
     df2 = pd.read_csv("churned_customer_data/new_customer.csv")
 
     merged_df = pd.merge(df1, df2, on='Unnamed: 0')
-    merged_df = merged_df[merged_df['Customer Status'] == 'Churned'
-]
+    merged_df = merged_df[merged_df['Customer Status'] == 'Churned']
+    merged_df = merged_df.drop(columns=['Unnamed: 0.1'],axis=1)
+    merged_df = merged_df.rename(columns={'Unnamed: 0':"Customer Id"})
+
     return render_template('fetch_dataframe.html', data=merged_df.to_html(classes='data'))
 
 app.run(debug=True,port=8000)

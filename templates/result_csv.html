@@ -21,8 +21,9 @@
                 <p>{{ stayed }}</p>
             </div>
 
-            <form action="{{ url_for('fetch_dataframe') }}" method="post">
-                <button type="submit">Fetch and Display CSV Data</button>
+            <form class="train-content" action="{{ url_for('fetch_dataframe') }}" method="post">
+                <h2>Viewed Churned Customers Data</h2>
+                <button  style="font-size: 17px; padding: 20px;" type="submit">View</button>
             </form>
         
         </div>
