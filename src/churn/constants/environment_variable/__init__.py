@@ -11,6 +11,5 @@ class EvironmentVariable:
     """
     This class is used to fetch environment variable from .env file
     """
-
     # MongoDB Url fetched from .env file (.env file is not pushed in github)
     mongo_url = os.getenv('MONGODB_URL')
