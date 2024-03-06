@@ -5,7 +5,7 @@ from src.churn.pipeline.prediction_pipeline import PredictPipeline
 
 app = Flask(__name__)
 
-# Home Page
+# Home Page 1st view of the app
 @app.route('/')
 def homepage():
     return render_template('home.html')
