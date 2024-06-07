@@ -39,6 +39,8 @@ class GetChurnData:
             # Fetching data from mongo db and stroring in as df
             df = pd.DataFrame(list(collection.find()))
 
+            logging.info(df.columns)
+
             # Dropping _id column
             if "_id" in df.columns.to_list():
                 df = df.drop(columns=["_id"], axis=1)
@@ -50,9 +52,9 @@ class GetChurnData:
             logging.info(f'shape of data {df.shape}')
 
             # Dropping Unwanted columns
-            drop_col_names = self._schema_config['drop_columns']
-            logging.info(f"Drop columns names {drop_col_names}")
-            df = df.drop(columns=drop_col_names, axis=1)
+            # drop_col_names = self._schema_config['drop_columns']
+            # logging.info(f"Drop columns names {drop_col_names}")
+            # df = df.drop(columns=drop_col_names, axis=1)
             df = df[df['Customer Status'] != 'Joined']
 
             logging.info("Converting data to dataframe Successfull >>>")
